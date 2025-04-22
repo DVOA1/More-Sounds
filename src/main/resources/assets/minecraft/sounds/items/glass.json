@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "#more_sounds:glass"
+    ],
+    "soundEvent": "sounds:block.glass.place",
+    "pitch": 2,
+    "volume": 1
+}

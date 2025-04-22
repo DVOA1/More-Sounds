@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "sophisticatedstorageinmotion:storage_minecart"
+    ],
+    "soundEvent": "more_sounds:item.metal.box_empty",
+    "pitch": 1,
+    "volume": 0.1
+}

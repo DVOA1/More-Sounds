@@ -1,0 +1,11 @@
+{
+  "remove": [
+    "create:cardboard"
+  ],
+  "values": [
+    {
+      "id": "#c:plate",
+      "required": false
+    }
+  ]
+}

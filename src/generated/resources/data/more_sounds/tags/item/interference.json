@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "mekanism:pellet_antimatter",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:alloy_spectrum",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:enriched_spectrum",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:singularity",
+      "required": false
+    },
+    {
+      "id": "ae2:singularity",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:shattered_singularity",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_entangled_singularity",
+      "required": false
+    }
+  ]
+}

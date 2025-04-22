@@ -1,0 +1,9 @@
+{
+    "keys": [
+        "#c:dusts",
+        "#mekanism:dirty_dusts"
+    ],
+    "soundEvent": "minecraft:block.gravel.hit",
+    "pitch": 2,
+    "volume": 1
+}

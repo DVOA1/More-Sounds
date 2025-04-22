@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "mekanism:robit",
+      "required": false
+    },
+    {
+      "id": "shrink:shrinking_device",
+      "required": false
+    },
+    {
+      "id": "advancedperipherals:colony_integrator",
+      "required": false
+    },
+    {
+      "id": "shrink:shrinking_device",
+      "required": false
+    },
+    {
+      "id": "justdirethings:portalgun",
+      "required": false
+    },
+    {
+      "id": "justdirethings:portalgun_v2",
+      "required": false
+    },
+    {
+      "id": "#computercraft:computer",
+      "required": false
+    }
+  ]
+}

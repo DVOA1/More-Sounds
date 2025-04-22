@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "#ae2:quartz_wrench"
+    ],
+    "soundEvent": "minecraft:block.amethyst_cluster.hit",
+    "pitch": 2,
+    "volume": 1
+}

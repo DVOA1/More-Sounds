@@ -1,0 +1,18 @@
+{
+  "remove": [
+    "pneumaticcraft:pneumatic_wrench",
+    "ae2:nether_quartz_wrench",
+    "ae2:certus_quartz_wrench"
+  ],
+  "values": [
+    "#c:tools/wrench",
+    {
+      "id": "#c:wrenches",
+      "required": false
+    },
+    {
+      "id": "advancedperipherals:computer_tool",
+      "required": false
+    }
+  ]
+}

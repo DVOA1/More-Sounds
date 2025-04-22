@@ -1,0 +1,120 @@
+{
+  "item.bipbip": {
+    "sounds": [
+      {
+        "name": "more_sounds:bipbip",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.bipbip"
+  },
+  "item.bottled_ink.slosh": {
+    "sounds": [
+      {
+        "name": "more_sounds:inks/slosh01",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:inks/slosh02",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:inks/slosh03",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:inks/slosh04",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:inks/slosh05",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.ink_slosh"
+  },
+  "item.cardboard.box": {
+    "sounds": [
+      {
+        "name": "more_sounds:cardboard/cardboard01",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:cardboard/cardboard02",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:cardboard/cardboard03",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:cardboard/cardboard04",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:cardboard/cardboard05",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.cardboard"
+  },
+  "item.interference": {
+    "sounds": [
+      {
+        "name": "more_sounds:interference",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.interference"
+  },
+  "item.metal.box_empty": {
+    "sounds": [
+      {
+        "name": "more_sounds:metal/box/empty01",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/empty02",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/empty03",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/empty04",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/empty05",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.metal_box_empty"
+  },
+  "item.metal.box_full": {
+    "sounds": [
+      {
+        "name": "more_sounds:metal/box/full01",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/full02",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/full03",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/full04",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:metal/box/full05",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.item.metal_box_full"
+  }
+}

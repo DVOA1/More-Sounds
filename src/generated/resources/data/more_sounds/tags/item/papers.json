@@ -1,0 +1,30 @@
+{
+  "values": [
+    {
+      "id": "#c:paper",
+      "required": false
+    },
+    "minecraft:filled_map",
+    "minecraft:map",
+    {
+      "id": "irons_spellbooks:scroll",
+      "required": false
+    },
+    {
+      "id": "supplementaries:slice_map",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ore_map",
+      "required": false
+    },
+    {
+      "id": "twilightforest:magic_map",
+      "required": false
+    },
+    {
+      "id": "twilightforest:maze_map",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "#c:foods/raw_fish"
+    ],
+    "soundEvent": "aquaculture:fish_flop",
+    "pitch": 2,
+    "volume": 1
+}

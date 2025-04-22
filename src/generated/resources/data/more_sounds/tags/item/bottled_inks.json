@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "supplementaries:antique_ink",
+      "required": false
+    },
+    {
+      "id": "occultism:purified_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:common_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:uncommon_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:rare_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:epic_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:legendary_ink",
+      "required": false
+    }
+  ]
+}
