@@ -74,7 +74,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("supplementaries:slice_map"))
                 .addOptional(Location.getResource("twilightforest:ore_map"))
                 .addOptional(Location.getResource("twilightforest:magic_map"))
-                .addOptional(Location.getResource("twilightforest:maze_map"));
+                .addOptional(Location.getResource("twilightforest:maze_map"))
+                .addOptional(Location.getResource("irons_spellbooks:scroll"));
 
         tag(MoreTags.Items.METAL_PLATES)
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)

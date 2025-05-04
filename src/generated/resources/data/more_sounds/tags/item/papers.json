@@ -25,6 +25,10 @@
     {
       "id": "twilightforest:maze_map",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:scroll",
+      "required": false
     }
   ]
 }
