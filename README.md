@@ -3,5 +3,5 @@
 
 ## License
 
-- **Source code** (in `src/java/*`): GNU GPL v3. See [LICENSE-CODE](LICENSE).
-- **Audio assets** (in `src/resources/assets/more_sounds/sounds/*`): Creative Commons Attribution-NonCommercial 4.0 International. See [LICENSE-AUDIO](LICENSE-AUDIO).
+- **Source code** (in `src/main/java/*`): GNU GPL v3. See [LICENSE-CODE](LICENSE).
+- **Audio assets** (in `src/main/resources/assets/more_sounds/sounds/*`): Creative Commons Attribution-NonCommercial 4.0 International. See [LICENSE-AUDIO](LICENSE-AUDIO).
