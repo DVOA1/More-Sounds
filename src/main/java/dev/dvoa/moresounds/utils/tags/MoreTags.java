@@ -4,6 +4,8 @@ import dev.dvoa.moresounds.utils.helpers.MoreTagsHelper;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
+import javax.swing.text.html.HTML;
+
 public class MoreTags {
     public static class Blocks {
     }
@@ -26,5 +28,6 @@ public class MoreTags {
         public static final TagKey<Item> INTERFERENCE = MoreTagsHelper.Items.createCustomTag("interference");
         public static final TagKey<Item> PAPERS = MoreTagsHelper.Items.createCustomTag("papers");
         public static final TagKey<Item> METAL_PLATES = MoreTagsHelper.Items.createCustomTag("plates");
+        public static final TagKey<Item> LEATHER_THINGS = MoreTagsHelper.Items.createCustomTag("leather_things");
     }
 }

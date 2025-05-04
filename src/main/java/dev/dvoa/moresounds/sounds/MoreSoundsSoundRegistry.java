@@ -21,6 +21,7 @@ public class MoreSoundsSoundRegistry {
     public static Supplier<SoundEvent> METAL_BOX_EMPTY = registerSoundEvent("item.metal.box_empty");
     public static Supplier<SoundEvent> METAL_BOX_FULL = registerSoundEvent("item.metal.box_full");
     public static Supplier<SoundEvent> CARDBOARD_BOX = registerSoundEvent("item.cardboard.box");
+    public static Supplier<SoundEvent> ZIP = registerSoundEvent("screen.zip");
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = Location.getResource(MoreSounds.MOD_ID, name);

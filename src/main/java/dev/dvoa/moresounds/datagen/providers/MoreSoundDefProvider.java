@@ -31,6 +31,13 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                 .subtitle("subtitles.item.bipbip")
         );
 
+        add(MoreSoundsSoundRegistry.SMALL_MOTOR, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:small_motor", SoundDefinition.SoundType.SOUND)
+                                .preload(true)
+                )
+        );
+
         add(MoreSoundsSoundRegistry.BOTTLED_INK_SLOSH, SoundDefinition.definition()
                 .with(
                         sound("more_sounds:inks/slosh01", SoundDefinition.SoundType.SOUND).preload(true),
@@ -75,5 +82,12 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                 .subtitle("subtitles.item.cardboard")
         );
 
+        add(MoreSoundsSoundRegistry.ZIP, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:zip/zip01", SoundDefinition.SoundType.SOUND).preload(true),
+                        sound("more_sounds:zip/zip02", SoundDefinition.SoundType.SOUND).preload(true),
+                        sound("more_sounds:zip/zip03", SoundDefinition.SoundType.SOUND).preload(true)
+                )
+        );
     }
 }

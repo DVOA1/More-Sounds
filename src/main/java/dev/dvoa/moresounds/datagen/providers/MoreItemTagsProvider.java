@@ -80,5 +80,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)
                 .remove(Location.getResource("create:cardboard"));
 
+        tag(MoreTags.Items.LEATHER_THINGS)
+                .addOptional(Location.getResource("sophisticatedbackpacks:backpack"))
+                .addOptional(Location.getResource("sophisticatedbackpacks:copper_backpack"))
+                .addOptional(Location.getResource("sophisticatedbackpacks:iron_backpack"))
+                .addOptional(Location.getResource("sophisticatedbackpacks:gold_backpack"))
+                .addOptional(Location.getResource("sophisticatedbackpacks:netherite_backpack"));
     }
 }

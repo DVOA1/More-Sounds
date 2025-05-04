@@ -116,5 +116,29 @@
       }
     ],
     "subtitle": "subtitles.item.metal_box_full"
+  },
+  "item.small_motor": {
+    "sounds": [
+      {
+        "name": "more_sounds:small_motor",
+        "preload": true
+      }
+    ]
+  },
+  "screen.zip": {
+    "sounds": [
+      {
+        "name": "more_sounds:zip/zip01",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:zip/zip02",
+        "preload": true
+      },
+      {
+        "name": "more_sounds:zip/zip03",
+        "preload": true
+      }
+    ]
   }
 }

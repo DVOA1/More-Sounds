@@ -23,14 +23,9 @@ public class MoreSounds {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public MoreSounds(IEventBus modEventBus, ModContainer modContainer) {
-        modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
         MoreSoundsSoundRegistry.SOUND_EVENTS.register(modEventBus);
     }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-    }
-
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
