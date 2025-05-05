@@ -36,6 +36,7 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                         sound("more_sounds:small_motor", SoundDefinition.SoundType.SOUND)
                                 .preload(true)
                 )
+                .subtitle("subtitles.item.small_motor")
         );
 
         add(MoreSoundsSoundRegistry.BOTTLED_INK_SLOSH, SoundDefinition.definition()
@@ -88,6 +89,7 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                         sound("more_sounds:zip/zip02", SoundDefinition.SoundType.SOUND).preload(true),
                         sound("more_sounds:zip/zip03", SoundDefinition.SoundType.SOUND).preload(true)
                 )
+                .subtitle("subtitles.screen.zip")
         );
     }
 }
