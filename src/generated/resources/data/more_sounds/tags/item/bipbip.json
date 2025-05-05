@@ -25,6 +25,14 @@
       "required": false
     },
     {
+      "id": "computercraft:pocket_computer_advanced",
+      "required": false
+    },
+    {
+      "id": "computercraft:pocket_computer_normal",
+      "required": false
+    },
+    {
       "id": "#computercraft:computer",
       "required": false
     }

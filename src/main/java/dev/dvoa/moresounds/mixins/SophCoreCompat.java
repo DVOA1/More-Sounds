@@ -29,7 +29,7 @@ public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> exte
     public void $on_slot_clicked(Slot slot, int slotNumber, int mouseButton, ClickType type, CallbackInfo ci) {
         if (slot != null) {
             ItemStack stack = getMenu().getCarried();
-            if (!stack.isEmpty()) stack = slot.getItem();
+            if (stack.isEmpty()) stack = slot.getItem();
             SoundsConfig.get(UISoundsConfig.class).itemClickSoundEffect.playDynamicSound(stack, ItemStackSoundContext.of(DynamicSoundHelper.BlockSoundType.PLACE));
         }
     }

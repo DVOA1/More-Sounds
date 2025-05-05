@@ -7,7 +7,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 import java.util.Map;
-import java.util.Set;
 
 public class MoreResourceHelper {
     public static Map<String, String> fromID(String id) {

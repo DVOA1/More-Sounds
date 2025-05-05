@@ -1,12 +1,8 @@
 {
     "keys": [
-        "sophisticatedbackpacks:backpack",
-        "sophisticatedbackpacks:copper_backpack",
-        "sophisticatedbackpacks:iron_backpack",
-        "sophisticatedbackpacks:gold_backpack",
-        "sophisticatedbackpacks:netherite_backpack"
+        "sophisticatedbackpacks:backpack"
     ],
     "soundEvent": "more_sounds:screen.zip",
-    "pitch": 2,
+    "pitch": 1.5,
     "volume": 1
 }

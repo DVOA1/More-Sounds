@@ -31,6 +31,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("shrink:shrinking_device"))
                 .addOptional(Location.getResource("justdirethings:portalgun"))
                 .addOptional(Location.getResource("justdirethings:portalgun_v2"))
+                .addOptional(Location.getResource("computercraft:pocket_computer_advanced"))
+                .addOptional(Location.getResource("computercraft:pocket_computer_normal"))
                 .addOptionalTag(MoreTags.Items.COMPUTERS);
 
         tag(MoreTags.Items.BOATS)
@@ -74,8 +76,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("supplementaries:slice_map"))
                 .addOptional(Location.getResource("twilightforest:ore_map"))
                 .addOptional(Location.getResource("twilightforest:magic_map"))
-                .addOptional(Location.getResource("twilightforest:maze_map"))
-                .addOptional(Location.getResource("irons_spellbooks:scroll"));
+                .addOptional(Location.getResource("twilightforest:maze_map"));
 
         tag(MoreTags.Items.METAL_PLATES)
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)
@@ -86,6 +87,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("sophisticatedbackpacks:copper_backpack"))
                 .addOptional(Location.getResource("sophisticatedbackpacks:iron_backpack"))
                 .addOptional(Location.getResource("sophisticatedbackpacks:gold_backpack"))
+                .addOptional(Location.getResource("sophisticatedbackpacks:diamond_backpack"))
                 .addOptional(Location.getResource("sophisticatedbackpacks:netherite_backpack"));
     }
 }

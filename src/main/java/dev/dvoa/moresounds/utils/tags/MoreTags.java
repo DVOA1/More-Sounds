@@ -4,8 +4,6 @@ import dev.dvoa.moresounds.utils.helpers.MoreTagsHelper;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
-import javax.swing.text.html.HTML;
-
 public class MoreTags {
     public static class Blocks {
     }
