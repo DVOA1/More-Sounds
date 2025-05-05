@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "sophisticatedstorageinmotion:storage_boat",
+      "id": "#advancednetherite:tier/armor",
       "required": false
     },
     {
-      "id": "#minecraft:boats",
+      "id": "#advancednetherite:tier/tools",
       "required": false
     }
   ]

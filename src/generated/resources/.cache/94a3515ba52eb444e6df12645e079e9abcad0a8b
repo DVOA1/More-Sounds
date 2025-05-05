@@ -1,10 +1,14 @@
-// 1.21.1	2025-05-04T23:25:51.9956255	Tags for minecraft:item mod id more_sounds
+// 1.21.1	2025-05-05T23:56:29.6829505	Tags for minecraft:item mod id more_sounds
 cafb31c33dffb6fd469f656a33500b4fbef2c663 data/more_sounds/tags/item/bipbip.json
-5d579fc0a6ee50297ed83cc5442e8d6da127dd2b data/more_sounds/tags/item/boats.json
+5d26624448cc1abfbbf583aab95449bdb3e0393d data/more_sounds/tags/item/boats.json
 fec28c42ee840f2b0cd11892875cc7836085a1c1 data/more_sounds/tags/item/bottled_inks.json
+30c971516685f93b76aa48f6f624e5ac1893cf3a data/more_sounds/tags/item/bows.json
+b54f0a11eb374ae7aabd9b64190e1c4ebd54875b data/more_sounds/tags/item/equipment.json
 cf014d2d70eac8b8c76f6e230b06eb70e570897d data/more_sounds/tags/item/generic_wrenches.json
 0b8dc777f12e3ac734cab3b6b1382caa0aff238e data/more_sounds/tags/item/glass.json
 d04b6f16435d656bf8819b21b78a94aa2451e419 data/more_sounds/tags/item/interference.json
-0902244999c0042cd8be4463a3237bf798263cfa data/more_sounds/tags/item/leather_things.json
+399564fc97008367a7f7da79a4d42ebd09c34fd7 data/more_sounds/tags/item/leather_things.json
+74e05f2cf9ed3452ae60a67cd3f5e508a1230e77 data/more_sounds/tags/item/netherite_equip.json
 ac81ca43fb4755007aeacb02063addb5cf9830fd data/more_sounds/tags/item/papers.json
 3ffde1b917d8acbfe3472365baf56e89376c19ce data/more_sounds/tags/item/plates.json
+65186f9f98398c571f2f36257dce9c301ff842fd data/more_sounds/tags/item/sculk_equip.json

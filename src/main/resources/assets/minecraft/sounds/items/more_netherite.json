@@ -1,7 +1,6 @@
 {
     "keys": [
-        "#advancednetherite:tier/tools",
-        "#advancednetherite:tier/armor"
+        "#more_sounds:netherite_equip"
     ],
     "soundEvent": "minecraft:item.armor.equip_netherite",
     "pitch": 2,

@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "sophisticatedstorageinmotion:storage_boat",
+      "id": "#c:tools/bow",
       "required": false
     },
     {
-      "id": "#minecraft:boats",
+      "id": "#c:tools/crossbow",
       "required": false
     }
   ]

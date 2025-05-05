@@ -23,6 +23,14 @@
     {
       "id": "sophisticatedbackpacks:netherite_backpack",
       "required": false
+    },
+    {
+      "id": "#sophisticatedbackpacks:upgrade",
+      "required": false
+    },
+    {
+      "id": "#sophisticatedstorage:upgrade",
+      "required": false
     }
   ]
 }

@@ -10,7 +10,6 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.p3pp3rf1y.sophisticatedstorageinmotion.init.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -36,7 +35,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptionalTag(MoreTags.Items.COMPUTERS);
 
         tag(MoreTags.Items.BOATS)
-                .add(ModItems.STORAGE_BOAT.getKey());
+                .addOptional(Location.getResource("sophisticatedstorageinmotion:storage_boat"))
+                .addOptionalTag(MoreTags.Items.MINECRAFT_BOATS);
 
         tag(MoreTags.Items.BOTTLED_INKS)
                 .addOptional(Location.getResource("supplementaries:antique_ink"))
@@ -88,6 +88,97 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("sophisticatedbackpacks:iron_backpack"))
                 .addOptional(Location.getResource("sophisticatedbackpacks:gold_backpack"))
                 .addOptional(Location.getResource("sophisticatedbackpacks:diamond_backpack"))
-                .addOptional(Location.getResource("sophisticatedbackpacks:netherite_backpack"));
+                .addOptional(Location.getResource("sophisticatedbackpacks:netherite_backpack"))
+                .addOptionalTag(MoreTags.Items.BACKPACK_UPGRADES)
+                .addOptionalTag(MoreTags.Items.STORAGE_UPGRADES);
+
+        tag(MoreTags.Items.BOWS)
+                .addOptionalTag(Tags.Items.TOOLS_BOW)
+                .addOptionalTag(Tags.Items.TOOLS_CROSSBOW);
+
+        tag(MoreTags.Items.STANDARD_EQUIP)
+                .addOptional(Location.getResource("mekanismtools:bronze_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:bronze_axe"))
+                .addOptional(Location.getResource("mekanismtools:bronze_shovel"))
+                .addOptional(Location.getResource("mekanismtools:bronze_hoe"))
+                .addOptional(Location.getResource("mekanismtools:bronze_sword"))
+                .addOptional(Location.getResource("mekanismtools:bronze_paxel"))
+                .addOptional(Location.getResource("mekanismtools:bronze_shield"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_axe"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_shovel"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_hoe"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_sword"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_paxel"))
+                .addOptional(Location.getResource("mekanismtools:lapis_lazuli_shield"))
+                .addOptional(Location.getResource("mekanismtools:osmium_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:osmium_axe"))
+                .addOptional(Location.getResource("mekanismtools:osmium_shovel"))
+                .addOptional(Location.getResource("mekanismtools:osmium_hoe"))
+                .addOptional(Location.getResource("mekanismtools:osmium_sword"))
+                .addOptional(Location.getResource("mekanismtools:osmium_paxel"))
+                .addOptional(Location.getResource("mekanismtools:osmium_shield"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_axe"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_shovel"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_hoe"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_sword"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_paxel"))
+                .addOptional(Location.getResource("mekanismtools:refined_glowstone_shield"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_axe"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_shovel"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_hoe"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_sword"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_paxel"))
+                .addOptional(Location.getResource("mekanismtools:refined_obsidian_shield"))
+                .addOptional(Location.getResource("mekanismtools:steel_pickaxe"))
+                .addOptional(Location.getResource("mekanismtools:steel_axe"))
+                .addOptional(Location.getResource("mekanismtools:steel_shovel"))
+                .addOptional(Location.getResource("mekanismtools:steel_hoe"))
+                .addOptional(Location.getResource("mekanismtools:steel_sword"))
+                .addOptional(Location.getResource("mekanismtools:steel_paxel"))
+                .addOptional(Location.getResource("mekanismtools:steel_shield"))
+                .addOptional(Location.getResource("mekanismtools:wood_paxel"))
+                .addOptional(Location.getResource("mekanismtools:stone_paxel"))
+                .addOptional(Location.getResource("mekanismtools:iron_paxel"))
+                .addOptional(Location.getResource("mekanismtools:gold_paxel"))
+                .addOptional(Location.getResource("mekanismtools:diamond_paxel"))
+                .addOptional(Location.getResource("mekanismtools:netherite_paxel"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_pickaxe"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_axe"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_shovel"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_hoe"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_sword"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_helmet"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_leggings"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_chestplate"))
+                .addOptional(Location.getResource("deeperdarker:resonarium_boots"))
+                .addOptionalTag(Tags.Items.TOOLS_SPEAR)
+                .remove(Location.getResource("minecraft:trident"))
+                .addOptionalTag(MoreTags.Items.JUST_HAMMERS)
+                .addOptional(Location.getResource("industrialforegoing:infinity_drill"))
+                .addOptional(Location.getResource("industrialforegoing:infinity_saw"))
+                .addOptional(Location.getResource("industrialforegoing:infinity_hammer"))
+                .addOptional(Location.getResource("industrialforegoing:infinity_backpack"))
+                .addOptional(Location.getResource("industrialforegoing:infinity_launcher"));
+
+        tag(MoreTags.Items.NETHERITE_EQUIP)
+                .addOptionalTag(MoreTags.Items.ADV_ARMOR)
+                .addOptionalTag(MoreTags.Items.ADV_TOOLS);
+
+        tag(MoreTags.Items.SCULK_EQUIP)
+                .addOptional(Location.getResource("deeperdarker:warden_pickaxe"))
+                .addOptional(Location.getResource("deeperdarker:warden_axe"))
+                .addOptional(Location.getResource("deeperdarker:warden_shovel"))
+                .addOptional(Location.getResource("deeperdarker:warden_hoe"))
+                .addOptional(Location.getResource("deeperdarker:warden_sword"))
+                .addOptional(Location.getResource("deeperdarker:warden_helmet"))
+                .addOptional(Location.getResource("deeperdarker:warden_leggings"))
+                .addOptional(Location.getResource("deeperdarker:warden_chestplate"))
+                .addOptional(Location.getResource("deeperdarker:warden_boots"))
+                .addOptional(Location.getResource("deeperdarker:reinforced_echo_shard"))
+                .addOptional(Location.getResource("deeperdarker:warden_carapace"))
+                .addOptional(Location.getResource("deeperdarker:heart_of_the_deep"));
     }
 }

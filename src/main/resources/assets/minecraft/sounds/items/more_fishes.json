@@ -2,7 +2,7 @@
     "keys": [
         "#c:foods/raw_fish"
     ],
-    "soundEvent": "aquaculture:fish_flop",
-    "pitch": 2,
+    "soundEvent": "minecraft:entity.puffer_fish.flop",
+    "pitch": 1.8,
     "volume": 1
 }

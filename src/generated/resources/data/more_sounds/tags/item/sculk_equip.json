@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "deeperdarker:warden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_axe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_hoe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_boots",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:reinforced_echo_shard",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_carapace",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:heart_of_the_deep",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "#more_sounds:sculk_equip"
+    ],
+    "soundEvent": "minecraft:block.sculk_vein.fall",
+    "pitch": 2,
+    "volume": 1
+}

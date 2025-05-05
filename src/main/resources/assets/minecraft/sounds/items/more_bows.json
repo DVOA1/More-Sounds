@@ -1,6 +1,6 @@
 {
     "keys": [
-        "#c:tools/bows"
+        "#more_sounds:bows"
     ],
     "soundEvent": "minecraft:entity.arrow.shoot",
     "pitch": 2,
