@@ -25,6 +25,7 @@ public class MoreSounds {
         NeoForge.EVENT_BUS.register(this);
         MoreSoundsSoundRegistry.SOUND_EVENTS.register(modEventBus);
     }
+
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {

@@ -2,12 +2,12 @@ package dev.dvoa.moresounds.utils;
 
 import dev.dvoa.moresounds.datagen.codecs.SoundAction;
 
-public class SoundActionHolder{
+public class SoundActionHolder {
     private final String fileName;
     private final SoundAction soundAction;
     private final String soundType;
 
-    public SoundActionHolder(String fileName, SoundAction soundAction, String soundType){
+    public SoundActionHolder(String fileName, SoundAction soundAction, String soundType) {
         this.fileName = fileName;
         this.soundAction = soundAction;
         this.soundType = soundType;

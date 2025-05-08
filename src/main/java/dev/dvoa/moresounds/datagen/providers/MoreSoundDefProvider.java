@@ -18,7 +18,7 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
         add(MoreSoundsSoundRegistry.INTERFERENCE, SoundDefinition.definition()
                 .with(
                         sound("more_sounds:interference", SoundDefinition.SoundType.SOUND)
-                                
+
                 )
                 .subtitle("subtitles.item.interference")
         );
@@ -26,7 +26,7 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
         add(MoreSoundsSoundRegistry.BIPBIP, SoundDefinition.definition()
                 .with(
                         sound("more_sounds:bipbip", SoundDefinition.SoundType.SOUND)
-                                
+
                 )
                 .subtitle("subtitles.item.bipbip")
         );
@@ -34,7 +34,7 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
         add(MoreSoundsSoundRegistry.SMALL_MOTOR, SoundDefinition.definition()
                 .with(
                         sound("more_sounds:small_motor", SoundDefinition.SoundType.SOUND)
-                                
+
                 )
                 .subtitle("subtitles.item.small_motor")
         );

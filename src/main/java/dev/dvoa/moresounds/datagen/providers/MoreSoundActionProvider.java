@@ -7,13 +7,11 @@ import dev.dvoa.moresounds.utils.SoundActionHolder;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataProvider;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 public class MoreSoundActionProvider implements DataProvider {
@@ -33,8 +31,8 @@ public class MoreSoundActionProvider implements DataProvider {
         List<CompletableFuture<?>> futures = new ArrayList<>();
 
         for (SoundActionHolder action : entries) {
-            Path soundsDir = base.resolve("assets/"+NAMESPACE+"/sounds/"+action.getSoundType());
-            Path file = soundsDir.resolve( action.getFileName() + ".json");
+            Path soundsDir = base.resolve("assets/" + NAMESPACE + "/sounds/" + action.getSoundType());
+            Path file = soundsDir.resolve(action.getFileName() + ".json");
 
             JsonElement json = SoundAction.CODEC
                     .codec()

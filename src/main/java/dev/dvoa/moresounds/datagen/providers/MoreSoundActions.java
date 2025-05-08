@@ -3,7 +3,6 @@ package dev.dvoa.moresounds.datagen.providers;
 import dev.dvoa.moresounds.datagen.codecs.SoundAction;
 import dev.dvoa.moresounds.utils.SoundActionHolder;
 import dev.dvoa.moresounds.utils.helpers.MoreResourceHelper;
-import net.minecraft.resources.ResourceLocation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,16 +37,16 @@ public class MoreSoundActions {
     @SuppressWarnings("unchecked")
     public static List<SoundActionHolder> getCustomSounds() {
         List<SoundActionHolder> output = new ArrayList<>(List.of());
-        for(Map<String, Object> entry: customSounds){
+        for (Map<String, Object> entry : customSounds) {
 
             output.add(new SoundActionHolder((String) entry.get("name"),
-                    new SoundAction(
-                            (List<String>) entry.get("keys"),
-                            MoreResourceHelper.Location.getResource((String) entry.get("sound")),
-                            (Double) entry.getOrDefault("pitch", 2.0),
-                            (Double) entry.getOrDefault("volume", 1.0)
-                        ),
-                        (String) entry.get("type")
+                            new SoundAction(
+                                    (List<String>) entry.get("keys"),
+                                    MoreResourceHelper.Location.getResource((String) entry.get("sound")),
+                                    (Double) entry.getOrDefault("pitch", 2.0),
+                                    (Double) entry.getOrDefault("volume", 1.0)
+                            ),
+                            (String) entry.get("type")
                     )
             );
         }
