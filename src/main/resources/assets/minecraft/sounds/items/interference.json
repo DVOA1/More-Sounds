@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:interference"
-    ],
-    "soundEvent": "more_sounds:item.interference",
-    "pitch": 2,
-    "volume": 0.3
-}

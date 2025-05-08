@@ -1,0 +1,263 @@
+{
+  "remove": [
+    "minecraft:trident"
+  ],
+  "values": [
+    {
+      "id": "mekanismtools:bronze_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_axe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_shovel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_hoe",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_shield",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:wood_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:stone_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:iron_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:gold_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:diamond_paxel",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:netherite_paxel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_axe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_hoe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_boots",
+      "required": false
+    },
+    {
+      "id": "#c:tools/spear",
+      "required": false
+    },
+    {
+      "id": "#justhammers:hammer",
+      "required": false
+    },
+    {
+      "id": "industrialforegoing:infinity_drill",
+      "required": false
+    },
+    {
+      "id": "industrialforegoing:infinity_saw",
+      "required": false
+    },
+    {
+      "id": "industrialforegoing:infinity_hammer",
+      "required": false
+    },
+    {
+      "id": "industrialforegoing:infinity_backpack",
+      "required": false
+    },
+    {
+      "id": "industrialforegoing:infinity_launcher",
+      "required": false
+    }
+  ]
+}

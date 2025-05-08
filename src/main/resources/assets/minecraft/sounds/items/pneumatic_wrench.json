@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "pneumaticcraft:pneumatic_wrench"
-    ],
-    "soundEvent": "more_sounds:item.small_motor",
-    "pitch": 2,
-    "volume": 1
-}

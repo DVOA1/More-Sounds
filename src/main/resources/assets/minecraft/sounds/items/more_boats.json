@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:boats"
-    ],
-    "soundEvent": "minecraft:block.wood.hit",
-    "pitch": 2,
-    "volume": 1
-}

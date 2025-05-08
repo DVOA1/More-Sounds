@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:plates"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "sounds:block.copper_ore.place"
+}

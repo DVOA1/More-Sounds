@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "create:potato_cannon"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "create:fwoomp"
+}

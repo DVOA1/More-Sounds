@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:leather_things"
-    ],
-    "soundEvent": "minecraft:item.armor.equip_leather",
-    "pitch": 2,
-    "volume": 1
-}

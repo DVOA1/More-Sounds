@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:generic_wrenches"
-    ],
-    "soundEvent": "minecraft:item.armor.equip_iron",
-    "pitch": 2,
-    "volume": 1
-}

@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:bows"
-    ],
-    "soundEvent": "minecraft:entity.arrow.shoot",
-    "pitch": 2,
-    "volume": 1
-}

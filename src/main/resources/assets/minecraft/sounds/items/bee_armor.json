@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#the_bumblezone:armors/all"
-    ],
-    "soundEvent": "minecraft:entity.bee.pollinate",
-    "pitch": 2,
-    "volume": 1
-}

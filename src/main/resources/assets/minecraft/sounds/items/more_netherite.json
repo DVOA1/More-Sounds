@@ -1,8 +1,0 @@
-{
-    "keys": [
-        "#more_sounds:netherite_equip"
-    ],
-    "soundEvent": "minecraft:item.armor.equip_netherite",
-    "pitch": 2,
-    "volume": 1
-}

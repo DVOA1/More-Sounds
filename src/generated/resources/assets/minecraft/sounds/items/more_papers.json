@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:papers"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:item.book.page_turn"
+}

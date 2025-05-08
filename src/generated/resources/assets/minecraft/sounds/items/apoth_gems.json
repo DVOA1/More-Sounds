@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "apotheosis:gem"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:block.amethyst_cluster.hit"
+}
