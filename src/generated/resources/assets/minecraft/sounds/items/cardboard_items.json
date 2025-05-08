@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "#more_sounds:cardboard"
+  ],
+  "pitch": 1.8,
+  "soundEvent": "more_sounds:item.cardboard.box",
+  "volume": 0.2
+}

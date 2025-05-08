@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class MoreSoundActions {
     public static List<Map<String, Object>> customSounds = List.of(
-            Map.of("type", "items", "name", "bipbip", "keys", List.of("#more_sounds:bipbip"), "sound", "more_sounds:bipbip", "volume", 0.1),
+            Map.of("type", "items", "name", "bipbip", "keys", List.of("#more_sounds:bipbip"), "sound", "more_sounds:item.bipbip", "volume", 0.1),
             Map.of("type", "items", "name", "generic_wrenches", "keys", List.of("#more_sounds:generic_wrenches"), "sound", "minecraft:item.armor.equip_iron"),
             Map.of("type", "items", "name", "quartz_wrenches", "keys", List.of("#ae2:quartz_wrench"), "sound", "minecraft:block.amethyst_cluster.hit"),
             Map.of("type", "items", "name", "pneumatic_wrench", "keys", List.of("pneumaticcraft:pneumatic_wrench"), "sound", "more_sounds:item.small_motor"),
@@ -31,6 +31,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "leather_things", "keys", List.of("#more_sounds:leather_things"), "sound", "minecraft:item.armor.equip_leather"),
             Map.of("type", "items", "name", "more_equipment", "keys", List.of("#more_sounds:equipment"), "sound", "minecraft:item.armor.equip_iron"),
             Map.of("type", "items", "name", "sculk_equipment", "keys", List.of("#more_sounds:sculk_equip"), "sound", "minecraft:block.sculk_vein.fall"),
+            Map.of("type", "items", "name", "cardboard_items", "keys", List.of("#more_sounds:cardboard"), "sound", "more_sounds:item.cardboard.box", "volume", 0.2, "pitch", 1.8),
             Map.of("type", "screens", "name", "backpack_screen", "keys", List.of("sophisticatedbackpacks:backpack"), "sound", "more_sounds:screen.zip", "pitch", 1.5)
     );
 

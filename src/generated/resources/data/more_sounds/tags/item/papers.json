@@ -4,6 +4,10 @@
       "id": "#c:paper",
       "required": false
     },
+    {
+      "id": "#curios:spellbook",
+      "required": false
+    },
     "minecraft:filled_map",
     "minecraft:map",
     {

@@ -13,7 +13,11 @@
       "required": false
     },
     {
-      "id": "irons_spellbooks:uncommon_ink",
+      "id": "irons_spellbooks:epic_ink",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:legendary_ink",
       "required": false
     },
     {
@@ -21,11 +25,7 @@
       "required": false
     },
     {
-      "id": "irons_spellbooks:epic_ink",
-      "required": false
-    },
-    {
-      "id": "irons_spellbooks:legendary_ink",
+      "id": "irons_spellbooks:uncommon_ink",
       "required": false
     }
   ]

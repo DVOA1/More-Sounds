@@ -5,15 +5,15 @@
       "required": false
     },
     {
+      "id": "#sophisticatedbackpacks:upgrade",
+      "required": false
+    },
+    {
+      "id": "#sophisticatedstorage:upgrade",
+      "required": false
+    },
+    {
       "id": "sophisticatedbackpacks:copper_backpack",
-      "required": false
-    },
-    {
-      "id": "sophisticatedbackpacks:iron_backpack",
-      "required": false
-    },
-    {
-      "id": "sophisticatedbackpacks:gold_backpack",
       "required": false
     },
     {
@@ -21,15 +21,15 @@
       "required": false
     },
     {
+      "id": "sophisticatedbackpacks:gold_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:iron_backpack",
+      "required": false
+    },
+    {
       "id": "sophisticatedbackpacks:netherite_backpack",
-      "required": false
-    },
-    {
-      "id": "#sophisticatedbackpacks:upgrade",
-      "required": false
-    },
-    {
-      "id": "#sophisticatedstorage:upgrade",
       "required": false
     }
   ]

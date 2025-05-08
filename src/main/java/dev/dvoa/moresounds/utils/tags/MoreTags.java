@@ -23,6 +23,10 @@ public class MoreTags {
         public static final TagKey<Item> ADV_ARMOR = MoreTagsHelper.Items.createTag("advancednetherite:tier/armor");
         public static final TagKey<Item> ADV_TOOLS = MoreTagsHelper.Items.createTag("advancednetherite:tier/tools");
 
+        // Curios Tags
+        public static final TagKey<Item> RINGS = MoreTagsHelper.Items.createTag("curios:ring");
+        public static final TagKey<Item> SPELLBOOK = MoreTagsHelper.Items.createTag("curios:spellbook");
+
         // Common Tags
         public static final TagKey<Item> WRENCHES = MoreTagsHelper.Items.createTag("c:wrenches");
         public static final TagKey<Item> COMMON_PAPERS = MoreTagsHelper.Items.createTag("c:paper");
@@ -39,6 +43,7 @@ public class MoreTags {
         public static final TagKey<Item> GLASS = MoreTagsHelper.Items.createCustomTag("glass");
         public static final TagKey<Item> INTERFERENCE = MoreTagsHelper.Items.createCustomTag("interference");
         public static final TagKey<Item> PAPERS = MoreTagsHelper.Items.createCustomTag("papers");
+        public static final TagKey<Item> CARDBOARD = MoreTagsHelper.Items.createCustomTag("cardboard");
         public static final TagKey<Item> METAL_PLATES = MoreTagsHelper.Items.createCustomTag("plates");
         public static final TagKey<Item> LEATHER_THINGS = MoreTagsHelper.Items.createCustomTag("leather_things");
         public static final TagKey<Item> BOWS = MoreTagsHelper.Items.createCustomTag("bows");

@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "mekanism:cardboard_box",
+      "required": false
+    },
+    {
+      "id": "create:cardboard",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_package_10x12",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_package_10x8",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_package_12x10",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_package_12x12",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_boots",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_chestplate",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_helmet",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_leggings",
+      "required": false
+    },
+    {
+      "id": "create:cardboard_sword",
+      "required": false
+    }
+  ]
+}
