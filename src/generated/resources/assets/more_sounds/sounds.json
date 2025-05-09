@@ -5,15 +5,15 @@
     ],
     "subtitle": "subtitles.item.bipbip"
   },
-  "item.bottled_ink.slosh": {
+  "item.bottled_viscous.slosh": {
     "sounds": [
-      "more_sounds:inks/slosh01",
-      "more_sounds:inks/slosh02",
-      "more_sounds:inks/slosh03",
-      "more_sounds:inks/slosh04",
-      "more_sounds:inks/slosh05"
+      "more_sounds:viscous/slosh01",
+      "more_sounds:viscous/slosh02",
+      "more_sounds:viscous/slosh03",
+      "more_sounds:viscous/slosh04",
+      "more_sounds:viscous/slosh05"
     ],
-    "subtitle": "subtitles.item.ink_slosh"
+    "subtitle": "subtitles.item.viscous_slosh"
   },
   "item.cardboard.box": {
     "sounds": [
@@ -25,11 +25,30 @@
     ],
     "subtitle": "subtitles.item.cardboard"
   },
+  "item.filled_sack": {
+    "sounds": [
+      "more_sounds:filled_sack/move01",
+      "more_sounds:filled_sack/move02",
+      "more_sounds:filled_sack/move03",
+      "more_sounds:filled_sack/move04",
+      "more_sounds:filled_sack/move05"
+    ],
+    "subtitle": "subtitles.item.filled_sack"
+  },
   "item.interference": {
     "sounds": [
       "more_sounds:interference"
     ],
     "subtitle": "subtitles.item.interference"
+  },
+  "item.magic": {
+    "sounds": [
+      "more_sounds:magic/hum01",
+      "more_sounds:magic/hum02",
+      "more_sounds:magic/hum03",
+      "more_sounds:magic/hum04"
+    ],
+    "subtitle": "subtitles.item.magic_hum"
   },
   "item.metal.box_empty": {
     "sounds": [

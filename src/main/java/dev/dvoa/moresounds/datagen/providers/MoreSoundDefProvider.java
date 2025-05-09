@@ -39,15 +39,15 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                 .subtitle("subtitles.item.small_motor")
         );
 
-        add(MoreSoundsSoundRegistry.BOTTLED_INK_SLOSH, SoundDefinition.definition()
+        add(MoreSoundsSoundRegistry.BOTTLED_VISCOUS_SLOSH, SoundDefinition.definition()
                 .with(
-                        sound("more_sounds:inks/slosh01", SoundDefinition.SoundType.SOUND),
-                        sound("more_sounds:inks/slosh02", SoundDefinition.SoundType.SOUND),
-                        sound("more_sounds:inks/slosh03", SoundDefinition.SoundType.SOUND),
-                        sound("more_sounds:inks/slosh04", SoundDefinition.SoundType.SOUND),
-                        sound("more_sounds:inks/slosh05", SoundDefinition.SoundType.SOUND)
+                        sound("more_sounds:viscous/slosh01", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:viscous/slosh02", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:viscous/slosh03", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:viscous/slosh04", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:viscous/slosh05", SoundDefinition.SoundType.SOUND)
                 )
-                .subtitle("subtitles.item.ink_slosh")
+                .subtitle("subtitles.item.viscous_slosh")
         );
 
         add(MoreSoundsSoundRegistry.METAL_BOX_EMPTY, SoundDefinition.definition()
@@ -81,6 +81,27 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                         sound("more_sounds:cardboard/cardboard05", SoundDefinition.SoundType.SOUND)
                 )
                 .subtitle("subtitles.item.cardboard")
+        );
+
+        add(MoreSoundsSoundRegistry.MAGIC, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:magic/hum01", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:magic/hum02", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:magic/hum03", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:magic/hum04", SoundDefinition.SoundType.SOUND)
+                )
+                .subtitle("subtitles.item.magic_hum")
+        );
+
+        add(MoreSoundsSoundRegistry.FILLED_SACK, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:filled_sack/move01", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:filled_sack/move02", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:filled_sack/move03", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:filled_sack/move04", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:filled_sack/move05", SoundDefinition.SoundType.SOUND)
+                )
+                .subtitle("subtitles.item.filled_sack")
         );
 
         add(MoreSoundsSoundRegistry.ZIP, SoundDefinition.definition()

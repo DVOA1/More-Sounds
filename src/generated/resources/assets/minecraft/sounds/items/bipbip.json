@@ -3,6 +3,6 @@
     "#more_sounds:bipbip"
   ],
   "pitch": 2.0,
-  "soundEvent": "more_sounds:bipbip",
+  "soundEvent": "more_sounds:item.bipbip",
   "volume": 0.1
 }

@@ -17,10 +17,13 @@ public class MoreSoundsSoundRegistry {
     public static Supplier<SoundEvent> INTERFERENCE = registerSoundEvent("item.interference");
     public static Supplier<SoundEvent> BIPBIP = registerSoundEvent("item.bipbip");
     public static Supplier<SoundEvent> SMALL_MOTOR = registerSoundEvent("item.small_motor");
-    public static Supplier<SoundEvent> BOTTLED_INK_SLOSH = registerSoundEvent("item.bottled_ink.slosh");
+    public static Supplier<SoundEvent> BOTTLED_VISCOUS_SLOSH = registerSoundEvent("item.bottled_viscous.slosh");
     public static Supplier<SoundEvent> METAL_BOX_EMPTY = registerSoundEvent("item.metal.box_empty");
     public static Supplier<SoundEvent> METAL_BOX_FULL = registerSoundEvent("item.metal.box_full");
     public static Supplier<SoundEvent> CARDBOARD_BOX = registerSoundEvent("item.cardboard.box");
+    public static Supplier<SoundEvent> MAGIC = registerSoundEvent("item.magic");
+    public static Supplier<SoundEvent> FILLED_SACK = registerSoundEvent("item.filled_sack");
+
     public static Supplier<SoundEvent> ZIP = registerSoundEvent("screen.zip");
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {

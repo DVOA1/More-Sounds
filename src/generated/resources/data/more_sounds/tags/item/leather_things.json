@@ -5,6 +5,30 @@
       "required": false
     },
     {
+      "id": "ars_elemental:curio_bag",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:caster_bag",
+      "required": false
+    },
+    {
+      "id": "minecraft:bundle",
+      "required": false
+    },
+    {
+      "id": "ars_additions:handy_haversack",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:void_sack",
+      "required": false
+    },
+    {
+      "id": "actuallyadditions:travelers_sack",
+      "required": false
+    },
+    {
       "id": "#sophisticatedbackpacks:upgrade",
       "required": false
     },

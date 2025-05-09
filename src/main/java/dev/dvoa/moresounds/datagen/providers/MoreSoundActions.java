@@ -26,12 +26,14 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "more_boats", "keys", List.of("#more_sounds:boats"), "sound", "minecraft:block.wood.hit"),
             Map.of("type", "items", "name", "soph_minecarts", "keys", List.of("sophisticatedstorageinmotion:storage_minecart"), "sound", "more_sounds:item.metal.box_empty", "volume", 0.1, "pitch", 1.0),
             Map.of("type", "items", "name", "interference", "keys", List.of("#more_sounds:interference"), "sound", "more_sounds:item.interference", "volume", 0.3),
-            Map.of("type", "items", "name", "bottled_ink", "keys", List.of("#more_sounds:bottled_inks"), "sound", "more_sounds:item.bottled_ink.slosh", "volume", 0.2, "pitch", 1.5),
+            Map.of("type", "items", "name", "bottled_ink", "keys", List.of("#more_sounds:bottled_viscous"), "sound", "more_sounds:item.bottled_viscous.slosh", "volume", 0.2, "pitch", 1.5),
             Map.of("type", "items", "name", "more_papers", "keys", List.of("#more_sounds:papers"), "sound", "minecraft:item.book.page_turn"),
             Map.of("type", "items", "name", "leather_things", "keys", List.of("#more_sounds:leather_things"), "sound", "minecraft:item.armor.equip_leather"),
             Map.of("type", "items", "name", "more_equipment", "keys", List.of("#more_sounds:equipment"), "sound", "minecraft:item.armor.equip_iron"),
             Map.of("type", "items", "name", "sculk_equipment", "keys", List.of("#more_sounds:sculk_equip"), "sound", "minecraft:block.sculk_vein.fall"),
-            Map.of("type", "items", "name", "cardboard_items", "keys", List.of("#more_sounds:cardboard"), "sound", "more_sounds:item.cardboard.box", "volume", 0.2, "pitch", 1.8),
+            Map.of("type", "items", "name", "cardboard_items", "keys", List.of("#more_sounds:cardboard"), "sound", "more_sounds:item.cardboard.box", "volume", 0.1, "pitch", 1.8),
+            Map.of("type", "items", "name", "magic_items", "keys", List.of("#more_sounds:magic_items"), "sound", "more_sounds:item.magic", "volume", 0.2),
+            Map.of("type", "items", "name", "filled_sacks", "keys", List.of("#more_sounds:filled_sacks"), "sound", "more_sounds:item.filled_sack"),
             Map.of("type", "screens", "name", "backpack_screen", "keys", List.of("sophisticatedbackpacks:backpack"), "sound", "more_sounds:screen.zip", "pitch", 1.5)
     );
 

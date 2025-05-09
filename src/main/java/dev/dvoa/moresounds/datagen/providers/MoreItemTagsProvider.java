@@ -15,7 +15,6 @@ import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class MoreItemTagsProvider extends ItemTagsProvider {
@@ -46,11 +45,12 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("sophisticatedstorageinmotion:storage_boat"))
                 .addOptionalTag(MoreTags.Items.MINECRAFT_BOATS);
 
-        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> bott_inks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.BOTTLED_INKS)
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> bott_viscous = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.BOTTLED_VISCOUS)
                 .addOptional(Location.getResource("supplementaries:antique_ink"))
-                .addOptional(Location.getResource("occultism:purified_ink"));
+                .addOptional(Location.getResource("occultism:purified_ink"))
+                .addOptional(Location.getResource("the_bumblezone:royal_jelly_bottle"));
 
-        appendPattern(bott_inks, "irons_spellbooks:(common|epic|legendary|rare|uncommon)_ink");
+        appendPattern(bott_viscous, "irons_spellbooks:(common|epic|legendary|rare|uncommon)_ink");
 
         tag(MoreTags.Items.GENERIC_WRENCHES)
                 .addTag(Tags.Items.TOOLS_WRENCH)
@@ -90,6 +90,12 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> leather_things = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.LEATHER_THINGS)
                 .addOptional(Location.getResource("sophisticatedbackpacks:backpack"))
+                .addOptional(Location.getResource("ars_elemental:curio_bag"))
+                .addOptional(Location.getResource("ars_elemental:caster_bag"))
+                .addOptional(Location.getResource("minecraft:bundle"))
+                .addOptional(Location.getResource("ars_additions:handy_haversack"))
+                .addOptional(Location.getResource("actuallyadditions:void_sack"))
+                .addOptional(Location.getResource("actuallyadditions:travelers_sack"))
                 .addOptionalTag(MoreTags.Items.BACKPACK_UPGRADES)
                 .addOptionalTag(MoreTags.Items.STORAGE_UPGRADES);
 
@@ -127,5 +133,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
 
         appendPattern(cardboard, "create:cardboard_package_(10x12|10x8|12x10|12x12)");
         appendPattern(cardboard, "create:cardboard_(boots|chestplate|helmet|leggings|sword)");
+
+        tag(MoreTags.Items.MAGIC_ITEMS)
+                .addOptional(Location.getResource("apotheosis:potion_charm"));
+
+        tag(MoreTags.Items.FILLED_SACKS)
+                .addOptional(Location.getResource("gag:time_sand_pouch"));
     }
 }

@@ -1,8 +1,8 @@
 {
   "keys": [
-    "#more_sounds:bottled_inks"
+    "#more_sounds:bottled_viscous"
   ],
   "pitch": 1.5,
-  "soundEvent": "more_sounds:item.bottled_ink.slosh",
+  "soundEvent": "more_sounds:item.bottled_viscous.slosh",
   "volume": 0.2
 }

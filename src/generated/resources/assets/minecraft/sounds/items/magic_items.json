@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "#more_sounds:magic_items"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "more_sounds:item.magic",
+  "volume": 0.2
+}

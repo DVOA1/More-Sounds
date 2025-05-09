@@ -38,7 +38,7 @@ public class MoreTags {
         // Custom tags
         public static final TagKey<Item> BIPBIP = MoreTagsHelper.Items.createCustomTag("bipbip");
         public static final TagKey<Item> BOATS = MoreTagsHelper.Items.createCustomTag("boats");
-        public static final TagKey<Item> BOTTLED_INKS = MoreTagsHelper.Items.createCustomTag("bottled_inks");
+        public static final TagKey<Item> BOTTLED_VISCOUS = MoreTagsHelper.Items.createCustomTag("bottled_viscous");
         public static final TagKey<Item> GENERIC_WRENCHES = MoreTagsHelper.Items.createCustomTag("generic_wrenches");
         public static final TagKey<Item> GLASS = MoreTagsHelper.Items.createCustomTag("glass");
         public static final TagKey<Item> INTERFERENCE = MoreTagsHelper.Items.createCustomTag("interference");
@@ -50,5 +50,7 @@ public class MoreTags {
         public static final TagKey<Item> NETHERITE_EQUIP = MoreTagsHelper.Items.createCustomTag("netherite_equip");
         public static final TagKey<Item> SCULK_EQUIP = MoreTagsHelper.Items.createCustomTag("sculk_equip");
         public static final TagKey<Item> STANDARD_EQUIP = MoreTagsHelper.Items.createCustomTag("equipment");
+        public static final TagKey<Item> MAGIC_ITEMS = MoreTagsHelper.Items.createCustomTag("magic_items");
+        public static final TagKey<Item> FILLED_SACKS = MoreTagsHelper.Items.createCustomTag("filled_sacks");
     }
 }
