@@ -134,10 +134,17 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(cardboard, "create:cardboard_package_(10x12|10x8|12x10|12x12)");
         appendPattern(cardboard, "create:cardboard_(boots|chestplate|helmet|leggings|sword)");
 
-        tag(MoreTags.Items.MAGIC_ITEMS)
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> magic_items = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.MAGIC_ITEMS)
                 .addOptional(Location.getResource("apotheosis:potion_charm"));
+
+        appendPattern(magic_items, "ars_elemental:(firenando|siren)_charm");
+        appendPattern(magic_items, "ars_additions:(dispel_protection|ender_mask|fall_prevention|fire_resistance|golden|night_vision|powdered_snow_walk|sonic_boom_protection|undying|void_protection|water_breathing|wither_protection)_charm");
+        appendPattern(magic_items, "ars_nouveau:(alakarkinos|amethyst_golem|bookwyrm|drygmy|starbuncle|whirlisprig|wixie)_charm");
 
         tag(MoreTags.Items.FILLED_SACKS)
                 .addOptional(Location.getResource("gag:time_sand_pouch"));
+
+        tag(MoreTags.Items.FILLED_BOTTLES)
+                .addOptional(Location.getResource("the_bumblezone:sugar_water_bottle"));
     }
 }

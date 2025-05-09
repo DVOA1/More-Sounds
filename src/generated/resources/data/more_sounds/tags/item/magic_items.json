@@ -3,6 +3,90 @@
     {
       "id": "apotheosis:potion_charm",
       "required": false
+    },
+    {
+      "id": "ars_elemental:firenando_charm",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:siren_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:dispel_protection_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:ender_mask_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:fall_prevention_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:fire_resistance_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:golden_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:night_vision_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:powdered_snow_walk_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:sonic_boom_protection_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:undying_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:void_protection_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:water_breathing_charm",
+      "required": false
+    },
+    {
+      "id": "ars_additions:wither_protection_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:alakarkinos_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:amethyst_golem_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:bookwyrm_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:drygmy_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:starbuncle_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:whirlisprig_charm",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:wixie_charm",
+      "required": false
     }
   ]
 }

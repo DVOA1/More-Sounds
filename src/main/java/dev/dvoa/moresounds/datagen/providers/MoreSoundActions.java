@@ -34,6 +34,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "cardboard_items", "keys", List.of("#more_sounds:cardboard"), "sound", "more_sounds:item.cardboard.box", "volume", 0.1, "pitch", 1.8),
             Map.of("type", "items", "name", "magic_items", "keys", List.of("#more_sounds:magic_items"), "sound", "more_sounds:item.magic", "volume", 0.2),
             Map.of("type", "items", "name", "filled_sacks", "keys", List.of("#more_sounds:filled_sacks"), "sound", "more_sounds:item.filled_sack"),
+            Map.of("type", "items", "name", "more_bottles", "keys", List.of("#more_sounds:filled_bottles"), "sound", "minecraft:item.bottle.fill"),
             Map.of("type", "screens", "name", "backpack_screen", "keys", List.of("sophisticatedbackpacks:backpack"), "sound", "more_sounds:screen.zip", "pitch", 1.5)
     );
 

@@ -52,5 +52,6 @@ public class MoreTags {
         public static final TagKey<Item> STANDARD_EQUIP = MoreTagsHelper.Items.createCustomTag("equipment");
         public static final TagKey<Item> MAGIC_ITEMS = MoreTagsHelper.Items.createCustomTag("magic_items");
         public static final TagKey<Item> FILLED_SACKS = MoreTagsHelper.Items.createCustomTag("filled_sacks");
+        public static final TagKey<Item> FILLED_BOTTLES = MoreTagsHelper.Items.createCustomTag("filled_bottles");
     }
 }
