@@ -15,6 +15,7 @@
 In the current version, **More Sounds** provides varying levels of support for the following mods:
 
 ### ✅ Full Support
+> [!NOTE]
 > These mods are fully integrated with custom sounds for every item.
 
 - Artifacts
@@ -35,6 +36,7 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Advanced Netherite
 
 ### ⚠️ Partial Support
+> [!NOTE]
 > These mods have some sound features implemented or in progress.
 
 - Applied Energistics 2 (AE2)
@@ -52,6 +54,7 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Create 6
 
 ### 📦 Common Sounds
+> [!NOTE]
 > Generic support for item categories.
 
 - All Dusts
