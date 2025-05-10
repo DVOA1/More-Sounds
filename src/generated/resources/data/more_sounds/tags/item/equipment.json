@@ -16,6 +16,58 @@
       "required": false
     },
     {
+      "id": "twilightforest:block_and_chain",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_shield",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:phantom_helmet",
+      "required": false
+    },
+    {
+      "id": "artifacts:fire_gauntlet",
+      "required": false
+    },
+    {
+      "id": "artifacts:golden_hook",
+      "required": false
+    },
+    {
+      "id": "artifacts:pickaxe_heater",
+      "required": false
+    },
+    {
+      "id": "artifacts:power_glove",
+      "required": false
+    },
+    {
+      "id": "artifacts:universal_attractor",
+      "required": false
+    },
+    {
+      "id": "artifacts:warp_drive",
+      "required": false
+    },
+    {
+      "id": "relics:drowned_belt",
+      "required": false
+    },
+    {
+      "id": "relics:holy_locket",
+      "required": false
+    },
+    {
+      "id": "relics:ice_breaker",
+      "required": false
+    },
+    {
       "id": "mekanismtools:bronze_axe",
       "required": false
     },
@@ -41,6 +93,22 @@
     },
     {
       "id": "mekanismtools:bronze_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:bronze_boots",
       "required": false
     },
     {
@@ -72,6 +140,22 @@
       "required": false
     },
     {
+      "id": "mekanismtools:lapis_lazuli_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_boots",
+      "required": false
+    },
+    {
       "id": "mekanismtools:osmium_axe",
       "required": false
     },
@@ -97,6 +181,22 @@
     },
     {
       "id": "mekanismtools:osmium_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:osmium_boots",
       "required": false
     },
     {
@@ -128,6 +228,22 @@
       "required": false
     },
     {
+      "id": "mekanismtools:refined_glowstone_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_boots",
+      "required": false
+    },
+    {
       "id": "mekanismtools:refined_obsidian_axe",
       "required": false
     },
@@ -156,6 +272,22 @@
       "required": false
     },
     {
+      "id": "mekanismtools:refined_obsidian_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_boots",
+      "required": false
+    },
+    {
       "id": "mekanismtools:steel_axe",
       "required": false
     },
@@ -181,6 +313,22 @@
     },
     {
       "id": "mekanismtools:steel_sword",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_leggings",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_boots",
       "required": false
     },
     {
@@ -257,6 +405,230 @@
     },
     {
       "id": "industrialforegoing:infinity_saw",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:anima_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:base_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:summon_bangle",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:water_bangle",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_hoe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_shovel",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_hoe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_shovel",
+      "required": false
+    },
+    {
+      "id": "twilightforest:diamond_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:gold_minotaur_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:mazebreaker_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:phantom_chestplate",
+      "required": false
+    },
+    {
+      "id": "artifacts:flame_pendant",
+      "required": false
+    },
+    {
+      "id": "artifacts:shock_pendant",
+      "required": false
+    },
+    {
+      "id": "artifacts:thorn_pendant",
+      "required": false
+    },
+    {
+      "id": "artifacts:digging_claws",
+      "required": false
+    },
+    {
+      "id": "artifacts:feral_claws",
+      "required": false
+    },
+    {
+      "id": "artifacts:cross_necklace",
+      "required": false
+    },
+    {
+      "id": "artifacts:panic_necklace",
+      "required": false
+    },
+    {
+      "id": "artifacts:charm_of_shrinking",
+      "required": false
+    },
+    {
+      "id": "artifacts:charm_of_sinking",
+      "required": false
+    },
+    {
+      "id": "relics:ice_skates",
+      "required": false
+    },
+    {
+      "id": "relics:roller_skates",
+      "required": false
+    },
+    {
+      "id": "relics:jellyfish_necklace",
+      "required": false
+    },
+    {
+      "id": "relics:reflection_necklace",
       "required": false
     }
   ]

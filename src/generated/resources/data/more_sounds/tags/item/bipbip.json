@@ -35,6 +35,66 @@
     {
       "id": "#computercraft:computer",
       "required": false
+    },
+    {
+      "id": "mekanism:dosimeter",
+      "required": false
+    },
+    {
+      "id": "mekanism:geiger_counter",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_building",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_copy_paste",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_cut_paste",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_destruction",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:gadget_exchanging",
+      "required": false
+    },
+    {
+      "id": "mekanism:network_reader",
+      "required": false
+    },
+    {
+      "id": "mekanism:seismic_reader",
+      "required": false
+    },
+    {
+      "id": "mekanism:mekasuit_bodyarmor",
+      "required": false
+    },
+    {
+      "id": "mekanism:mekasuit_boots",
+      "required": false
+    },
+    {
+      "id": "mekanism:mekasuit_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanism:mekasuit_pants",
+      "required": false
+    },
+    {
+      "id": "mekanism:portable_qio_dashboard",
+      "required": false
+    },
+    {
+      "id": "mekanism:portable_teleporter",
+      "required": false
     }
   ]
 }

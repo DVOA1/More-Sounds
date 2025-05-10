@@ -1,6 +1,346 @@
 {
   "values": [
     "#c:glass_blocks",
-    "#c:glass_panes"
+    "#c:glass_panes",
+    {
+      "id": "ars_nouveau:alchemists_crown",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:item_detector",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:jar_of_light",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:wixie_shards",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:spell_sensor",
+      "required": false
+    },
+    {
+      "id": "ars_additions:xp_jar",
+      "required": false
+    },
+    {
+      "id": "ars_additions:ender_source_jar",
+      "required": false
+    },
+    {
+      "id": "relics:magic_mirror",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mob_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:source_jar",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:potion_flask",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:potion_flask_amplify",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:potion_flask_extend_time",
+      "required": false
+    },
+    {
+      "id": "twilightforest:glass_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ice_sword",
+      "required": false
+    },
+    {
+      "id": "glassential:dark_ethereal_door",
+      "required": false
+    },
+    {
+      "id": "glassential:dark_ethereal_reverse_door",
+      "required": false
+    },
+    {
+      "id": "glassential:ethereal_door",
+      "required": false
+    },
+    {
+      "id": "glassential:ethereal_reverse_door",
+      "required": false
+    },
+    {
+      "id": "glassential:ghostly_door",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:light_door",
+      "required": false
+    },
+    {
+      "id": "glassential:obsidian_door",
+      "required": false
+    },
+    {
+      "id": "glassential:redstone_door",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_dark_ethereal_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_dark_ethereal_reverse_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ethereal_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ethereal_reverse_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ghostly_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_light_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_redstone_pane",
+      "required": false
+    },
+    {
+      "id": "glassential:dark_ethereal_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:dark_ethereal_reverse_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:ethereal_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:ethereal_reverse_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:ghostly_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:light_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:obsidian_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:redstone_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:obsidian_glass",
+      "required": false
+    },
+    {
+      "id": "glassential:sandstone_glass",
+      "required": false
+    },
+    {
+      "id": "glassential:stone_glass",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ethereal",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_dark_ethereal",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_dark_ethereal_reverse",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ethereal_reverse",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_ghostly",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_light",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_redstone",
+      "required": false
+    },
+    {
+      "id": "glassential:glass_slab",
+      "required": false
+    },
+    {
+      "id": "glassential:black_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:black_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:blue_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:blue_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:brown_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:brown_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:cyan_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:cyan_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:gray_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:gray_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:green_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:green_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:light_blue_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:light_blue_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:light_gray_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:light_gray_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:lime_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:lime_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:magenta_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:magenta_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:orange_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:orange_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:pink_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:pink_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:purple_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:purple_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:red_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:red_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:tinted_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:tinted_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:white_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:white_glass_door",
+      "required": false
+    },
+    {
+      "id": "glassential:yellow_glass_trapdoor",
+      "required": false
+    },
+    {
+      "id": "glassential:yellow_glass_door",
+      "required": false
+    }
   ]
 }

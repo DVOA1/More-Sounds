@@ -29,6 +29,154 @@
     {
       "id": "twilightforest:maze_map",
       "required": false
+    },
+    {
+      "id": "buildinggadgets2:template",
+      "required": false
+    },
+    {
+      "id": "buildinggadgets2:redprint",
+      "required": false
+    },
+    {
+      "id": "patchouli:guide_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:worn_notebook",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:annotated_codex",
+      "required": false
+    },
+    {
+      "id": "ars_additions:imbued_spell_parchment",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:allow_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:deny_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mimic_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:scryer_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:stable_warp_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:warp_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:apprentice_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:archmage_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:creative_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:novice_spell_book",
+      "required": false
+    },
+    {
+      "id": "ars_additions:exploration_warp_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_additions:nexus_warp_scroll",
+      "required": false
+    },
+    {
+      "id": "ars_additions:ancient_codex_entry",
+      "required": false
+    },
+    {
+      "id": "ars_additions:codex_entry",
+      "required": false
+    },
+    {
+      "id": "ars_additions:lost_codex_entry",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:anima_caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:manipulation_caster_tome",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:water_caster_tome",
+      "required": false
+    },
+    {
+      "id": "twilightforest:alpha_yeti_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:hydra_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knight_phantom_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:lich_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:minoshroom_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:quest_ram_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:snow_queen_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ur_ghast_banner_pattern",
+      "required": false
     }
   ]
 }

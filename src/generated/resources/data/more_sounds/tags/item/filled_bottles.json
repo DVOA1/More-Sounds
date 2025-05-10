@@ -3,6 +3,74 @@
     {
       "id": "the_bumblezone:sugar_water_bottle",
       "required": false
+    },
+    {
+      "id": "twilightforest:brittle_potion_flask",
+      "required": false
+    },
+    {
+      "id": "twilightforest:greater_potion_flask",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_ale",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_healing_potion",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_bottle",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherward_tincture",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:timeless_slurry",
+      "required": false
+    },
+    {
+      "id": "artifacts:antidote_vessel",
+      "required": false
+    },
+    {
+      "id": "artifacts:cloud_in_a_bottle",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_oakskin_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:oakskin_elixir",
+      "required": false
+    },
+    {
+      "id": "artifacts:novelty_drinking_hat",
+      "required": false
+    },
+    {
+      "id": "artifacts:plastic_drinking_hat",
+      "required": false
     }
   ]
 }

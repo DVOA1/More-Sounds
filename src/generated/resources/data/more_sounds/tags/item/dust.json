@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "#c:dusts",
+      "required": false
+    },
+    {
+      "id": "#mekanism:dirty_dusts",
+      "required": false
+    },
+    {
+      "id": "gag:sacred_salt",
+      "required": false
+    },
+    {
+      "id": "apotheosis:gem_dust",
+      "required": false
+    },
+    {
+      "id": "twilightforest:armor_shard_cluster",
+      "required": false
+    },
+    {
+      "id": "twilightforest:borer_essence",
+      "required": false
+    },
+    {
+      "id": "twilightforest:exanimate_essence",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "artifacts:pocket_piston"
+  ],
+  "pitch": 1.5,
+  "soundEvent": "minecraft:block.piston.extend"
+}

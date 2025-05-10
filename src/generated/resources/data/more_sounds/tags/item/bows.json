@@ -7,6 +7,14 @@
     {
       "id": "#c:tools/crossbow",
       "required": false
+    },
+    {
+      "id": "cataclysm:cursed_bow",
+      "required": false
+    },
+    {
+      "id": "cataclysm:wrath_of_the_desert",
+      "required": false
     }
   ]
 }

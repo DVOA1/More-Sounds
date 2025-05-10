@@ -5,6 +5,46 @@
       "required": false
     },
     {
+      "id": "apotheosis:gem_fused_slate",
+      "required": false
+    },
+    {
+      "id": "gag:energized_hearthstone",
+      "required": false
+    },
+    {
+      "id": "gag:hearthstone",
+      "required": false
+    },
+    {
+      "id": "twilightforest:charm_of_keeping_3",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_key",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:divine_pearl",
+      "required": false
+    },
+    {
+      "id": "artifacts:chorus_totem",
+      "required": false
+    },
+    {
+      "id": "relics:phantom_boot",
+      "required": false
+    },
+    {
+      "id": "relics:shadow_glaive",
+      "required": false
+    },
+    {
+      "id": "relics:space_dissector",
+      "required": false
+    },
+    {
       "id": "ars_elemental:firenando_charm",
       "required": false
     },
@@ -86,6 +126,142 @@
     },
     {
       "id": "ars_nouveau:wixie_charm",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_enhancement",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_rebirth",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_socketing",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_unnaming",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_withdrawal",
+      "required": false
+    },
+    {
+      "id": "twilightforest:charm_of_keeping_1",
+      "required": false
+    },
+    {
+      "id": "twilightforest:charm_of_keeping_2",
+      "required": false
+    },
+    {
+      "id": "twilightforest:charm_of_life_1",
+      "required": false
+    },
+    {
+      "id": "twilightforest:charm_of_life_2",
+      "required": false
+    },
+    {
+      "id": "twilightforest:magic_beans",
+      "required": false
+    },
+    {
+      "id": "twilightforest:magic_map_focus",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arcane_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cooldown_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ender_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evocation_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:holy_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:nature_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:protection_rune",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cooldown_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ender_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evocation_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:holy_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mana_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:nature_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:protection_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:upgrade_orb",
       "required": false
     }
   ]

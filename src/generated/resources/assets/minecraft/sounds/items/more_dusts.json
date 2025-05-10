@@ -1,7 +1,6 @@
 {
   "keys": [
-    "#c:dusts",
-    "#mekanism:dirty_dusts"
+    "#more_sounds:dust"
   ],
   "pitch": 2.0,
   "soundEvent": "minecraft:block.gravel.hit"

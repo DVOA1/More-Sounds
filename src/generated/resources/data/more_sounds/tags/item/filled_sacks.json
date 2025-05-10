@@ -3,6 +3,14 @@
     {
       "id": "gag:time_sand_pouch",
       "required": false
+    },
+    {
+      "id": "twilightforest:transformation_powder",
+      "required": false
+    },
+    {
+      "id": "relics:spore_sack",
+      "required": false
     }
   ]
 }

@@ -1,0 +1,288 @@
+{
+  "values": [
+    {
+      "id": "apotheosis:gem",
+      "required": false
+    },
+    {
+      "id": "#ae2:quartz_wrench",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:dull_trinket",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:magelight_torch",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:scryers_oculus",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:source_gem",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:starbuncle_shards",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:mark_of_mastery",
+      "required": false
+    },
+    {
+      "id": "twilightforest:carminite",
+      "required": false
+    },
+    {
+      "id": "artifacts:crystal_heart",
+      "required": false
+    },
+    {
+      "id": "apotheosis:common_material",
+      "required": false
+    },
+    {
+      "id": "apotheosis:epic_material",
+      "required": false
+    },
+    {
+      "id": "apotheosis:mythic_material",
+      "required": false
+    },
+    {
+      "id": "apotheosis:rare_material",
+      "required": false
+    },
+    {
+      "id": "apotheosis:uncommon_material",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:amplify_arrow",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:pierce_arrow",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:split_arrow",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:abjuration_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:air_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:conjuration_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:earth_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:fire_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:manipulation_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:water_essence",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:basic_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:rotating_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:timer_spell_turret",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:lingering_flask_cannon",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:splash_flask_cannon",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:shapers_focus",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:summon_focus",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_eye",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_fishing_rod",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_gauntlet",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_mirror",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_shield",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_sword",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay_collector",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay_deposit",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay_splitter",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:relay_warp",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:amulet_of_mana_boost",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:amulet_of_mana_regen",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_turret",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_turret",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_turret",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:manipulation_turret",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:water_turret",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:acceleration_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:arc_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:chaining_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:deceleration_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:homing_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:piercing_prism_lens",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:lesser_air_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:lesser_earth_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:lesser_fire_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:lesser_water_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:necrotic_focus",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:water_focus",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:absorption_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:frost_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:necromancy_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:shielding_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:twilight_gem",
+      "required": false
+    }
+  ]
+}

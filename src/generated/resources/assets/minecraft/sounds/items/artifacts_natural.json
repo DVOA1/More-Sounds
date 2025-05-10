@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "artifacts:rooted_boots",
+    "artifacts:snowshoes",
+    "artifacts:villager_hat"
+  ],
+  "soundEvent": "sounds:block.hay_block.place"
+}

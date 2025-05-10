@@ -27,10 +27,19 @@ public class MoreTags {
         public static final TagKey<Item> RINGS = MoreTagsHelper.Items.createTag("curios:ring");
         public static final TagKey<Item> SPELLBOOK = MoreTagsHelper.Items.createTag("curios:spellbook");
 
+        // AE2 Tags
+        public static final TagKey<Item> AE2_WRENCHES = MoreTagsHelper.Items.createTag("ae2:quartz_wrench");
+
+        // Mekanism Tags
+        public static final TagKey<Item> DIRTY_DUSTS = MoreTagsHelper.Items.createTag("mekanism:dirty_dusts");
+
+        // Ars Nouveau Tags
+        public static final TagKey<Item> MAGIC_ARMOR = MoreTagsHelper.Items.createTag("ars_nouveau:magic_armor");
+
         // Common Tags
         public static final TagKey<Item> WRENCHES = MoreTagsHelper.Items.createTag("c:wrenches");
         public static final TagKey<Item> COMMON_PAPERS = MoreTagsHelper.Items.createTag("c:paper");
-        public static final TagKey<Item> COMMON_METAL_PLATES = MoreTagsHelper.Items.createTag("c:plate");
+        public static final TagKey<Item> COMMON_METAL_PLATES = MoreTagsHelper.Items.createTag("c:plates");
 
         // Minecraft Tags
         public static final TagKey<Item> MINECRAFT_BOATS = MoreTagsHelper.Items.createTag("minecraft:boats");
@@ -53,5 +62,7 @@ public class MoreTags {
         public static final TagKey<Item> MAGIC_ITEMS = MoreTagsHelper.Items.createCustomTag("magic_items");
         public static final TagKey<Item> FILLED_SACKS = MoreTagsHelper.Items.createCustomTag("filled_sacks");
         public static final TagKey<Item> FILLED_BOTTLES = MoreTagsHelper.Items.createCustomTag("filled_bottles");
+        public static final TagKey<Item> CRYSTALS = MoreTagsHelper.Items.createCustomTag("crystal");
+        public static final TagKey<Item> DUSTS = MoreTagsHelper.Items.createCustomTag("dust");
     }
 }

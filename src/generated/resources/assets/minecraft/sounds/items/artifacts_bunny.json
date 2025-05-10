@@ -1,0 +1,6 @@
+{
+  "keys": [
+    "artifacts:bunny_hoppers"
+  ],
+  "soundEvent": "minecraft:entity.rabbit.hurt"
+}

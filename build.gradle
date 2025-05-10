@@ -96,7 +96,7 @@ configurations {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
-    implementation "dev.imb11:sounds:2.4.11+1.21.1+neoforge"
+    //implementation "dev.imb11:sounds:2.4.11+1.21.1+neoforge"
     implementation "net.p3pp3rf1y:sophisticatedcore:1.21.1-1.3.33.963"
 
     runtimeOnly "dev.isxander:yet_another_config_lib_v3:3.6.6+1.21.1:neoforge"

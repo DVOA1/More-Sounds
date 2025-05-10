@@ -37,6 +37,74 @@
       "required": false
     },
     {
+      "id": "#ars_nouveau:magic_armor",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:belt_of_unstable_gifts",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:belt_of_levitation",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mundane_belt",
+      "required": false
+    },
+    {
+      "id": "artifacts:aqua_dashers",
+      "required": false
+    },
+    {
+      "id": "artifacts:lucky_scarf",
+      "required": false
+    },
+    {
+      "id": "artifacts:rooted_boots",
+      "required": false
+    },
+    {
+      "id": "artifacts:scarf_of_invisibility",
+      "required": false
+    },
+    {
+      "id": "artifacts:steadfast_spikes",
+      "required": false
+    },
+    {
+      "id": "artifacts:strider_shoes",
+      "required": false
+    },
+    {
+      "id": "artifacts:running_shoes",
+      "required": false
+    },
+    {
+      "id": "artifacts:vampiric_glove",
+      "required": false
+    },
+    {
+      "id": "relics:elytra_booster",
+      "required": false
+    },
+    {
+      "id": "relics:enders_hand",
+      "required": false
+    },
+    {
+      "id": "relics:midnight_robe",
+      "required": false
+    },
+    {
+      "id": "relics:wool_mitten",
+      "required": false
+    },
+    {
+      "id": "relics:rage_glove",
+      "required": false
+    },
+    {
       "id": "sophisticatedbackpacks:copper_backpack",
       "required": false
     },
@@ -54,6 +122,294 @@
     },
     {
       "id": "sophisticatedbackpacks:netherite_backpack",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:air_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:aqua_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:earth_robes",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_boots",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_hat",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_leggings",
+      "required": false
+    },
+    {
+      "id": "ars_elemental:fire_robes",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:yeti_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:archevoker_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cryomancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:cultist_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:electromancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pumpkin_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wandering_magician_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:plagued_leggings",
+      "required": false
+    },
+    {
+      "id": "artifacts:anglers_hat",
+      "required": false
+    },
+    {
+      "id": "artifacts:cowboy_hat",
+      "required": false
+    },
+    {
+      "id": "relics:amphibian_boot",
+      "required": false
+    },
+    {
+      "id": "relics:springy_boot",
+      "required": false
+    },
+    {
+      "id": "relics:aqua_walker",
+      "required": false
+    },
+    {
+      "id": "relics:magma_walker",
+      "required": false
+    },
+    {
+      "id": "relics:hunter_belt",
+      "required": false
+    },
+    {
+      "id": "relics:leather_belt",
       "required": false
     }
   ]

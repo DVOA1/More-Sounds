@@ -7,6 +7,170 @@
     {
       "id": "#advancednetherite:tier/tools",
       "required": false
+    },
+    {
+      "id": "cataclysm:blazing_grips",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bulwark_of_the_flame",
+      "required": false
+    },
+    {
+      "id": "cataclysm:monstrous_helm",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_warlock_mask",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_elytra_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_leggings",
+      "required": false
+    },
+    {
+      "id": "artifacts:withered_bracelet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:cursium_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_warlock_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_warlock_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:cursium_mage_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:cursium_mage_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ignis_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ignis_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_warlock_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_warlock_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ignis_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ignis_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:cursium_mage_circlet",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:cursium_mage_skirt",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:cursium_mage_elytra",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:ignis_chestplate_elytra",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_axe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_hoe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_pickaxe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_shovel",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_sword",
+      "required": false
+    },
+    {
+      "id": "cataclysm:black_steel_targe",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:paladin_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:speed_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:tarnished_helmet",
+      "required": false
     }
   ]
 }

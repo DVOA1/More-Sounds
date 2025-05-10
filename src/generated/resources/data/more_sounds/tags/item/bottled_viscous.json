@@ -13,6 +13,22 @@
       "required": false
     },
     {
+      "id": "gag:pigment_jar",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_blood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_tears",
+      "required": false
+    },
+    {
+      "id": "relics:blazing_flask",
+      "required": false
+    },
+    {
       "id": "irons_spellbooks:common_ink",
       "required": false
     },
