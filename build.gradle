@@ -23,6 +23,16 @@ repositories {
     flatDir {
         dirs 'lib'
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 //dependencies {
@@ -96,11 +106,11 @@ configurations {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
-    //implementation "dev.imb11:sounds:2.4.11+1.21.1+neoforge"
-    implementation "net.p3pp3rf1y:sophisticatedcore:1.21.1-1.3.33.963"
+    implementation "curse.maven:sounds-925889:6404374"
+    implementation "curse.maven:sophisticatedcore-618298:6495958"
 
-    runtimeOnly "dev.isxander:yet_another_config_lib_v3:3.6.6+1.21.1:neoforge"
-    runtimeOnly "dev.imb11:mru:1.0.16+1.21.1+neoforge"
+    runtimeOnly "curse.maven:yet_another_config_lib_v3-667299:6336630"
+    runtimeOnly "curse.maven:mru-669659:6503834"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
