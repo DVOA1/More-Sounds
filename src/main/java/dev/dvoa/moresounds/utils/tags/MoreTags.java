@@ -64,5 +64,7 @@ public class MoreTags {
         public static final TagKey<Item> FILLED_BOTTLES = MoreTagsHelper.Items.createCustomTag("filled_bottles");
         public static final TagKey<Item> CRYSTALS = MoreTagsHelper.Items.createCustomTag("crystal");
         public static final TagKey<Item> DUSTS = MoreTagsHelper.Items.createCustomTag("dust");
+        public static final TagKey<Item> FOOD = MoreTagsHelper.Items.createCustomTag("food");
+        public static final TagKey<Item> WET = MoreTagsHelper.Items.createCustomTag("wet");
     }
 }

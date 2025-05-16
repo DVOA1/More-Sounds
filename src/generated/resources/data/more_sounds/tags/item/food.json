@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "#c:foods/raw_fish",
+      "required": false
+    },
+    {
+      "id": "#c:foods/cooked_fish",
+      "required": false
+    },
+    {
+      "id": "#c:foods/raw_meat",
+      "required": false
+    },
+    {
+      "id": "#c:foods/cooked_meat",
+      "required": false
+    },
+    {
+      "id": "artifacts:everlasting_beef",
+      "required": false
+    },
+    {
+      "id": "artifacts:eternal_steak",
+      "required": false
+    },
+    {
+      "id": "relics:infinity_ham",
+      "required": false
+    }
+  ]
+}

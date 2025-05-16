@@ -45,6 +45,10 @@
       "required": false
     },
     {
+      "id": "cataclysm:tidal_claws",
+      "required": false
+    },
+    {
       "id": "ars_elemental:firenando_charm",
       "required": false
     },
@@ -262,6 +266,26 @@
     },
     {
       "id": "irons_spellbooks:upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "cataclysm:void_assault_shoulder_weapon",
+      "required": false
+    },
+    {
+      "id": "cataclysm:void_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_bulwark",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_guard",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_maelstrom",
       "required": false
     }
   ]

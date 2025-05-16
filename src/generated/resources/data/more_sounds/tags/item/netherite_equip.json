@@ -37,6 +37,18 @@
       "required": false
     },
     {
+      "id": "cataclysm:infernal_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_incinerator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_effigy",
+      "required": false
+    },
+    {
       "id": "cataclysm:cursium_boots",
       "required": false
     },

@@ -11,7 +11,7 @@
 <a href="https://www.curseforge.com/">
 <img alt="CurseForge Download Badge" src="https://img.shields.io/badge/CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=ffffff" style="cursor:pointer; margin: 0 10px;">
 </a>
-<a href="https://modrinth.com/project/more-sounds">
+<a href="https://modrinth.com/mod/more-sounds">
 <img alt="Modrinth Download Badge" src="https://img.shields.io/badge/Modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=ffffff" style="cursor:pointer; margin: 0 10px;">
 </a>
 <hr>
@@ -45,6 +45,7 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Patchouli
 - Sophisticated Storage In Motion
 - Advanced Netherite
+- Shrink
 
 ### ⚠️ Partial Support
 > [!NOTE]
@@ -56,13 +57,13 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Mekanism
 - Bumblezone
 - PneumaticCraft
-- Modern Industrialization
 - Advanced AE
 - Mekanism Extras
 - CC: Tweaked
 - Advanced Peripherals
 - Deeper and Darker
 - Create 6
+- Aquaculture 2
 
 ### 📦 Common Sounds
 > [!NOTE]
@@ -70,8 +71,9 @@ In the current version, **More Sounds** provides varying levels of support for t
 
 - All Dusts
 - All Dirty Dusts
-- All Bows
+- All Bows/Crossbows
 - All Boats
+- All Raw/Cooked Fish/Meat
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "keys": [
-    "#c:foods/raw_fish"
+    "#more_sounds:food"
   ],
   "pitch": 1.8,
   "soundEvent": "minecraft:entity.puffer_fish.flop"

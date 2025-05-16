@@ -1,6 +1,7 @@
 {
   "keys": [
-    "artifacts:snorkel"
+    "artifacts:snorkel",
+    "artifacts:flippers"
   ],
   "soundEvent": "minecraft:block.bubble_column.upwards_inside"
 }

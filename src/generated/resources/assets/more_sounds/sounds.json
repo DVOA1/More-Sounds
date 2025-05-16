@@ -1,86 +1,109 @@
 {
   "item.bipbip": {
     "sounds": [
-      "more_sounds:bipbip"
+      "more_sounds:item/bipbip"
     ],
     "subtitle": "subtitles.item.bipbip"
   },
+  "item.bone_equip": {
+    "sounds": [
+      "more_sounds:item/equip/bone/equip01",
+      "more_sounds:item/equip/bone/equip02",
+      "more_sounds:item/equip/bone/equip03",
+      "more_sounds:item/equip/bone/equip04",
+      "more_sounds:item/equip/bone/equip05"
+    ],
+    "subtitle": "subtitles.item.equip_bone"
+  },
   "item.bottled_viscous.slosh": {
     "sounds": [
-      "more_sounds:viscous/slosh01",
-      "more_sounds:viscous/slosh02",
-      "more_sounds:viscous/slosh03",
-      "more_sounds:viscous/slosh04",
-      "more_sounds:viscous/slosh05"
+      "more_sounds:item/viscous/slosh01",
+      "more_sounds:item/viscous/slosh02",
+      "more_sounds:item/viscous/slosh03",
+      "more_sounds:item/viscous/slosh04",
+      "more_sounds:item/viscous/slosh05"
     ],
     "subtitle": "subtitles.item.viscous_slosh"
   },
   "item.cardboard.box": {
     "sounds": [
-      "more_sounds:cardboard/cardboard01",
-      "more_sounds:cardboard/cardboard02",
-      "more_sounds:cardboard/cardboard03",
-      "more_sounds:cardboard/cardboard04",
-      "more_sounds:cardboard/cardboard05"
+      "more_sounds:item/cardboard/cardboard01",
+      "more_sounds:item/cardboard/cardboard02",
+      "more_sounds:item/cardboard/cardboard03",
+      "more_sounds:item/cardboard/cardboard04",
+      "more_sounds:item/cardboard/cardboard05"
     ],
     "subtitle": "subtitles.item.cardboard"
   },
+  "item.dark_magic": {
+    "sounds": [
+      "more_sounds:item/dark/breath01",
+      "more_sounds:item/dark/breath02"
+    ],
+    "subtitle": "subtitles.item.dark_breath"
+  },
   "item.filled_sack": {
     "sounds": [
-      "more_sounds:filled_sack/move01",
-      "more_sounds:filled_sack/move02",
-      "more_sounds:filled_sack/move03",
-      "more_sounds:filled_sack/move04",
-      "more_sounds:filled_sack/move05"
+      "more_sounds:item/filled_sack/move01",
+      "more_sounds:item/filled_sack/move02",
+      "more_sounds:item/filled_sack/move03",
+      "more_sounds:item/filled_sack/move04",
+      "more_sounds:item/filled_sack/move05"
     ],
     "subtitle": "subtitles.item.filled_sack"
   },
   "item.interference": {
     "sounds": [
-      "more_sounds:interference"
+      "more_sounds:item/interference"
     ],
     "subtitle": "subtitles.item.interference"
   },
   "item.magic": {
     "sounds": [
-      "more_sounds:magic/hum01",
-      "more_sounds:magic/hum02",
-      "more_sounds:magic/hum03",
-      "more_sounds:magic/hum04"
+      "more_sounds:item/magic/hum01",
+      "more_sounds:item/magic/hum02",
+      "more_sounds:item/magic/hum03",
+      "more_sounds:item/magic/hum04"
     ],
     "subtitle": "subtitles.item.magic_hum"
   },
   "item.metal.box_empty": {
     "sounds": [
-      "more_sounds:metal/box/empty01",
-      "more_sounds:metal/box/empty02",
-      "more_sounds:metal/box/empty03",
-      "more_sounds:metal/box/empty04",
-      "more_sounds:metal/box/empty05"
+      "more_sounds:item/metal/box/empty01",
+      "more_sounds:item/metal/box/empty02",
+      "more_sounds:item/metal/box/empty03",
+      "more_sounds:item/metal/box/empty04",
+      "more_sounds:item/metal/box/empty05"
     ],
     "subtitle": "subtitles.item.metal_box_empty"
   },
   "item.metal.box_full": {
     "sounds": [
-      "more_sounds:metal/box/full01",
-      "more_sounds:metal/box/full02",
-      "more_sounds:metal/box/full03",
-      "more_sounds:metal/box/full04",
-      "more_sounds:metal/box/full05"
+      "more_sounds:item/metal/box/full01",
+      "more_sounds:item/metal/box/full02",
+      "more_sounds:item/metal/box/full03",
+      "more_sounds:item/metal/box/full04",
+      "more_sounds:item/metal/box/full05"
     ],
     "subtitle": "subtitles.item.metal_box_full"
   },
+  "item.night_vision": {
+    "sounds": [
+      "more_sounds:item/night_vision"
+    ],
+    "subtitle": "subtitles.item.night_vision"
+  },
   "item.small_motor": {
     "sounds": [
-      "more_sounds:small_motor"
+      "more_sounds:item/small_motor"
     ],
     "subtitle": "subtitles.item.small_motor"
   },
   "screen.zip": {
     "sounds": [
-      "more_sounds:zip/zip01",
-      "more_sounds:zip/zip02",
-      "more_sounds:zip/zip03"
+      "more_sounds:screen/zip/zip01",
+      "more_sounds:screen/zip/zip02",
+      "more_sounds:screen/zip/zip03"
     ],
     "subtitle": "subtitles.screen.zip"
   }

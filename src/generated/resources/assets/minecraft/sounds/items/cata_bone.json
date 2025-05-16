@@ -1,0 +1,9 @@
+{
+  "keys": [
+    "cataclysm:bone_reptile_helmet",
+    "cataclysm:remnant_skull",
+    "cataclysm:bone_reptile_chestplate"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "more_sounds:item.bone_equip"
+}

@@ -85,6 +85,10 @@
       "required": false
     },
     {
+      "id": "artifacts:helium_flamingo",
+      "required": false
+    },
+    {
       "id": "relics:elytra_booster",
       "required": false
     },

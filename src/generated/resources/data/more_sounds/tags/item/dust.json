@@ -27,6 +27,18 @@
     {
       "id": "twilightforest:exanimate_essence",
       "required": false
+    },
+    {
+      "id": "cataclysm:burning_ashes",
+      "required": false
+    },
+    {
+      "id": "cataclysm:dying_ember",
+      "required": false
+    },
+    {
+      "id": "cataclysm:koboleton_bone",
+      "required": false
     }
   ]
 }

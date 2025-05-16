@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "cataclysm:meat_shredder"
+  ],
+  "soundEvent": "cataclysm:shredder_start",
+  "volume": 0.2
+}

@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "gag:escape_rope"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:block.wool.place"
+}

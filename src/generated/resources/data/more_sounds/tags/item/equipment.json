@@ -52,6 +52,14 @@
       "required": false
     },
     {
+      "id": "artifacts:superstitious_hat",
+      "required": false
+    },
+    {
+      "id": "artifacts:onion_ring",
+      "required": false
+    },
+    {
       "id": "artifacts:warp_drive",
       "required": false
     },
@@ -65,6 +73,58 @@
     },
     {
       "id": "relics:ice_breaker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:amethyst_rapier",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:artificer_cane",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:autoloader_crossbow",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:decrepit_scythe",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:hellrazor",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:lightning_rod",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:magehunter",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:spellbreaker",
+      "required": false
+    },
+    {
+      "id": "cataclysm:athame",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_bardiche",
+      "required": false
+    },
+    {
+      "id": "cataclysm:khopesh",
+      "required": false
+    },
+    {
+      "id": "cataclysm:soul_render",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:spirit_sunderer",
       "required": false
     },
     {
@@ -629,6 +689,62 @@
     },
     {
       "id": "relics:reflection_necklace",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:graybeard_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyrium_staff",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:keeper_flamberge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:legionnaire_flamberge",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:bloom_stone_staff",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:coral_staff",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:fake_wudjets_staff",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:void_staff",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_annihilator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_immolator",
       "required": false
     }
   ]

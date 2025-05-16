@@ -45,6 +45,34 @@
       "required": false
     },
     {
+      "id": "cataclysm:abyssal_sacrifice",
+      "required": false
+    },
+    {
+      "id": "cataclysm_spellbooks:abyssal_upgrade_orb",
+      "required": false
+    },
+    {
+      "id": "cataclysm:amethyst_crab_shell",
+      "required": false
+    },
+    {
+      "id": "ae2:charged_staff",
+      "required": false
+    },
+    {
+      "id": "ae2:entropy_manipulator",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_fixture",
+      "required": false
+    },
+    {
+      "id": "ae2:small_quartz_bud",
+      "required": false
+    },
+    {
       "id": "apotheosis:common_material",
       "required": false
     },
@@ -282,6 +310,102 @@
     },
     {
       "id": "reliquified_twilight_forest:twilight_gem",
+      "required": false
+    },
+    {
+      "id": "cataclysm:amethyst_crab_meat",
+      "required": false
+    },
+    {
+      "id": "cataclysm:blessed_amethyst_crab_meat",
+      "required": false
+    },
+    {
+      "id": "cataclysm:crystallized_coral",
+      "required": false
+    },
+    {
+      "id": "cataclysm:crystallized_coral_fragments",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_crystal",
+      "required": false
+    },
+    {
+      "id": "ae2:charged_certus_quartz_crystal",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_crystal",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_cutting_knife",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_cutting_knife",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_shovel",
       "required": false
     }
   ]

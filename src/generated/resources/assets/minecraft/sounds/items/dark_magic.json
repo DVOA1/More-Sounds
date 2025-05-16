@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:dark_magic"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "more_sounds:item.dark_magic"
+}

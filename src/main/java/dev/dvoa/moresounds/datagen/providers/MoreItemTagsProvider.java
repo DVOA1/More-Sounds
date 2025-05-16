@@ -81,7 +81,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ars_nouveau:spell_sensor"))
                 .addOptional(Location.getResource("ars_additions:xp_jar"))
                 .addOptional(Location.getResource("ars_additions:ender_source_jar"))
-                .addOptional(Location.getResource("relics:magic_mirror"));
+                .addOptional(Location.getResource("relics:magic_mirror"))
+                .addOptional(Location.getResource("cataclysm:sandstorm_in_a_bottle"))
+                .addOptional(Location.getResource("shrink:shrink_bottle"));
 
         appendPattern(glass, "ars_nouveau:(mob|source)_jar");
         appendPattern(glass, "ars_nouveau:potion_(flask|flask_amplify|flask_extend_time)");
@@ -120,7 +122,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ars_nouveau:caster_tome"))
                 .addOptional(Location.getResource("ars_nouveau:worn_notebook"))
                 .addOptional(Location.getResource("ars_nouveau:annotated_codex"))
-                .addOptional(Location.getResource("ars_additions:imbued_spell_parchment"));
+                .addOptional(Location.getResource("ars_additions:imbued_spell_parchment"))
+                .addOptional(Location.getResource("irons_spellbooks:eldritch_manuscript"));
 
         appendPattern(papers, "ars_nouveau:(allow|deny|mimic|scryer|stable_warp|warp)_scroll");
         appendPattern(papers, "ars_nouveau:(apprentice_spell|archmage_spell|creative_spell|novice_spell)_book");
@@ -128,6 +131,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(papers, "ars_additions:(ancient_codex|codex|lost_codex)_entry");
         appendPattern(papers, "ars_elemental:(air_caster|anima_caster|earth_caster|fire_caster|manipulation_caster|water_caster)_tome");
         appendPattern(papers, "twilightforest:(alpha_yeti_banner|hydra_banner|knight_phantom_banner|lich_banner|minoshroom_banner|naga_banner|quest_ram_banner|snow_queen_banner|ur_ghast_banner)_pattern");
+        appendPattern(papers, "irons_spellbooks:furled_(map|map_ancient)");
 
         tag(MoreTags.Items.METAL_PLATES)
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)
@@ -155,6 +159,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("artifacts:strider_shoes"))
                 .addOptional(Location.getResource("artifacts:running_shoes"))
                 .addOptional(Location.getResource("artifacts:vampiric_glove"))
+                .addOptional(Location.getResource("artifacts:helium_flamingo"))
                 .addOptional(Location.getResource("relics:elytra_booster"))
                 .addOptional(Location.getResource("relics:enders_hand"))
                 .addOptional(Location.getResource("relics:midnight_robe"))
@@ -190,10 +195,25 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("artifacts:pickaxe_heater"))
                 .addOptional(Location.getResource("artifacts:power_glove"))
                 .addOptional(Location.getResource("artifacts:universal_attractor"))
+                .addOptional(Location.getResource("artifacts:superstitious_hat"))
+                .addOptional(Location.getResource("artifacts:onion_ring"))
                 .addOptional(Location.getResource("artifacts:warp_drive"))
                 .addOptional(Location.getResource("relics:drowned_belt"))
                 .addOptional(Location.getResource("relics:holy_locket"))
-                .addOptional(Location.getResource("relics:ice_breaker"));
+                .addOptional(Location.getResource("relics:ice_breaker"))
+                .addOptional(Location.getResource("irons_spellbooks:amethyst_rapier"))
+                .addOptional(Location.getResource("irons_spellbooks:artificer_cane"))
+                .addOptional(Location.getResource("irons_spellbooks:autoloader_crossbow"))
+                .addOptional(Location.getResource("irons_spellbooks:decrepit_scythe"))
+                .addOptional(Location.getResource("irons_spellbooks:hellrazor"))
+                .addOptional(Location.getResource("irons_spellbooks:lightning_rod"))
+                .addOptional(Location.getResource("irons_spellbooks:magehunter"))
+                .addOptional(Location.getResource("irons_spellbooks:spellbreaker"))
+                .addOptional(Location.getResource("cataclysm:athame"))
+                .addOptional(Location.getResource("cataclysm:coral_bardiche"))
+                .addOptional(Location.getResource("cataclysm:khopesh"))
+                .addOptional(Location.getResource("cataclysm:soul_render"))
+                .addOptional(Location.getResource("cataclysm_spellbooks:spirit_sunderer"));
 
         appendPattern(std_equip, "mekanismtools:(bronze|lapis_lazuli|osmium|refined_glowstone|refined_obsidian|steel)_(axe|hoe|paxel|pickaxe|shield|shovel|sword|helmet|chestplate|leggings|boots)");
         appendPattern(std_equip, "mekanismtools:(diamond|gold|iron|stone|wood)_paxel");
@@ -211,6 +231,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(std_equip, "artifacts:charm_(of_shrinking|of_sinking)");
         appendPattern(std_equip, "relics:(ice|roller)_skates");
         appendPattern(std_equip, "relics:(jellyfish|reflection)_necklace");
+        appendPattern(std_equip, "irons_spellbooks:(blood|graybeard|ice|pyrium)_staff");
+        appendPattern(std_equip, "irons_spellbooks:(keeper|legionnaire)_flamberge");
+        appendPattern(std_equip, "cataclysm_spellbooks:(bloom_stone|coral|fake_wudjets|void)_staff");
+        appendPattern(std_equip, "cataclysm:(ancient|coral)_spear");
+        appendPattern(std_equip, "cataclysm:the_(annihilator|immolator)");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> neth_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.NETHERITE_EQUIP)
                 .addOptionalTag(MoreTags.Items.ADV_ARMOR)
@@ -221,7 +246,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("cataclysm_spellbooks:abyssal_warlock_mask"))
                 .addOptional(Location.getResource("cataclysm:ignitium_elytra_chestplate"))
                 .addOptional(Location.getResource("irons_spellbooks:netherite_mage_leggings"))
-                .addOptional(Location.getResource("artifacts:withered_bracelet"));
+                .addOptional(Location.getResource("artifacts:withered_bracelet"))
+                .addOptional(Location.getResource("cataclysm:infernal_forge"))
+                .addOptional(Location.getResource("cataclysm:the_incinerator"))
+                .addOptional(Location.getResource("cataclysm:netherite_effigy"));
 
         appendPattern(neth_equip, "cataclysm:(cursium|ignitium)_(boots|chestplate|helmet|leggings)");
         appendPattern(neth_equip, "cataclysm_spellbooks:(abyssal_warlock|cursium_mage|ignis)_(boots|chestplate)");
@@ -258,7 +286,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("artifacts:chorus_totem"))
                 .addOptional(Location.getResource("relics:phantom_boot"))
                 .addOptional(Location.getResource("relics:shadow_glaive"))
-                .addOptional(Location.getResource("relics:space_dissector"));
+                .addOptional(Location.getResource("relics:space_dissector"))
+                .addOptional(Location.getResource("cataclysm:tidal_claws"));
 
         appendPattern(magic_items, "ars_elemental:(firenando|siren)_charm");
         appendPattern(magic_items, "ars_additions:(dispel_protection|ender_mask|fall_prevention|fire_resistance|golden|night_vision|powdered_snow_walk|sonic_boom_protection|undying|void_protection|water_breathing|wither_protection)_charm");
@@ -268,11 +297,15 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(magic_items, "twilightforest:magic_(beans|map_focus)");
         appendPattern(magic_items, "irons_spellbooks:(arcane|blood|cooldown|ender|evocation|fire|holy|ice|lightning|nature|protection)_rune");
         appendPattern(magic_items, "irons_spellbooks:(blood_upgrade|cooldown_upgrade|ender_upgrade|evocation_upgrade|fire_upgrade|holy_upgrade|ice_upgrade|lightning_upgrade|mana_upgrade|nature_upgrade|protection_upgrade|upgrade)_orb");
+        appendPattern(magic_items, "cataclysm:void_(assault_shoulder_weapon|forge)");
+        appendPattern(magic_items, "cataclysm:gauntlet_(of_bulwark|of_guard|of_maelstrom)");
 
         tag(MoreTags.Items.FILLED_SACKS)
                 .addOptional(Location.getResource("gag:time_sand_pouch"))
                 .addOptional(Location.getResource("twilightforest:transformation_powder"))
-                .addOptional(Location.getResource("relics:spore_sack"));
+                .addOptional(Location.getResource("relics:spore_sack"))
+                .addOptional(Location.getResource("gag:mining_dynamite"))
+                .addOptional(Location.getResource("gag:fishing_dynamite"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> filled_bottles = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.FILLED_BOTTLES)
                 .addOptional(Location.getResource("the_bumblezone:sugar_water_bottle"))
@@ -300,7 +333,14 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ars_nouveau:starbuncle_shards"))
                 .addOptional(Location.getResource("ars_elemental:mark_of_mastery"))
                 .addOptional(Location.getResource("twilightforest:carminite"))
-                .addOptional(Location.getResource("artifacts:crystal_heart"));
+                .addOptional(Location.getResource("artifacts:crystal_heart"))
+                .addOptional(Location.getResource("cataclysm:abyssal_sacrifice"))
+                .addOptional(Location.getResource("cataclysm_spellbooks:abyssal_upgrade_orb"))
+                .addOptional(Location.getResource("cataclysm:amethyst_crab_shell"))
+                .addOptional(Location.getResource("ae2:charged_staff"))
+                .addOptional(Location.getResource("ae2:entropy_manipulator"))
+                .addOptional(Location.getResource("ae2:quartz_fixture"))
+                .addOptional(Location.getResource("ae2:small_quartz_bud"));
 
         appendPattern(crystals, "apotheosis:(common|epic|mythic|rare|uncommon)_material");
         appendPattern(crystals, "ars_nouveau:(amplify|pierce|split)_arrow");
@@ -315,6 +355,15 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "ars_elemental:(acceleration_prism|arc_prism|chaining_prism|deceleration_prism|homing_prism|piercing_prism)_lens");
         appendPattern(crystals, "ars_elemental:(air|earth|fire|lesser_air|lesser_earth|lesser_fire|lesser_water|necrotic|water)_focus");
         appendPattern(crystals, "reliquified_twilight_forest:(absorption|frost|necromancy|shielding|twilight)_gem");
+        appendPattern(crystals, "cataclysm:(amethyst_crab|blessed_amethyst_crab)_meat");
+        appendPattern(crystals, "cataclysm:crystallized_(coral|coral_fragments)");
+        appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_axe");
+        appendPattern(crystals, "ae2:(certus_quartz|charged_certus_quartz|fluix)_crystal");
+        appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_sword");
+        appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_pickaxe");
+        appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_hoe");
+        appendPattern(crystals, "ae2:(certus_quartz_cutting|nether_quartz_cutting)_knife");
+        appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_shovel");
 
         tag(MoreTags.Items.DUSTS)
                 .addOptionalTag(Tags.Items.DUSTS)
@@ -323,6 +372,23 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("apotheosis:gem_dust"))
                 .addOptional(Location.getResource("twilightforest:armor_shard_cluster"))
                 .addOptional(Location.getResource("twilightforest:borer_essence"))
-                .addOptional(Location.getResource("twilightforest:exanimate_essence"));
+                .addOptional(Location.getResource("twilightforest:exanimate_essence"))
+                .addOptional(Location.getResource("cataclysm:burning_ashes"))
+                .addOptional(Location.getResource("cataclysm:dying_ember"))
+                .addOptional(Location.getResource("cataclysm:koboleton_bone"));
+
+        tag(MoreTags.Items.FOOD)
+                .addOptionalTag(Tags.Items.FOODS_RAW_FISH)
+                .addOptionalTag(Tags.Items.FOODS_COOKED_FISH)
+                .addOptionalTag(Tags.Items.FOODS_RAW_MEAT)
+                .addOptionalTag(Tags.Items.FOODS_COOKED_MEAT)
+                .addOptional(Location.getResource("artifacts:everlasting_beef"))
+                .addOptional(Location.getResource("artifacts:eternal_steak"))
+                .addOptional(Location.getResource("relics:infinity_ham"));
+
+        tag(MoreTags.Items.WET)
+                .addOptional(Location.getResource("gag:sacred_salve"))
+                .addOptional(Location.getResource("gag:sacred_balm"))
+                .addOptional(Location.getResource("cataclysm:sticky_gloves"));
     }
 }

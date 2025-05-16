@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "artifacts:night_vision_goggles"
+  ],
+  "soundEvent": "more_sound:item.night_vision",
+  "volume": 0.2
+}

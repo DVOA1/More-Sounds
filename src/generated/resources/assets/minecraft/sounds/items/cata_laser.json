@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "cataclysm:laser_gatling"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "cataclysm:harbinger_laser",
+  "volume": 0.2
+}

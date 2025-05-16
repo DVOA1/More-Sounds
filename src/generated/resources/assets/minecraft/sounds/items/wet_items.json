@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:wet"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:block.slime_block.hit"
+}

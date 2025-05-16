@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "gag:sacred_salve",
+      "required": false
+    },
+    {
+      "id": "gag:sacred_balm",
+      "required": false
+    },
+    {
+      "id": "cataclysm:sticky_gloves",
+      "required": false
+    }
+  ]
+}

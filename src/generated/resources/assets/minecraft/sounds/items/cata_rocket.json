@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "cataclysm:wither_assault_shoulder_weapon"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "cataclysm:rocket_launch",
+  "volume": 0.2
+}

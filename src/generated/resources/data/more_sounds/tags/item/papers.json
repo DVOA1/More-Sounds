@@ -59,6 +59,10 @@
       "required": false
     },
     {
+      "id": "irons_spellbooks:eldritch_manuscript",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:allow_scroll",
       "required": false
     },
@@ -176,6 +180,14 @@
     },
     {
       "id": "twilightforest:ur_ghast_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:furled_map",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:furled_map_ancient",
       "required": false
     }
   ]

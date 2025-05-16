@@ -35,6 +35,14 @@
       "required": false
     },
     {
+      "id": "cataclysm:sandstorm_in_a_bottle",
+      "required": false
+    },
+    {
+      "id": "shrink:shrink_bottle",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:mob_jar",
       "required": false
     },
