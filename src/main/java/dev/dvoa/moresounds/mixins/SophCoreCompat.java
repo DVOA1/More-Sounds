@@ -24,20 +24,26 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(StorageScreenBase.class)
 public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> extends AbstractContainerScreen<S> {
     @Unique
-    private Slot more_Sounds$lastHoveredSlot;
+    private ItemStack more_Sounds$lastItemStack;
 
     public SophCoreCompat(S menu, Inventory playerInventory, Component title) {
         super(menu, playerInventory, title);
     }
 
-    @Inject(method = "isHovering", at = {@At(value = "RETURN")})
+    @Inject(
+            method = {"isHovering"},
+            at = {@At("RETURN")}
+    )
     public void $is_mouse_ov_slo(Slot slot, double mouseX, double mouseY, CallbackInfoReturnable<Boolean> cir) {
-        if (cir.getReturnValue() == true && slot != null) {
-            more_Sounds$lastHoveredSlot = slot;
+        if ((Boolean) cir.getReturnValue() && slot != null) {
+            this.more_Sounds$lastItemStack = slot.getItem();
         }
     }
 
-    @Inject(method = "slotClicked", at = {@At(value = "RETURN")})
+    @Inject(
+            method = {"slotClicked"},
+            at = {@At("RETURN")}
+    )
     public void $on_slot_clicked(Slot slot, int slotNumber, int mouseButton, ClickType type, CallbackInfo ci) {
         if (slot != null) {
             ItemStack stack;
@@ -45,7 +51,7 @@ public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> exte
                 stack = getMenu().getCarried();
                 if (stack.isEmpty()) stack = slot.getItem();
             } else {
-                stack = more_Sounds$lastHoveredSlot.getItem();
+                stack = this.more_Sounds$lastItemStack;
             }
             SoundsConfig.get(UISoundsConfig.class).itemClickSoundEffect.playDynamicSound(stack, ItemStackSoundContext.of(DynamicSoundHelper.BlockSoundType.PLACE));
         }
