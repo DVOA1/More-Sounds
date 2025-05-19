@@ -106,7 +106,7 @@ configurations {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
-    //implementation "curse.maven:sounds-925889:6404374"
+    implementation "curse.maven:sounds-925889:6404374"
     implementation "curse.maven:sophisticatedcore-618298:6495958"
 
     runtimeOnly "curse.maven:yet_another_config_lib_v3-667299:6336630"
