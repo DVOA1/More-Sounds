@@ -1,0 +1,204 @@
+{
+  "values": [
+    {
+      "id": "aquaculture:arapaima_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_cod_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_halibut_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:atlantic_herring_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:bayad_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:blackfish_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:bluegill_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:boulti_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:brown_shrooma_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:brown_trout_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:capitaine_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:carp_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:catfish_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gar_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:jellyfish_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:minnow_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:muskellunge_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pacific_halibut_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:perch_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pink_salmon_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:piranha_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:pollock_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:rainbow_trout_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:red_grouper_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:red_shrooma_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:smallmouth_bass_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:synodontis_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:tambaqui_bucket",
+      "required": false
+    },
+    {
+      "id": "aquaculture:tuna_bucket",
+      "required": false
+    },
+    {
+      "id": "cataclysm:modern_remnant_bucket",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_ministrosity_bucket",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_baby_leviathan_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:brine_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:chlorine_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:ethene_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:heavy_water_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:hydrofluoric_acid_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:hydrogen_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:hydrogen_chloride_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:lithium_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:nutritional_paste_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:oxygen_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:sodium_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:steam_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:sulfur_dioxide_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:sulfur_trioxide_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:sulfuric_acid_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:superheated_sodium_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:uranium_hexafluoride_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism:uranium_oxide_bucket",
+      "required": false
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "required": false
     },
     {
+      "id": "create:nixie_tube",
+      "required": false
+    },
+    {
+      "id": "create:stock_ticker",
+      "required": false
+    },
+    {
+      "id": "aquaculture:message_in_a_bottle",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:mob_jar",
       "required": false
     },

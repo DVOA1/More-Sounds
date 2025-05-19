@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "aquaculture:diamond_fishing_rod",
+      "required": false
+    },
+    {
+      "id": "aquaculture:diamond_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_axe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_boots",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_chestplate",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_helmet",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_hoe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_leggings",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_shovel",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_sword",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_fishing_rod",
+      "required": false
+    }
+  ]
+}

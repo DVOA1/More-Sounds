@@ -6,6 +6,38 @@
     {
       "id": "#c:plates",
       "required": false
+    },
+    {
+      "id": "create:brass_hand",
+      "required": false
+    },
+    {
+      "id": "create:crafter_slot_cover",
+      "required": false
+    },
+    {
+      "id": "create:filter",
+      "required": false
+    },
+    {
+      "id": "create:minecart_coupling",
+      "required": false
+    },
+    {
+      "id": "create:propeller",
+      "required": false
+    },
+    {
+      "id": "create:whisk",
+      "required": false
+    },
+    {
+      "id": "create:attribute_filter",
+      "required": false
+    },
+    {
+      "id": "create:package_filter",
+      "required": false
     }
   ]
 }

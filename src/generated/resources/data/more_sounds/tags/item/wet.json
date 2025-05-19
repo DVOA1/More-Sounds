@@ -11,6 +11,34 @@
     {
       "id": "cataclysm:sticky_gloves",
       "required": false
+    },
+    {
+      "id": "create:sticker",
+      "required": false
+    },
+    {
+      "id": "aquaculture:algae",
+      "required": false
+    },
+    {
+      "id": "aquaculture:fish_fillet_raw",
+      "required": false
+    },
+    {
+      "id": "aquaculture:jellyfish",
+      "required": false
+    },
+    {
+      "id": "aquaculture:leech",
+      "required": false
+    },
+    {
+      "id": "aquaculture:sushi",
+      "required": false
+    },
+    {
+      "id": "aquaculture:worm",
+      "required": false
     }
   ]
 }

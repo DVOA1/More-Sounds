@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:wooden"
+  ],
+  "pitch": 1.7,
+  "soundEvent": "sounds:block.spruce_planks.place"
+}

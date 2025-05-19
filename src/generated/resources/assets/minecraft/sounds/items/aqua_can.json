@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "aquaculture:tin_can"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "more_sounds:item.metal.box_full"
+}

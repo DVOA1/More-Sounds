@@ -73,6 +73,22 @@
       "required": false
     },
     {
+      "id": "create:experience_nugget",
+      "required": false
+    },
+    {
+      "id": "create:rose_quartz",
+      "required": false
+    },
+    {
+      "id": "aquaculture:nether_star_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:treasure_chest",
+      "required": false
+    },
+    {
       "id": "apotheosis:common_material",
       "required": false
     },
@@ -406,6 +422,22 @@
     },
     {
       "id": "ae2:nether_quartz_shovel",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:experience_gem",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:greater_experience_gem",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_ingot",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_nugget",
       "required": false
     }
   ]

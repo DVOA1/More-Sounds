@@ -128,6 +128,10 @@
       "required": false
     },
     {
+      "id": "create:goggles",
+      "required": false
+    },
+    {
       "id": "mekanismtools:bronze_axe",
       "required": false
     },
@@ -745,6 +749,50 @@
     },
     {
       "id": "cataclysm:the_immolator",
+      "required": false
+    },
+    {
+      "id": "create:copper_backtank",
+      "required": false
+    },
+    {
+      "id": "create:copper_diving_boots",
+      "required": false
+    },
+    {
+      "id": "create:copper_diving_helmet",
+      "required": false
+    },
+    {
+      "id": "aquaculture:double_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gold_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:heavy_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:iron_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:light_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:redstone_hook",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gold_fishing_rod",
+      "required": false
+    },
+    {
+      "id": "aquaculture:iron_fishing_rod",
       "required": false
     }
   ]

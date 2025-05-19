@@ -66,5 +66,8 @@ public class MoreTags {
         public static final TagKey<Item> DUSTS = MoreTagsHelper.Items.createCustomTag("dust");
         public static final TagKey<Item> FOOD = MoreTagsHelper.Items.createCustomTag("food");
         public static final TagKey<Item> WET = MoreTagsHelper.Items.createCustomTag("wet");
+        public static final TagKey<Item> DIAM_EQUIP = MoreTagsHelper.Items.createCustomTag("diamond_equip");
+        public static final TagKey<Item> WOOD_STUFF = MoreTagsHelper.Items.createCustomTag("wooden");
+        public static final TagKey<Item> FILLED_BUCKETS = MoreTagsHelper.Items.createCustomTag("bucket");
     }
 }

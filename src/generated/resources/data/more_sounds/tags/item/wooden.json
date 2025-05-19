@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "aquaculture:box",
+      "required": false
+    },
+    {
+      "id": "aquaculture:driftwood",
+      "required": false
+    },
+    {
+      "id": "aquaculture:lockbox",
+      "required": false
+    },
+    {
+      "id": "aquaculture:acacia_fish_mount",
+      "required": false
+    },
+    {
+      "id": "aquaculture:birch_fish_mount",
+      "required": false
+    },
+    {
+      "id": "aquaculture:dark_oak_fish_mount",
+      "required": false
+    },
+    {
+      "id": "aquaculture:jungle_fish_mount",
+      "required": false
+    },
+    {
+      "id": "aquaculture:oak_fish_mount",
+      "required": false
+    },
+    {
+      "id": "aquaculture:spruce_fish_mount",
+      "required": false
+    }
+  ]
+}

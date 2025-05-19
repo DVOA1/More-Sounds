@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:bucket"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:item.bucket.fill"
+}

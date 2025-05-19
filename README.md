@@ -19,15 +19,29 @@
 
 🎶 **More Sounds** brings extended mod support to the [**Sounds**](https://github.com/IMB11/Sounds) mod, adding immersive new sound effects and improving compatibility with popular Minecraft mods.
 
----
+<div align="center">
+<h2>🛠 Sounds Compatibility 🛠</h2>
+</div>
 
-## 🧩 Supported Mods
+More Sounds **resolves compatibility issues** with:
 
-In the current version, **More Sounds** provides varying levels of support for the following mods:
+**Sophisticated Core:**
+> [!NOTE]
+> Fixed items sound not playing while using these mods
+
+- **Sophisticated Storage**
+- **Sophisticated Backpacks**
+- **Sophisticated Storage In Motion**
+
+<div align="center">
+<h2>🧩 Supported Mods 🧩</h2>
+</div>
+
+In the current version, **More Sounds** is needed on both client and server side and provides varying levels of support for the following mods:
 
 ### ✅ Full Support
 > [!NOTE]
-> These mods are fully integrated with custom sounds for every item.
+> These mods are fully integrated with custom sounds for every item and block.
 
 - Artifacts
 - Relics
@@ -46,10 +60,11 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Sophisticated Storage In Motion
 - Advanced Netherite
 - Shrink
+- Aquaculture 2
 
 ### ⚠️ Partial Support
 > [!NOTE]
-> These mods have some sound features implemented or in progress.
+> These mods have only a few items implemented.
 
 - Applied Energistics 2 (AE2)
 - Twilight Forest
@@ -63,7 +78,6 @@ In the current version, **More Sounds** provides varying levels of support for t
 - Advanced Peripherals
 - Deeper and Darker
 - Create 6
-- Aquaculture 2
 
 ### 📦 Common Sounds
 > [!NOTE]
@@ -75,14 +89,19 @@ In the current version, **More Sounds** provides varying levels of support for t
 - All Boats
 - All Raw/Cooked Fish/Meat
 
----
+<div align="center">
+  <h2>🐛 Found a bug or got a feature idea? 🎶</h2>
+</div>
 
-## 🛠 Fixes
+<p align="center">
+  If you run into any bugs, have a mod you wanna see supported,<br>
+  or notice missing block/item sounds (only applies to full support),<br>
+  drop it in the <a href="https://github.com/DVOA1/More-Sounds/issues">Issues tab</a> on GitHub.
+</p>
 
-More Sounds also **resolves compatibility issues** with:
+<div align="center">
+  <a href="https://github.com/DVOA1/More-Sounds/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/DVOA1/More-Sounds?style=flat-square&logo=github&color=dark-green">
+  </a>
+</div>
 
-**Sophisticated Core:**
-
-- **Sophisticated Storage**
-- **Sophisticated Backpacks**
-- **Sophisticated Storage In Motion**
