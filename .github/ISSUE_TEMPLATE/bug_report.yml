@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a bug.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - DVOA1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Pointers before submitting a bug report:
+        - Double check the **Issue Tracker** to see if the issue has already been reported.
+
+  - type: input
+    id: version
+    attributes:
+      label: Mod Version
+      placeholder: ex. 0.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your issue
+      description: Be as detailed as possible. What did you expect to happen? What actually happened?
+    validations:
+      required: true
+
+  - type: input
+    id: crashlog
+    attributes:
+      label: Crash Report
+      description: If the game crashed, upload your crash report to https://gist.github.com and paste the link here.
+    validations:
+      required: false
+
+  - type: input
+    id: latestlog
+    attributes:
+      label: Latest Log
+      description: Upload your latest.log to https://gist.github.com and paste the link here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Did the issue happen in singleplayer or on a server?
+      options:
+        - "Singleplayer"
+        - "Server"
+        - "Both"
+    validations:
+      required: true
