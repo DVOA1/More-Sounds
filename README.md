@@ -4,7 +4,7 @@
 
 <p>A <code>Sounds</code> mod addon that adds enhanced audio and modded compatibility</p>
 <a href="https://github.com/DVOA1/More-Sounds/actions/workflows/build.yml"><img src="https://github.com/DVOA1/More-Sounds/actions/workflows/build.yml/badge.svg" alt="Build status badge"/></a>
-<img alt="Version Badge" src="https://img.shields.io/badge/Version-v0.1.0-blue">
+<img alt="Version Badge" src="https://img.shields.io/badge/Version-v0.1.1-blue">
 <img alt="CurseForge Downloads Count" src="https://img.shields.io/curseforge/dt/1269340?logo=curseforge">
 <img alt="Modrinth Downloads Count" src="https://img.shields.io/modrinth/dt/8jvcOd6S?logo=modrinth">
 <h3>Download the mod here:</h3>
