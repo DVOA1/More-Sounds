@@ -29,7 +29,7 @@ public class MoreSounds {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        LOGGER.info("More Sounds has started correctly and registered all providers (hopefully)");
+        LOGGER.info("More Sounds has started correctly!");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

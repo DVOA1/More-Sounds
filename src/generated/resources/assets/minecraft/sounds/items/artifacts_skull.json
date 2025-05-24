@@ -3,6 +3,6 @@
     "artifacts:obsidian_skull"
   ],
   "pitch": 1.5,
-  "soundEvent": "more_sound:item.dark_magic",
+  "soundEvent": "more_sounds:item.dark_magic",
   "volume": 0.2
 }
