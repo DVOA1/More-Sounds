@@ -35,8 +35,8 @@ public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> exte
             at = {@At("RETURN")}
     )
     public void $is_mouse_ov_slo(Slot slot, double mouseX, double mouseY, CallbackInfoReturnable<Boolean> cir) {
-        if ((Boolean) cir.getReturnValue() && slot != null) {
-            this.more_Sounds$lastItemStack = slot.getItem();
+        if (cir.getReturnValue() && slot != null) {
+            more_Sounds$lastItemStack = slot.getItem();
         }
     }
 
@@ -51,7 +51,7 @@ public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> exte
                 stack = getMenu().getCarried();
                 if (stack.isEmpty()) stack = slot.getItem();
             } else {
-                stack = this.more_Sounds$lastItemStack;
+                stack = more_Sounds$lastItemStack;
             }
             SoundsConfig.get(UISoundsConfig.class).itemClickSoundEffect.playDynamicSound(stack, ItemStackSoundContext.of(DynamicSoundHelper.BlockSoundType.PLACE));
         }

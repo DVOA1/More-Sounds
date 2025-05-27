@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
-    "SophCoreCompat"
+    "SophCoreCompat",
+    "jeicompat.RecipesScreen",
+    "jeicompat.SideBar"
   ],
   "injectors": {
     "defaultRequire": 1

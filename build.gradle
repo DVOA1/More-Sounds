@@ -108,6 +108,7 @@ dependencies {
 
     implementation "curse.maven:sounds-925889:6404374"
     implementation "curse.maven:sophisticatedcore-618298:6495958"
+    implementation "curse.maven:jei-238222:5846880"
 
     runtimeOnly "curse.maven:yet_another_config_lib_v3-667299:6336630"
     runtimeOnly "curse.maven:mru-669659:6503834"
