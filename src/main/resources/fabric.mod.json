@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "more_sounds",
+	"version": "1.21.x-0.2.0-beta",
+	"name": "More Sounds",
+	"description": "A Sounds mod addon that adds new sounds and modded support",
+	"authors": [
+		"DVOA"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/more-sound",
+		"sources": "https://github.com/DVOA1/More-Sounds"
+	},
+	"license": "GNU GPLv3",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"more_sounds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"sounds": "*"
+	}
+}
