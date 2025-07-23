@@ -20,6 +20,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+// FIXME - This doesnt work on fabric
+
 @Pseudo
 @Mixin(StorageScreenBase.class)
 public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> extends AbstractContainerScreen<S> {
@@ -34,7 +36,7 @@ public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> exte
             method = {"isHovering"},
             at = {@At("RETURN")}
     )
-    public void $is_mouse_ov_slo(Slot slot, double mouseX, double mouseY, CallbackInfoReturnable<Boolean> cir) {
+    public void $is_mouse_over_slot(Slot slot, double mouseX, double mouseY, CallbackInfoReturnable<Boolean> cir) {
         if (cir.getReturnValue() && slot != null) {
             more_Sounds$lastItemStack = slot.getItem();
         }
