@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.dvoa.moresounds.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "jeicompat.RecipesScreen",
+    "jeicompat.SideBar"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

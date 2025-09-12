@@ -1,8 +1,7 @@
 ## More Sounds 0.2.0-beta
 
 - ✅ Port to Forge
-- ⚠️ Port to Fabric
-- ⚠️ Port to 1.20.x
+- ✅ Port to Fabric
 - ✅ Added JEI support 
 - ✅ Added DE, ES, FR, IT, PT, RU, ZN subtitles translations
 

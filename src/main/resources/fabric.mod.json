@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {},
 	"mixins": [
-		"more_sounds.mixins.json"
+		"more_sounds-fabric.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",

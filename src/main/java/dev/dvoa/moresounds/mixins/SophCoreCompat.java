@@ -20,7 +20,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-// FIXME - This doesnt work on fabric
+// NOTE - This doesnt work on fabric
 
 @Pseudo
 @Mixin(StorageScreenBase.class)
