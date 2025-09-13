@@ -39,6 +39,26 @@
     {
       "id": "aquaculture:worm",
       "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:parasite_115",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:parasite_116",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:hydra_heart",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:goblin_nose",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:firefly_queen",
+      "required": false
     }
   ]
 }

@@ -29,6 +29,10 @@
       "required": false
     },
     {
+      "id": "reliquified_twilight_forest:maple_syrup_bottle",
+      "required": false
+    },
+    {
       "id": "irons_spellbooks:common_ink",
       "required": false
     },

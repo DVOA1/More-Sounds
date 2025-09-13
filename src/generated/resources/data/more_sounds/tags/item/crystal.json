@@ -313,6 +313,22 @@
       "required": false
     },
     {
+      "id": "reliquified_twilight_forest:carminite_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:ether_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:fire_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:frenzy_gem",
+      "required": false
+    },
+    {
       "id": "reliquified_twilight_forest:frost_gem",
       "required": false
     },
@@ -326,6 +342,10 @@
     },
     {
       "id": "reliquified_twilight_forest:twilight_gem",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:vengeful_gem",
       "required": false
     },
     {
@@ -422,6 +442,158 @@
     },
     {
       "id": "ae2:nether_quartz_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:dense_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_block",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:chipped_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:damaged_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawed_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawless_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_bricks",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar",
+      "required": false
+    },
+    {
+      "id": "ae2:printed_calculation_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:printed_engineering_processor",
+      "required": false
+    },
+    {
+      "id": "ae2:printed_logic_processor",
       "required": false
     },
     {

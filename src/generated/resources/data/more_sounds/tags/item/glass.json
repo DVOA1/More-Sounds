@@ -55,6 +55,30 @@
       "required": false
     },
     {
+      "id": "reliquified_twilight_forest:cicada_bottle",
+      "required": false
+    },
+    {
+      "id": "ae2:molecular_assembler",
+      "required": false
+    },
+    {
+      "id": "ae2:monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_glass",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_tank",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:firefly_jar",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:mob_jar",
       "required": false
     },
@@ -360,6 +384,78 @@
     },
     {
       "id": "glassential:yellow_glass_door",
+      "required": false
+    },
+    {
+      "id": "ae2:conversion_monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:dark_monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:semi_dark_monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:storage_monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2:pattern_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2:pattern_encoding_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2:annihilation_plane",
+      "required": false
+    },
+    {
+      "id": "ae2:formation_plane",
+      "required": false
+    },
+    {
+      "id": "ae2:fe_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:fluid_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:item_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:light_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:me_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:redstone_p2p_tunnel",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_energy_acceptor",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_interface",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_pattern_provider",
       "required": false
     }
   ]

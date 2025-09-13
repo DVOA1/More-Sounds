@@ -109,6 +109,14 @@
       "required": false
     },
     {
+      "id": "reliquified_twilight_forest:charm_backpack",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:giant_glove",
+      "required": false
+    },
+    {
       "id": "sophisticatedbackpacks:copper_backpack",
       "required": false
     },
@@ -385,6 +393,26 @@
       "required": false
     },
     {
+      "id": "irons_spellbooks:paladin_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wizard_leggings",
+      "required": false
+    },
+    {
       "id": "artifacts:anglers_hat",
       "required": false
     },
@@ -414,6 +442,18 @@
     },
     {
       "id": "relics:leather_belt",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:chromatic_cloak",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:invisibility_cloak",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:scaled_cloak",
       "required": false
     }
   ]

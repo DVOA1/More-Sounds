@@ -132,6 +132,14 @@
       "required": false
     },
     {
+      "id": "reliquified_twilight_forest:lich_crown",
+      "required": false
+    },
+    {
+      "id": "reliquified_twilight_forest:steel_cape",
+      "required": false
+    },
+    {
       "id": "mekanismtools:bronze_axe",
       "required": false
     },
