@@ -1,25 +1,25 @@
-// 1.21.1	2025-05-19T21:21:39.0555654	Tags for minecraft:item mod id more_sounds
+// 1.21.1	2025-09-13T12:24:05.2333072	Tags for minecraft:item mod id more_sounds
 cebe76e54d9f72d277b3bc469862e9beb36e4465 data/more_sounds/tags/item/bipbip.json
 5d26624448cc1abfbbf583aab95449bdb3e0393d data/more_sounds/tags/item/boats.json
-8ba8cbfa751c261e8c2e3355fd24dd556175f997 data/more_sounds/tags/item/bottled_viscous.json
+be148285f15b4e594a80e200ee9da36924325347 data/more_sounds/tags/item/bottled_viscous.json
 1fe14a36fc42c722fbd214e52ba47cbc533303f0 data/more_sounds/tags/item/bows.json
 b535efde099cf8fbdc1a56d8a63c6a106e836c23 data/more_sounds/tags/item/bucket.json
 db7cfd9f0e6d2126e7754dd424ad025f8b225d47 data/more_sounds/tags/item/cardboard.json
-e8c34a07e98221ab9a29a19a0dc1b6858d409c8e data/more_sounds/tags/item/crystal.json
+41b5c681b1b67091ecd6db82e08a5534ccd3048b data/more_sounds/tags/item/crystal.json
 cdf364a9afe3bfd56a780f6f64a5e10e0063eb24 data/more_sounds/tags/item/diamond_equip.json
 58066494df19d275969925938bf06828aba8680a data/more_sounds/tags/item/dust.json
-463a77e5daa36a3fc2e5c21e47db6c1def28aa7e data/more_sounds/tags/item/equipment.json
+0f59e1b6f567fedd511a8a6f21a81757c7cac3f2 data/more_sounds/tags/item/equipment.json
 1dfd3ec40748c5c7df09937ed9b141a484c17113 data/more_sounds/tags/item/filled_bottles.json
 903c412a9fdf48fd17869a0052d10beb882d0842 data/more_sounds/tags/item/filled_sacks.json
 78cb818dfde31fa5f731fbecf5e861d0d65c631e data/more_sounds/tags/item/food.json
 cf014d2d70eac8b8c76f6e230b06eb70e570897d data/more_sounds/tags/item/generic_wrenches.json
-1b5e039e2e4d643a668e0b740ed66acc61e5086c data/more_sounds/tags/item/glass.json
+8b39628391213a88f55571f70d9825c2581c14e9 data/more_sounds/tags/item/glass.json
 d04b6f16435d656bf8819b21b78a94aa2451e419 data/more_sounds/tags/item/interference.json
-cd625501cec5887e44bd896d96ffa8e38d18043e data/more_sounds/tags/item/leather_things.json
+99ea8f89aeeaef726068ef578478827e4eb179ae data/more_sounds/tags/item/leather_things.json
 74248c07b20c1553f182161880e005d089be1879 data/more_sounds/tags/item/magic_items.json
 d9b74ef6242d5a4cb1bed87c94860f430545dc35 data/more_sounds/tags/item/netherite_equip.json
 8259155fd80e4198c81f42d7e05463308f3e2263 data/more_sounds/tags/item/papers.json
 796609ba6c09435d191a93e3f1d865f857f92b8a data/more_sounds/tags/item/plates.json
 65655e86cba13b1f2896de3d38b7f20b1b680740 data/more_sounds/tags/item/sculk_equip.json
-3c06a907947a95f616f89cd003e6cf9022bfc563 data/more_sounds/tags/item/wet.json
+4ee7c68b82d4833aef35ca7614804cc346c54749 data/more_sounds/tags/item/wet.json
 e7823581c6c31236ef7a0a79151a5fb41cf8b1fd data/more_sounds/tags/item/wooden.json

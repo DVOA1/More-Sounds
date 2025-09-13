@@ -66,7 +66,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("gag:pigment_jar"))
                 .addOptional(Location.getResource("twilightforest:fiery_blood"))
                 .addOptional(Location.getResource("twilightforest:fiery_tears"))
-                .addOptional(Location.getResource("relics:blazing_flask"));
+                .addOptional(Location.getResource("relics:blazing_flask"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:maple_syrup_bottle"));
 
         appendPattern(bott_viscous, "irons_spellbooks:(common|epic|legendary|rare|uncommon)_ink");
 
@@ -93,7 +94,13 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("shrink:shrink_bottle"))
                 .addOptional(Location.getResource("create:nixie_tube"))
                 .addOptional(Location.getResource("create:stock_ticker"))
-                .addOptional(Location.getResource("aquaculture:message_in_a_bottle"));
+                .addOptional(Location.getResource("aquaculture:message_in_a_bottle"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:cicada_bottle"))
+                .addOptional(Location.getResource("ae2:molecular_assembler"))
+                .addOptional(Location.getResource("ae2:monitor"))
+                .addOptional(Location.getResource("ae2:quartz_glass"))
+                .addOptional(Location.getResource("ae2:sky_stone_tank"))
+                .addOptional(Location.getResource("irons_spellbooks:firefly_jar"));
 
         appendPattern(glass, "ars_nouveau:(mob|source)_jar");
         appendPattern(glass, "ars_nouveau:potion_(flask|flask_amplify|flask_extend_time)");
@@ -106,6 +113,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(glass, "glassential:(glass_dark_ethereal|glass_ethereal)_reverse");
         appendPattern(glass, "glassential:glass_(ghostly|light|redstone|slab)");
         appendPattern(glass, "glassential:(black_glass|blue_glass|brown_glass|cyan_glass|gray_glass|green_glass|light_blue_glass|light_gray_glass|lime_glass|magenta_glass|orange_glass|pink_glass|purple_glass|red_glass|tinted_glass|white_glass|yellow_glass)_(trapdoor|door)");
+        appendPattern(glass, "ae2:(conversion|dark|semi_dark|storage)_monitor");
+        appendPattern(glass, "ae2:(crafting|pattern_access|pattern_encoding)_terminal");
+        appendPattern(glass, "ae2:(annihilation|formation)_plane");
+        appendPattern(glass, "ae2:(fe_p2p|fluid_p2p|item_p2p|light_p2p|me_p2p|redstone_p2p)_tunnel");
+        appendPattern(glass, "ae2:cable_(energy_acceptor|interface|pattern_provider)");
 
         tag(MoreTags.Items.INTERFERENCE)
                 .addOptional(Location.getResource("mekanism:pellet_antimatter"))
@@ -183,16 +195,21 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("relics:enders_hand"))
                 .addOptional(Location.getResource("relics:midnight_robe"))
                 .addOptional(Location.getResource("relics:wool_mitten"))
-                .addOptional(Location.getResource("relics:rage_glove"));
+                .addOptional(Location.getResource("relics:rage_glove"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:charm_backpack"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:giant_glove"));
 
         appendPattern(leather_things, "sophisticatedbackpacks:(copper|diamond|gold|iron|netherite)_backpack");
         appendPattern(leather_things, "ars_elemental:(air|aqua|earth|fire)_(boots|hat|leggings|robes)");
         appendPattern(leather_things, "twilightforest:(arctic|yeti)_(boots|chestplate|helmet|leggings)");
         appendPattern(leather_things, "irons_spellbooks:(archevoker|cryomancer|cultist|electromancer|priest|pumpkin|pyromancer|shadowwalker|wandering_magician|plagued)_(chestplate|helmet|boots|leggings)");
+        appendPattern(leather_things, "irons_spellbooks:(paladin|wizard)_chestplate");
+        appendPattern(leather_things, "irons_spellbooks:wizard_(boots|helmet|leggings)");
         appendPattern(leather_things, "artifacts:(anglers|cowboy)_hat");
         appendPattern(leather_things, "relics:(amphibian|springy)_boot");
         appendPattern(leather_things, "relics:(aqua|magma)_walker");
         appendPattern(leather_things, "relics:(hunter|leather)_belt");
+        appendPattern(leather_things, "reliquified_twilight_forest:(chromatic|invisibility|scaled)_cloak");
 
         tag(MoreTags.Items.BOWS)
                 .addOptionalTag(Tags.Items.TOOLS_BOW)
@@ -233,7 +250,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("cataclysm:khopesh"))
                 .addOptional(Location.getResource("cataclysm:soul_render"))
                 .addOptional(Location.getResource("cataclysm_spellbooks:spirit_sunderer"))
-                .addOptional(Location.getResource("create:goggles"));
+                .addOptional(Location.getResource("create:goggles"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:lich_crown"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:steel_cape"));
 
         appendPattern(std_equip, "mekanismtools:(bronze|lapis_lazuli|osmium|refined_glowstone|refined_obsidian|steel)_(axe|hoe|paxel|pickaxe|shield|shovel|sword|helmet|chestplate|leggings|boots)");
         appendPattern(std_equip, "mekanismtools:(diamond|gold|iron|stone|wood)_paxel");
@@ -382,7 +401,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "ars_elemental:(air|earth|fire|manipulation|water)_turret");
         appendPattern(crystals, "ars_elemental:(acceleration_prism|arc_prism|chaining_prism|deceleration_prism|homing_prism|piercing_prism)_lens");
         appendPattern(crystals, "ars_elemental:(air|earth|fire|lesser_air|lesser_earth|lesser_fire|lesser_water|necrotic|water)_focus");
-        appendPattern(crystals, "reliquified_twilight_forest:(absorption|frost|necromancy|shielding|twilight)_gem");
+        appendPattern(crystals, "reliquified_twilight_forest:(absorption|carminite|ether|fire|frenzy|frost|necromancy|shielding|twilight|vengeful)_gem");
         appendPattern(crystals, "cataclysm:(amethyst_crab|blessed_amethyst_crab)_meat");
         appendPattern(crystals, "cataclysm:crystallized_(coral|coral_fragments)");
         appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_axe");
@@ -392,6 +411,14 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_hoe");
         appendPattern(crystals, "ae2:(certus_quartz_cutting|nether_quartz_cutting)_knife");
         appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_shovel");
+        appendPattern(crystals, "ae2:(creative_energy|dense_energy|energy)_cell");
+        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_wall");
+        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_stairs");
+        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|smooth_quartz)_block");
+        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_slab");
+        appendPattern(crystals, "ae2:(chipped_budding|damaged_budding|flawed_budding|flawless_budding)_quartz");
+        appendPattern(crystals, "ae2:quartz_(bricks|pillar)");
+        appendPattern(crystals, "ae2:(printed_calculation|printed_engineering|printed_logic)_processor");
         appendPattern(crystals, "ars_nouveau:(experience|greater_experience)_gem");
         appendPattern(crystals, "aquaculture:neptunium_(ingot|nugget)");
 
@@ -426,7 +453,12 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("aquaculture:jellyfish"))
                 .addOptional(Location.getResource("aquaculture:leech"))
                 .addOptional(Location.getResource("aquaculture:sushi"))
-                .addOptional(Location.getResource("aquaculture:worm"));
+                .addOptional(Location.getResource("aquaculture:worm"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:parasite_115"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:parasite_116"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:hydra_heart"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:goblin_nose"))
+                .addOptional(Location.getResource("reliquified_twilight_forest:firefly_queen"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> diam_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.DIAM_EQUIP)
                 .addOptional(Location.getResource("aquaculture:diamond_fishing_rod"))
@@ -443,7 +475,6 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> buckets = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.FILLED_BUCKETS);
 
-        // DAMN
         appendPattern(buckets, "aquaculture:(arapaima|atlantic_cod|atlantic_halibut|atlantic_herring|bayad|blackfish|bluegill|boulti|brown_shrooma|brown_trout|capitaine|carp|catfish|gar|jellyfish|minnow|muskellunge|pacific_halibut|perch|pink_salmon|piranha|pollock|rainbow_trout|red_grouper|red_shrooma|smallmouth_bass|synodontis|tambaqui|tuna)_bucket");
         appendPattern(buckets, "cataclysm:(modern_remnant|netherite_ministrosity|the_baby_leviathan)_bucket");
         appendPattern(buckets, "mekanism:(brine|chlorine|ethene|heavy_water|hydrofluoric_acid|hydrogen|hydrogen_chloride|lithium|nutritional_paste|oxygen|sodium|steam|sulfur_dioxide|sulfur_trioxide|sulfuric_acid|superheated_sodium|uranium_hexafluoride|uranium_oxide)_bucket");
