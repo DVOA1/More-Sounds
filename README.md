@@ -25,13 +25,22 @@
 
 More Sounds **resolves compatibility issues** with:
 
-**Sophisticated Core:**
 > [!NOTE]
-> Fixed items sound not playing while using these mods
+> These mixin fixes are only available in the NeoForge 1.21.x version
+
+**Sophisticated Core**
+
+Fixed the issue where item sounds didn’t play while using these mods:
 
 - **Sophisticated Storage**
 - **Sophisticated Backpacks**
 - **Sophisticated Storage In Motion**
+
+**JEI**
+
+Fixed item sounds not playing when selecting items
+
+> This fix is included only in the upcoming 0.2.0 version of the mod
 
 <div align="center">
 <h2>🧩 Supported Mods 🧩</h2>
