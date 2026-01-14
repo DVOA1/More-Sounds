@@ -55,7 +55,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "cata_rocket", "keys", List.of("cataclysm:wither_assault_shoulder_weapon"), "sound", "cataclysm:rocket_launch", "volume", 0.2),
             Map.of("type", "items", "name", "cata_bone", "keys", List.of("cataclysm:bone_reptile_helmet", "cataclysm:remnant_skull", "cataclysm:bone_reptile_chestplate"), "sound", "more_sounds:item.bone_equip"),
             Map.of("type", "items", "name", "aqua_can", "keys", List.of("aquaculture:tin_can"), "sound", "more_sounds:item.metal.box_full"),
-            Map.of("type", "screens", "name", "backpack_screen", "keys", List.of("sophisticatedbackpacks:backpack"), "sound", "more_sounds:screen.zip", "pitch", 1.5)
+            Map.of("type", "screens", "name", "backpack_screen", "keys", List.of("sophisticatedbackpacks:backpack"), "sound", "more_sounds:screen.zip", "pitch", 1.5, "volume", 0.5)
     );
 
     @SuppressWarnings("unchecked")

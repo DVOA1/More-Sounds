@@ -330,8 +330,12 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("relics:phantom_boot"))
                 .addOptional(Location.getResource("relics:shadow_glaive"))
                 .addOptional(Location.getResource("relics:space_dissector"))
-                .addOptional(Location.getResource("cataclysm:tidal_claws"));
+                .addOptional(Location.getResource("cataclysm:tidal_claws"))
+                .addOptional(Location.getResource("powah:binding_card_dim"))
+                .addOptional(Location.getResource("powah:charged_snowball"))
+                .addOptional(Location.getResource("powah:ender_core"));
 
+        appendPattern(magic_items, "powah:(aerial|player_aerial)_pearl");
         appendPattern(magic_items, "ars_elemental:(firenando|siren)_charm");
         appendPattern(magic_items, "ars_additions:(dispel_protection|ender_mask|fall_prevention|fire_resistance|golden|night_vision|powdered_snow_walk|sonic_boom_protection|undying|void_protection|water_breathing|wither_protection)_charm");
         appendPattern(magic_items, "ars_nouveau:(alakarkinos|amethyst_golem|bookwyrm|drygmy|starbuncle|whirlisprig|wixie)_charm");
@@ -387,7 +391,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("create:experience_nugget"))
                 .addOptional(Location.getResource("create:rose_quartz"))
                 .addOptional(Location.getResource("aquaculture:nether_star_hook"))
-                .addOptional(Location.getResource("aquaculture:treasure_chest"));
+                .addOptional(Location.getResource("aquaculture:treasure_chest"))
+                .addOptional(Location.getResource("powah:lens_of_ender"))
+                .addOptional(Location.getResource("powah:photoelectric_pane"))
+                .addOptional(Location.getResource("powah:uraninite"))
+                .addOptional(Location.getResource("powah:uraninite_raw"));
 
         appendPattern(crystals, "apotheosis:(common|epic|mythic|rare|uncommon)_material");
         appendPattern(crystals, "ars_nouveau:(amplify|pierce|split)_arrow");
@@ -421,6 +429,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "ae2:(printed_calculation|printed_engineering|printed_logic)_processor");
         appendPattern(crystals, "ars_nouveau:(experience|greater_experience)_gem");
         appendPattern(crystals, "aquaculture:neptunium_(ingot|nugget)");
+        appendPattern(crystals, "powah:(blazing_crystal|energized_steel|niotic_crystal|nitro_crystal|spirited_crystal|uraninite)_block");
+        appendPattern(crystals, "powah:(crystal|solar_panel)_nitro");
+        appendPattern(crystals, "powah:crystal_(blazing|niotic|spirited)");
 
         tag(MoreTags.Items.DUSTS)
                 .addOptionalTag(Tags.Items.DUSTS)
