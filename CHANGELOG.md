@@ -1,9 +1,9 @@
 ## More Sounds 0.2.0-beta
 
 - Full support for: Reliquified Twilight Forest
-- More support for: AE2, Mekanism
+- More support for: AE2, Mekanism, ME Requester, Advanced AE, Mekanism Extra, Powah, Apotheosis, Extended AE
 - Port to Fabric and Forge [ALPHA *]
-- Added JEI support [Neoforge Only]
+- Added JEI, AE2 (Terminal) support
 - Added DE, ES, FR, IT, PT, RU, ZN subtitles translations **
 - Added new sounds:
   - Cables: Electric, Fluids, Gasses
