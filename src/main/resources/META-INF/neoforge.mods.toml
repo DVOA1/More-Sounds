@@ -92,5 +92,12 @@ description='''${mod_description}'''
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+    modId="ae2"
+    type="optional"
+    versionRange="any"
+    ordering="NONE"
+    side="BOTH"
+
 [modproperties.${mod_id}]
     catalogueImageIcon = "logo.png"

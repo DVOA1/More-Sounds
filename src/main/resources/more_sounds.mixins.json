@@ -5,6 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
+    "AE2Compat.AEScreenCompat",
+    "AE2Compat.MEScreenCompat",
     "SophCoreCompat",
     "jeicompat.RecipesScreen",
     "jeicompat.SideBar"
