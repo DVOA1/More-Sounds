@@ -1,10 +1,12 @@
 ## More Sounds 0.2.0-beta
 
 - Full support for: Reliquified Twilight Forest
-- More support for: AE2
+- More support for: AE2, Mekanism
 - Port to Fabric and Forge [ALPHA *]
 - Added JEI support [Neoforge Only]
 - Added DE, ES, FR, IT, PT, RU, ZN subtitles translations **
+- Added new sounds:
+  - Cables: Electric, Fluids, Gasses
 
 `* The alpha version may not work as expected. Currently, the only missing part is the mixins for Sophisticated Core.`
 
