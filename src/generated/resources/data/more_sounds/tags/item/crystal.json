@@ -105,6 +105,14 @@
       "required": false
     },
     {
+      "id": "mekanism:nugget_refined_glowstone",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_iron",
+      "required": false
+    },
+    {
       "id": "apotheosis:common_material",
       "required": false
     },
@@ -670,6 +678,86 @@
     },
     {
       "id": "powah:crystal_spirited",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_tin",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_gold",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_gold",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_gold",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_osmium",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_osmium",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_osmium",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_copper",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_copper",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_copper",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_uranium",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_uranium",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_uranium",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_iron",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_iron",
+      "required": false
+    },
+    {
+      "id": "mekanism:clump_lead",
+      "required": false
+    },
+    {
+      "id": "mekanism:crystal_lead",
+      "required": false
+    },
+    {
+      "id": "mekanism:shard_lead",
       "required": false
     }
   ]

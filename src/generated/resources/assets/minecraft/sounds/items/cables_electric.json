@@ -2,6 +2,5 @@
   "keys": [
     "#more_sounds:cables_electric"
   ],
-  "pitch": 2.0,
   "soundEvent": "more_sounds:item.cable.electric"
 }

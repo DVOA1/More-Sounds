@@ -27,6 +27,42 @@
     {
       "id": "mekanism:ultimate_mechanical_pipe",
       "required": false
+    },
+    {
+      "id": "mekanism:advanced_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:creative_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:absolute_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:cosmic_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:infinite_fluid_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:supreme_fluid_tank",
+      "required": false
     }
   ]
 }

@@ -140,6 +140,46 @@
       "required": false
     },
     {
+      "id": "mekanism:hdpe_elytra",
+      "required": false
+    },
+    {
+      "id": "mekanism:atomic_disassembler",
+      "required": false
+    },
+    {
+      "id": "mekanism:flamethrower",
+      "required": false
+    },
+    {
+      "id": "mekanism:free_runners",
+      "required": false
+    },
+    {
+      "id": "mekanism:jetpack",
+      "required": false
+    },
+    {
+      "id": "mekanism:meka_tool",
+      "required": false
+    },
+    {
+      "id": "mekanism:free_runners_armored",
+      "required": false
+    },
+    {
+      "id": "mekanism:jetpack_armored",
+      "required": false
+    },
+    {
+      "id": "mekanism:scuba_mask",
+      "required": false
+    },
+    {
+      "id": "mekanism:scuba_tank",
+      "required": false
+    },
+    {
       "id": "mekanismtools:bronze_axe",
       "required": false
     },

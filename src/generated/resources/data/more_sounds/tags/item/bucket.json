@@ -199,6 +199,46 @@
     {
       "id": "mekanism:uranium_oxide_bucket",
       "required": false
+    },
+    {
+      "id": "mekanism_extras:fluorinated_naquadah_uranium_fuel_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:naquadah_hexafluoride_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:polonium-208_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:polonium_containing_solution_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:rich_naquadah_fuel_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:rich_uranium_fuel_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:bioethanol_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:deuterium_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:fusion_fuel_bucket",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:tritium_bucket",
+      "required": false
     }
   ]
 }

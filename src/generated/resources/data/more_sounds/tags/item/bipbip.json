@@ -45,6 +45,38 @@
       "required": false
     },
     {
+      "id": "merequester:wireless_requester_terminal",
+      "required": false
+    },
+    {
+      "id": "extendedae:wireless_ex_pat",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:wireless_quantum_crafter_terminal",
+      "required": false
+    },
+    {
+      "id": "mekanism:digital_miner",
+      "required": false
+    },
+    {
+      "id": "mekanism:formulaic_assemblicator",
+      "required": false
+    },
+    {
+      "id": "mekanism:modification_station",
+      "required": false
+    },
+    {
+      "id": "mekanism:oredictionificator",
+      "required": false
+    },
+    {
+      "id": "mekanism:security_desk",
+      "required": false
+    },
+    {
       "id": "buildinggadgets2:gadget_building",
       "required": false
     },
@@ -94,6 +126,150 @@
     },
     {
       "id": "mekanism:portable_teleporter",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_access_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_pattern_encoding_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2wtlib:wireless_universal_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_terminal",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_crafting_terminal",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_attack_amplification_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_blasting_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_charge_distribution_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_color_modulation_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_dosimeter_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_electrolytic_breathing_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_elytra_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_energy_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_excavation_escalation_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_farming_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_fortune_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_frost_walker_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_geiger_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_gravitational_modulating_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_gyroscopic_stabilization_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_hydraulic_propulsion_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_hydrostatic_repulsor_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_inhalation_purification_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_jetpack_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_laser_dissipation_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_locomotive_boosting_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_magnetic_attraction_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_motorized_servo_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_nutritional_injection_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_radiation_shielding_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_shearing_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_silk_touch_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_soul_surfer_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_teleportation_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_vein_mining_unit",
+      "required": false
+    },
+    {
+      "id": "mekanism:module_vision_enhancement_unit",
       "required": false
     }
   ]

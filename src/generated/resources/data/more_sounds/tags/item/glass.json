@@ -75,7 +75,59 @@
       "required": false
     },
     {
+      "id": "ae2:terminal",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_access_part",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_crafter_terminal",
+      "required": false
+    },
+    {
+      "id": "mekanism:qio_dashboard",
+      "required": false
+    },
+    {
       "id": "irons_spellbooks:firefly_jar",
+      "required": false
+    },
+    {
+      "id": "merequester:requester_terminal",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:laser_focus_matrix",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:reactor_glass",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:solar_panel",
+      "required": false
+    },
+    {
+      "id": "mekanism:structural_glass",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:lapis_lazuli_helmet",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:refined_glowstone_chestplate",
+      "required": false
+    },
+    {
+      "id": "mekanismtools:steel_boots",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_fiber",
       "required": false
     },
     {
@@ -456,6 +508,34 @@
     },
     {
       "id": "ae2:cable_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:advanced_solar_generator",
+      "required": false
+    },
+    {
+      "id": "mekanismgenerators:solar_generator",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_covered_cable",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_covered_dense_cable",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_glass_cable",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_smart_cable",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_smart_dense_cable",
       "required": false
     }
   ]
