@@ -130,6 +130,33 @@ public class MoreSoundDefProvider extends SoundDefinitionsProvider {
                 .subtitle("subtitles.item.equip_bone")
         );
 
+        add(MoreSoundsSoundRegistry.CABLE_ELECTRIC, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:item/cable/electric/electric1", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/electric/electric2", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/electric/electric3", SoundDefinition.SoundType.SOUND)
+                )
+                .subtitle("subtitles.item.cable.electric")
+        );
+
+        add(MoreSoundsSoundRegistry.CABLE_FLUID, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:item/cable/fluid/fluid1", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/fluid/fluid2", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/fluid/fluid3", SoundDefinition.SoundType.SOUND)
+                )
+                .subtitle("subtitles.item.cable.fluid")
+        );
+
+        add(MoreSoundsSoundRegistry.CABLE_GAS, SoundDefinition.definition()
+                .with(
+                        sound("more_sounds:item/cable/gas/gas1", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/gas/gas2", SoundDefinition.SoundType.SOUND),
+                        sound("more_sounds:item/cable/gas/gas3", SoundDefinition.SoundType.SOUND)
+                )
+                .subtitle("subtitles.item.cable.gas")
+        );
+
         add(MoreSoundsSoundRegistry.ZIP, SoundDefinition.definition()
                 .with(
                         sound("more_sounds:screen/zip/zip01", SoundDefinition.SoundType.SOUND),

@@ -26,6 +26,9 @@ public class MoreSoundsSoundRegistry {
     public static Supplier<SoundEvent> NIGHT_VISION = registerSoundEvent("item.night_vision");
     public static Supplier<SoundEvent> DARK_MAGIC = registerSoundEvent("item.dark_magic");
     public static Supplier<SoundEvent> BONE_EQUIP = registerSoundEvent("item.bone_equip");
+    public static Supplier<SoundEvent> CABLE_ELECTRIC = registerSoundEvent("item.cable.electric");
+    public static Supplier<SoundEvent> CABLE_FLUID = registerSoundEvent("item.cable.fluid");
+    public static Supplier<SoundEvent> CABLE_GAS = registerSoundEvent("item.cable.gas");
 
     public static Supplier<SoundEvent> ZIP = registerSoundEvent("screen.zip");
 

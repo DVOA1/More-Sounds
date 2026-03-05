@@ -36,6 +36,9 @@ public class MoreTags {
         // Ars Nouveau Tags
         public static final TagKey<Item> MAGIC_ARMOR = MoreTagsHelper.Items.createTag("ars_nouveau:magic_armor");
 
+        // Modern Industrializzation
+        public static final TagKey<Item> MI_FLUID_PIPES = MoreTagsHelper.Items.createTag("modern_industrialization:fluid_pipes");
+
         // Common Tags
         public static final TagKey<Item> WRENCHES = MoreTagsHelper.Items.createTag("c:wrenches");
         public static final TagKey<Item> COMMON_PAPERS = MoreTagsHelper.Items.createTag("c:paper");
@@ -69,5 +72,8 @@ public class MoreTags {
         public static final TagKey<Item> DIAM_EQUIP = MoreTagsHelper.Items.createCustomTag("diamond_equip");
         public static final TagKey<Item> WOOD_STUFF = MoreTagsHelper.Items.createCustomTag("wooden");
         public static final TagKey<Item> FILLED_BUCKETS = MoreTagsHelper.Items.createCustomTag("bucket");
+        public static final TagKey<Item> CABLES_ELECTRIC = MoreTagsHelper.Items.createCustomTag("cables_electric");
+        public static final TagKey<Item> CABLES_FLUID = MoreTagsHelper.Items.createCustomTag("cables_fluid");
+        public static final TagKey<Item> CABLES_GAS = MoreTagsHelper.Items.createCustomTag("cables_gas");
     }
 }

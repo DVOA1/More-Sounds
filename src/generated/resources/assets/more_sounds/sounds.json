@@ -25,6 +25,30 @@
     ],
     "subtitle": "subtitles.item.viscous_slosh"
   },
+  "item.cable.electric": {
+    "sounds": [
+      "more_sounds:item/cable/electric/electric1",
+      "more_sounds:item/cable/electric/electric2",
+      "more_sounds:item/cable/electric/electric3"
+    ],
+    "subtitle": "subtitles.item.cable.electric"
+  },
+  "item.cable.fluid": {
+    "sounds": [
+      "more_sounds:item/cable/fluid/fluid1",
+      "more_sounds:item/cable/fluid/fluid2",
+      "more_sounds:item/cable/fluid/fluid3"
+    ],
+    "subtitle": "subtitles.item.cable.fluid"
+  },
+  "item.cable.gas": {
+    "sounds": [
+      "more_sounds:item/cable/gas/gas1",
+      "more_sounds:item/cable/gas/gas2",
+      "more_sounds:item/cable/gas/gas3"
+    ],
+    "subtitle": "subtitles.item.cable.gas"
+  },
   "item.cardboard.box": {
     "sounds": [
       "more_sounds:item/cardboard/cardboard01",

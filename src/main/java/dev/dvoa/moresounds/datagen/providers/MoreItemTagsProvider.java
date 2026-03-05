@@ -489,5 +489,26 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(buckets, "aquaculture:(arapaima|atlantic_cod|atlantic_halibut|atlantic_herring|bayad|blackfish|bluegill|boulti|brown_shrooma|brown_trout|capitaine|carp|catfish|gar|jellyfish|minnow|muskellunge|pacific_halibut|perch|pink_salmon|piranha|pollock|rainbow_trout|red_grouper|red_shrooma|smallmouth_bass|synodontis|tambaqui|tuna)_bucket");
         appendPattern(buckets, "cataclysm:(modern_remnant|netherite_ministrosity|the_baby_leviathan)_bucket");
         appendPattern(buckets, "mekanism:(brine|chlorine|ethene|heavy_water|hydrofluoric_acid|hydrogen|hydrogen_chloride|lithium|nutritional_paste|oxygen|sodium|steam|sulfur_dioxide|sulfur_trioxide|sulfuric_acid|superheated_sodium|uranium_hexafluoride|uranium_oxide)_bucket");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> cables_electric = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CABLES_ELECTRIC);
+
+        appendPattern(cables_electric, "mekanism:(advanced_universal|basic_universal|elite_universal|ultimate_universal)_cable");
+        appendPattern(cables_electric, "mekanism_extras:(absolute_universal|cosmic_universal|infinite_universal|supreme_universal)_cable");
+        appendPattern(cables_electric, "powah:energy_(cable_basic|cable_blazing|cable_hardened|cable_niotic|cable_nitro|cable_spirited|cable_starter)");
+        appendPattern(cables_electric, "moderndynamics:(ev|hv|lv|mv|superconductor)_cable");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> cables_gas = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CABLES_GAS)
+                .addOptional(Location.getResource("pipez:gas_pipe"));
+
+        appendPattern(cables_gas, "mekanism:(advanced_pressurized|basic_pressurized|elite_pressurized|ultimate_pressurized)_tube");
+        appendPattern(cables_gas, "mekanism_extras:(absolute_pressurized|cosmic_pressurized|infinite_pressurized|supreme_pressurized)_tube");
+        appendPattern(cables_gas, "pneumaticcraft:(advanced_pressure|pressure|reinforced_pressure)_tube");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> cables_fluid = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CABLES_FLUID)
+                .addOptional(Location.getResource("moderndynamics:fluid_pipe"))
+                .addOptional(Location.getResource("pipez:fluid_pipe"))
+                .addOptionalTag(MoreTags.Items.MI_FLUID_PIPES);
+
+        appendPattern(cables_fluid, "mekanism:(advanced_mechanical|basic_mechanical|elite_mechanical|ultimate_mechanical)_pipe");
     }
 }

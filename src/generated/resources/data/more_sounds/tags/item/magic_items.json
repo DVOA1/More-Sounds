@@ -49,6 +49,26 @@
       "required": false
     },
     {
+      "id": "powah:binding_card_dim",
+      "required": false
+    },
+    {
+      "id": "powah:charged_snowball",
+      "required": false
+    },
+    {
+      "id": "powah:ender_core",
+      "required": false
+    },
+    {
+      "id": "powah:aerial_pearl",
+      "required": false
+    },
+    {
+      "id": "powah:player_aerial_pearl",
+      "required": false
+    },
+    {
       "id": "ars_elemental:firenando_charm",
       "required": false
     },

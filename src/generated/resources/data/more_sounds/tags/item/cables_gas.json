@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "pipez:gas_pipe",
+      "required": false
+    },
+    {
+      "id": "mekanism:advanced_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:absolute_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:cosmic_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:infinite_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:supreme_pressurized_tube",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:advanced_pressure_tube",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:pressure_tube",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:reinforced_pressure_tube",
+      "required": false
+    }
+  ]
+}
