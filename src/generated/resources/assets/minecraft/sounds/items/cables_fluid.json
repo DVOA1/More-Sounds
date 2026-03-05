@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:cables_fluid"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "more_sounds:item.cable.fluid"
+}

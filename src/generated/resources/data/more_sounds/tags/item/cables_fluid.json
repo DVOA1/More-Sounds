@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "moderndynamics:fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "pipez:fluid_pipe",
+      "required": false
+    },
+    {
+      "id": "#modern_industrialization:fluid_pipes",
+      "required": false
+    },
+    {
+      "id": "mekanism:advanced_mechanical_pipe",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_mechanical_pipe",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_mechanical_pipe",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_mechanical_pipe",
+      "required": false
+    }
+  ]
+}

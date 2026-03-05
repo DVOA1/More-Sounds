@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "mekanism:advanced_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:absolute_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:cosmic_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:infinite_universal_cable",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:supreme_universal_cable",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_basic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cable_starter",
+      "required": false
+    },
+    {
+      "id": "moderndynamics:ev_cable",
+      "required": false
+    },
+    {
+      "id": "moderndynamics:hv_cable",
+      "required": false
+    },
+    {
+      "id": "moderndynamics:lv_cable",
+      "required": false
+    },
+    {
+      "id": "moderndynamics:mv_cable",
+      "required": false
+    },
+    {
+      "id": "moderndynamics:superconductor_cable",
+      "required": false
+    }
+  ]
+}

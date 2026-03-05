@@ -89,6 +89,22 @@
       "required": false
     },
     {
+      "id": "powah:lens_of_ender",
+      "required": false
+    },
+    {
+      "id": "powah:photoelectric_pane",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_raw",
+      "required": false
+    },
+    {
       "id": "apotheosis:common_material",
       "required": false
     },
@@ -610,6 +626,50 @@
     },
     {
       "id": "aquaculture:neptunium_nugget",
+      "required": false
+    },
+    {
+      "id": "powah:blazing_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:energized_steel_block",
+      "required": false
+    },
+    {
+      "id": "powah:niotic_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:nitro_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:spirited_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_block",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:crystal_spirited",
       "required": false
     }
   ]
