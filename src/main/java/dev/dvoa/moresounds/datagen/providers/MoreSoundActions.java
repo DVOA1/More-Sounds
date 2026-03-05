@@ -35,9 +35,9 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "wet_items", "keys", List.of("#more_sounds:wet"), "sound", "minecraft:block.slime_block.hit"),
             Map.of("type", "items", "name", "generic_wood", "keys", List.of("#more_sounds:wooden"), "sound", "sounds:block.spruce_planks.place", "pitch", 1.7),
             Map.of("type", "items", "name", "more_buckets", "keys", List.of("#more_sounds:bucket"), "sound", "minecraft:item.bucket.fill"),
-            Map.of("type", "items", "name", "cables_electric", "keys", List.of("#more_sounds:cables_electric"), "sound", "more_sounds:item.cable.electric"),
-            Map.of("type", "items", "name", "cables_gas", "keys", List.of("#more_sounds:cables_gas"), "sound", "more_sounds:item.cable.gas"),
-            Map.of("type", "items", "name", "cables_fluid", "keys", List.of("#more_sounds:cables_fluid"), "sound", "more_sounds:item.cable.fluid"),
+            Map.of("type", "items", "name", "cables_electric", "keys", List.of("#more_sounds:cables_electric"), "sound", "more_sounds:item.cable.electric", "pitch", 1.0),
+            Map.of("type", "items", "name", "cables_gas", "keys", List.of("#more_sounds:cables_gas"), "sound", "more_sounds:item.cable.gas", "pitch", 1.0),
+            Map.of("type", "items", "name", "cables_fluid", "keys", List.of("#more_sounds:cables_fluid"), "sound", "more_sounds:item.cable.fluid", "pitch", 1.0),
 
             // Mod Specific
             Map.of("type", "items", "name", "fwomp", "keys", List.of("create:potato_cannon"), "sound", "create:fwoomp"),
