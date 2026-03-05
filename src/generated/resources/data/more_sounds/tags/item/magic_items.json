@@ -173,6 +173,14 @@
       "required": false
     },
     {
+      "id": "apotheosis:sigil_of_malice",
+      "required": false
+    },
+    {
+      "id": "apotheosis:sigil_of_supremacy",
+      "required": false
+    },
+    {
       "id": "twilightforest:charm_of_keeping_1",
       "required": false
     },

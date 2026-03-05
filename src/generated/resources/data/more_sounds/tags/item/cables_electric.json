@@ -1,6 +1,26 @@
 {
   "values": [
     {
+      "id": "powah:battery_starter",
+      "required": false
+    },
+    {
+      "id": "powah:charged_snowball",
+      "required": false
+    },
+    {
+      "id": "powah:dielectric_paste",
+      "required": false
+    },
+    {
+      "id": "powah:wrench",
+      "required": false
+    },
+    {
+      "id": "mekanism:energy_tablet",
+      "required": false
+    },
+    {
       "id": "mekanism:advanced_universal_cable",
       "required": false
     },
@@ -78,6 +98,66 @@
     },
     {
       "id": "moderndynamics:superconductor_cable",
+      "required": false
+    },
+    {
+      "id": "powah:battery_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:battery_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_basic_large",
+      "required": false
+    },
+    {
+      "id": "powah:capacitor_basic_tiny",
+      "required": false
+    },
+    {
+      "id": "mekanism:advanced_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism:creative_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:absolute_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:cosmic_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:infinite_energy_cube",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:supreme_energy_cube",
       "required": false
     }
   ]

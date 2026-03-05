@@ -47,6 +47,42 @@
     {
       "id": "pneumaticcraft:reinforced_pressure_tube",
       "required": false
+    },
+    {
+      "id": "mekanism:advanced_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:basic_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:creative_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:elite_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism:ultimate_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:absolute_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:cosmic_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:infinite_chemical_tank",
+      "required": false
+    },
+    {
+      "id": "mekanism_extras:supreme_chemical_tank",
+      "required": false
     }
   ]
 }
