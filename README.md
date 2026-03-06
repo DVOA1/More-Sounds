@@ -40,7 +40,9 @@ Fixed the issue where item sounds didn’t play while using these mods:
 
 Fixed item sounds not playing when selecting items
 
-> This fix is included only in the upcoming 0.2.0 version of the mod
+**AE2**
+
+Fixed item sounds not playing in terminals
 
 <div align="center">
 <h2>🧩 Supported Mods 🧩</h2>
