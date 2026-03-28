@@ -7,7 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.List;
 
-
 public record SoundAction(
         List<String> keys,
         ResourceLocation soundEvent,

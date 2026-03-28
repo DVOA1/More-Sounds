@@ -61,6 +61,16 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(bipbip, "mekanism:(module_attack_amplification|module_blasting|module_charge_distribution|module_color_modulation|module_dosimeter|module_electrolytic_breathing|module_elytra|module_energy|module_excavation_escalation|module_farming|module_fortune|module_frost_walker|module_geiger|module_gravitational_modulating|module_gyroscopic_stabilization|module_hydraulic_propulsion|module_hydrostatic_repulsor|module_inhalation_purification|module_jetpack|module_laser_dissipation|module_locomotive_boosting|module_magnetic_attraction|module_motorized_servo|module_nutritional_injection|module_radiation_shielding|module_shearing|module_silk_touch|module_soul_surfer|module_teleportation|module_vein_mining|module_vision_enhancement)_unit");
 
         tag(MoreTags.Items.BOATS)
+                .addOptional(Location.getResource("deep_aether:roseroot_boat"))
+                .addOptional(Location.getResource("deep_aether:roseroot_chest_boat"))
+                .addOptional(Location.getResource("deep_aether:yagroot_boat"))
+                .addOptional(Location.getResource("deep_aether:yagroot_chest_boat"))
+                .addOptional(Location.getResource("deep_aether:cruderoot_boat"))
+                .addOptional(Location.getResource("deep_aether:cruderoot_chest_boat"))
+                .addOptional(Location.getResource("deep_aether:conberry_boat"))
+                .addOptional(Location.getResource("deep_aether:conberry_chest_boat"))
+                .addOptional(Location.getResource("deep_aether:sunroot_boat"))
+                .addOptional(Location.getResource("deep_aether:sunroot_chest_boat"))
                 .addOptional(Location.getResource("sophisticatedstorageinmotion:storage_boat"))
                 .addOptionalTag(MoreTags.Items.MINECRAFT_BOATS);
 
@@ -165,7 +175,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ars_nouveau:worn_notebook"))
                 .addOptional(Location.getResource("ars_nouveau:annotated_codex"))
                 .addOptional(Location.getResource("ars_additions:imbued_spell_parchment"))
-                .addOptional(Location.getResource("irons_spellbooks:eldritch_manuscript"));
+                .addOptional(Location.getResource("irons_spellbooks:eldritch_manuscript"))
+                .addOptional(Location.getResource("aether:book_of_lore"));
 
         appendPattern(papers, "ars_nouveau:(allow|deny|mimic|scryer|stable_warp|warp)_scroll");
         appendPattern(papers, "ars_nouveau:(apprentice_spell|archmage_spell|creative_spell|novice_spell)_book");
@@ -175,6 +186,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(papers, "twilightforest:(alpha_yeti_banner|hydra_banner|knight_phantom_banner|lich_banner|minoshroom_banner|naga_banner|quest_ram_banner|snow_queen_banner|ur_ghast_banner)_pattern");
         appendPattern(papers, "irons_spellbooks:furled_(map|map_ancient)");
         appendPattern(papers, "apothic_enchanting:(boots|bow|chestplate|extraction|fishing|helmet|improved_scrap|leggings|other|pickaxe|scrap|weapon)_tome");
+        appendPattern(papers, "computercraft:printed_(book|page|pages)");
 
         tag(MoreTags.Items.METAL_PLATES)
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)
@@ -217,7 +229,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("relics:wool_mitten"))
                 .addOptional(Location.getResource("relics:rage_glove"))
                 .addOptional(Location.getResource("reliquified_twilight_forest:charm_backpack"))
-                .addOptional(Location.getResource("reliquified_twilight_forest:giant_glove"));
+                .addOptional(Location.getResource("reliquified_twilight_forest:giant_glove"))
+                .addOptional(Location.getResource("aether:invisibility_cloak"))
+                .addOptional(Location.getResource("deep_aether:cloud_cape"))
+                .addOptional(Location.getResource("deep_aether:floaty_scarf"));
 
         appendPattern(leather_things, "sophisticatedbackpacks:(copper|diamond|gold|iron|netherite)_backpack");
         appendPattern(leather_things, "ars_elemental:(air|aqua|earth|fire)_(boots|hat|leggings|robes)");
@@ -231,12 +246,14 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(leather_things, "relics:(hunter|leather)_belt");
         appendPattern(leather_things, "reliquified_twilight_forest:(chromatic|invisibility|scaled)_cloak");
         appendPattern(leather_things, "mekanism:hazmat_(boots|gown|mask|pants)");
+        appendPattern(leather_things, "aether:(agility|blue|red|swet|valkyrie|white|yellow)_cape");
 
         tag(MoreTags.Items.BOWS)
                 .addOptionalTag(Tags.Items.TOOLS_BOW)
                 .addOptionalTag(Tags.Items.TOOLS_CROSSBOW)
                 .addOptional(Location.getResource("cataclysm:cursed_bow"))
-                .addOptional(Location.getResource("cataclysm:wrath_of_the_desert"));
+                .addOptional(Location.getResource("cataclysm:wrath_of_the_desert"))
+                .addOptional(Location.getResource("deep_aether:storm_bow"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> std_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.STANDARD_EQUIP)
                 .addOptionalTag(Tags.Items.TOOLS_SPEAR)
@@ -279,7 +296,20 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("mekanism:flamethrower"))
                 .addOptional(Location.getResource("mekanism:free_runners"))
                 .addOptional(Location.getResource("mekanism:jetpack"))
-                .addOptional(Location.getResource("mekanism:meka_tool"));
+                .addOptional(Location.getResource("mekanism:meka_tool"))
+                .addOptional(Location.getResource("aether:hammer_of_kingbdogz"))
+                .addOptional(Location.getResource("aether:lightning_knife"))
+                .addOptional(Location.getResource("aether:pig_slayer"))
+                .addOptional(Location.getResource("aether:vampire_blade"))
+                .addOptional(Location.getResource("aether:victory_medal"))
+                .addOptional(Location.getResource("deep_aether:blade_of_luck"))
+                .addOptional(Location.getResource("deep_aether:brass_dungeon_key"))
+                .addOptional(Location.getResource("aether:iron_bubble"))
+                .addOptional(Location.getResource("aether:shield_of_repulsion"))
+                .addOptional(Location.getResource("deep_aether:aercloud_necklace"))
+                .addOptional(Location.getResource("deep_aether:aerwhale_saddle"))
+                .addOptional(Location.getResource("deep_aether:medal_of_honor"))
+                .addOptional(Location.getResource("deep_aether:storm_sword"));
 
         appendPattern(std_equip, "mekanism:(free_runners|jetpack)_armored");
         appendPattern(std_equip, "mekanism:scuba_(mask|tank)");
@@ -307,6 +337,14 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(std_equip, "create:copper_(backtank|diving_boots|diving_helmet)");
         appendPattern(std_equip, "aquaculture:(double|gold|heavy|iron|light|redstone)_hook");
         appendPattern(std_equip, "aquaculture:(gold_fishing|iron_fishing)_rod");
+        appendPattern(std_equip, "aether:(holystone|skyroot)_pickaxe");
+        appendPattern(std_equip, "aether:(bronze_dungeon|gold_dungeon|silver_dungeon)_key");
+        appendPattern(std_equip, "aether:(flaming|holy|holystone|lightning|skyroot)_sword");
+        appendPattern(std_equip, "aether:(holystone|skyroot)_hoe");
+        appendPattern(std_equip, "aether:(holystone|skyroot)_axe");
+        appendPattern(std_equip, "aether:(cloud|nature)_staff");
+        appendPattern(std_equip, "aether:(holystone|skyroot)_shovel");
+        appendPattern(std_equip, "aether:(chainmail|golden|iron|leather)_gloves");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> neth_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.NETHERITE_EQUIP)
                 .addOptionalTag(MoreTags.Items.ADV_ARMOR)
@@ -320,7 +358,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("artifacts:withered_bracelet"))
                 .addOptional(Location.getResource("cataclysm:infernal_forge"))
                 .addOptional(Location.getResource("cataclysm:the_incinerator"))
-                .addOptional(Location.getResource("cataclysm:netherite_effigy"));
+                .addOptional(Location.getResource("cataclysm:netherite_effigy"))
+                .addOptional(Location.getResource("aether:netherite_gloves"));
 
         appendPattern(neth_equip, "cataclysm:(cursium|ignitium)_(boots|chestplate|helmet|leggings)");
         appendPattern(neth_equip, "cataclysm_spellbooks:(abyssal_warlock|cursium_mage|ignis)_(boots|chestplate)");
@@ -362,7 +401,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("cataclysm:tidal_claws"))
                 .addOptional(Location.getResource("powah:binding_card_dim"))
                 .addOptional(Location.getResource("powah:charged_snowball"))
-                .addOptional(Location.getResource("powah:ender_core"));
+                .addOptional(Location.getResource("powah:ender_core"))
+                .addOptional(Location.getResource("deep_aether:afterburner"))
+                .addOptional(Location.getResource("deep_aether:slider_eye"))
+                .addOptional(Location.getResource("deep_aether:sun_core"));
 
         appendPattern(magic_items, "powah:(aerial|player_aerial)_pearl");
         appendPattern(magic_items, "ars_elemental:(firenando|siren)_charm");
@@ -426,7 +468,14 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("powah:uraninite"))
                 .addOptional(Location.getResource("powah:uraninite_raw"))
                 .addOptional(Location.getResource("mekanism:nugget_refined_glowstone"))
-                .addOptional(Location.getResource("mekanism:crystal_iron"));
+                .addOptional(Location.getResource("mekanism:crystal_iron"))
+                .addOptional(Location.getResource("aether:golden_amber"))
+                .addOptional(Location.getResource("aether:regeneration_stone"))
+                .addOptional(Location.getResource("aether:zanite_gemstone"))
+                .addOptional(Location.getResource("deep_aether:bio_crystal"))
+                .addOptional(Location.getResource("deep_aether:skyjade"))
+                .addOptional(Location.getResource("deep_aether:skyjade_nugget"))
+                .addOptional(Location.getResource("aether:valkyrie_lance"));
 
         appendPattern(crystals, "apotheosis:(common|epic|mythic|rare|uncommon)_material");
         appendPattern(crystals, "ars_nouveau:(amplify|pierce|split)_arrow");
@@ -470,6 +519,30 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "mekanism:(clump|crystal|shard)_uranium");
         appendPattern(crystals, "mekanism:(clump|shard)_iron");
         appendPattern(crystals, "mekanism:(clump|crystal|shard)_lead");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_helmet");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_chestplate");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_gloves");
+        appendPattern(crystals, "deep_aether:(gravitite|skyjade|spooky|stratus)_ring");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_boots");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_leggings");
+        appendPattern(crystals, "aether:(gravitite|neptune|zanite)_leggings");
+        appendPattern(crystals, "aether:(gravitite|neptune|zanite)_gloves");
+        appendPattern(crystals, "aether:(gravitite|neptune|zanite)_chestplate");
+        appendPattern(crystals, "aether:(ice|zanite)_pendant");
+        appendPattern(crystals, "aether:(gravitite|neptune|zanite)_helmet");
+        appendPattern(crystals, "aether:(ice|zanite)_ring");
+        appendPattern(crystals, "aether:(ambrosium|life)_shard");
+        appendPattern(crystals, "aether:(gravitite|neptune|zanite)_boots");
+        appendPattern(crystals, "aether:(gravitite|valkyrie|zanite)_hoe");
+        appendPattern(crystals, "aether:(gravitite|valkyrie|zanite)_pickaxe");
+        appendPattern(crystals, "aether:(gravitite|valkyrie|zanite)_axe");
+        appendPattern(crystals, "aether:(gravitite|valkyrie|zanite)_shovel");
+        appendPattern(crystals, "aether:(gravitite|holy|zanite)_sword");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_pickaxe");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_shovel");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_sword");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_axe");
+        appendPattern(crystals, "deep_aether:(skyjade|stratus)_hoe");
 
         tag(MoreTags.Items.DUSTS)
                 .addOptionalTag(Tags.Items.DUSTS)
@@ -483,7 +556,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("cataclysm:dying_ember"))
                 .addOptional(Location.getResource("cataclysm:koboleton_bone"));
 
-        tag(MoreTags.Items.FOOD)
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> food = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.FOOD)
                 .addOptionalTag(Tags.Items.FOODS_RAW_FISH)
                 .addOptionalTag(Tags.Items.FOODS_COOKED_FISH)
                 .addOptionalTag(Tags.Items.FOODS_RAW_MEAT)
@@ -491,6 +564,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("artifacts:everlasting_beef"))
                 .addOptional(Location.getResource("artifacts:eternal_steak"))
                 .addOptional(Location.getResource("relics:infinity_ham"));
+
+        appendPattern(food, "aether:(blue_gummy|golden_gummy)_swet");
+        appendPattern(food, "deep_aether:(cooked_aerglow|raw_aerglow)_fish");
+        appendPattern(food, "deep_aether:(blue_squash|green_squash|purple_squash)_slice");
+        appendPattern(food, "deep_aether:(cooked|raw)_quail");
 
         tag(MoreTags.Items.WET)
                 .addOptional(Location.getResource("gag:sacred_salve"))
@@ -507,18 +585,26 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("reliquified_twilight_forest:parasite_116"))
                 .addOptional(Location.getResource("reliquified_twilight_forest:hydra_heart"))
                 .addOptional(Location.getResource("reliquified_twilight_forest:goblin_nose"))
-                .addOptional(Location.getResource("reliquified_twilight_forest:firefly_queen"));
+                .addOptional(Location.getResource("reliquified_twilight_forest:firefly_queen"))
+                .addOptional(Location.getResource("aether:blue_gummy_swet"))
+                .addOptional(Location.getResource("aether:swet_ball"))
+                .addOptional(Location.getResource("deep_aether:golden_swet_ball"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> diam_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.DIAM_EQUIP)
                 .addOptional(Location.getResource("aquaculture:diamond_fishing_rod"))
-                .addOptional(Location.getResource("aquaculture:diamond_hook"));
+                .addOptional(Location.getResource("aquaculture:diamond_hook"))
+                .addOptional(Location.getResource("aether:diamond_gloves"));
 
         appendPattern(diam_equip, "aquaculture:neptunium_(axe|boots|chestplate|fillet_knife|helmet|hoe|leggings|pickaxe|shovel|sword|fishing_rod)");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> wooden = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.WOOD_STUFF)
                 .addOptional(Location.getResource("aquaculture:box"))
                 .addOptional(Location.getResource("aquaculture:driftwood"))
-                .addOptional(Location.getResource("aquaculture:lockbox"));
+                .addOptional(Location.getResource("aquaculture:lockbox"))
+                .addOptional(Location.getResource("aether:altar"))
+                .addOptional(Location.getResource("aether:freezer"))
+                .addOptional(Location.getResource("aether:incubator"))
+                .addOptional(Location.getResource("deep_aether:combiner"));
 
         appendPattern(wooden, "aquaculture:(acacia_fish|birch_fish|dark_oak_fish|jungle_fish|oak_fish|spruce_fish)_mount");
 
@@ -529,6 +615,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(buckets, "mekanism:(brine|chlorine|ethene|heavy_water|hydrofluoric_acid|hydrogen|hydrogen_chloride|lithium|nutritional_paste|oxygen|sodium|steam|sulfur_dioxide|sulfur_trioxide|sulfuric_acid|superheated_sodium|uranium_hexafluoride|uranium_oxide)_bucket");
         appendPattern(buckets, "mekanism_extras:(fluorinated_naquadah_uranium_fuel|naquadah_hexafluoride|polonium-208|polonium_containing_solution|rich_naquadah_fuel|rich_uranium_fuel)_bucket");
         appendPattern(buckets, "mekanismgenerators:(bioethanol|deuterium|fusion_fuel|tritium)_bucket");
+        appendPattern(buckets, "aether:(skyroot_axolotl|skyroot_cod|skyroot_milk|skyroot_poison|skyroot_powder_snow|skyroot_pufferfish|skyroot_remedy|skyroot_salmon|skyroot_tadpole|skyroot_tropical_fish|skyroot_water)_bucket");
+        appendPattern(buckets, "deep_aether:(aerglow_fish|poison|skyroot_aerglow_fish|skyroot_virulent_quicksand|virulent_quicksand)_bucket");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> cables_electric = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CABLES_ELECTRIC)
                 .addOptional(Location.getResource("powah:battery_starter"))
@@ -564,5 +652,27 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(cables_fluid, "mekanism:(advanced_mechanical|basic_mechanical|elite_mechanical|ultimate_mechanical)_pipe");
         appendPattern(cables_fluid, "mekanism:(advanced_fluid|basic_fluid|creative_fluid|elite_fluid|ultimate_fluid)_tank");
         appendPattern(cables_fluid, "mekanism_extras:(absolute_fluid|cosmic_fluid|infinite_fluid|supreme_fluid)_tank");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> bricks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.BRICKS)
+                .addOptional(Location.getResource("aether:holystone_bricks"))
+                .addOptional(Location.getResource("aether:sun_altar"));
+
+        appendPattern(bricks, "aether:(angelic|boss_doorway_angelic|boss_doorway_carved|boss_doorway_hellfire|boss_doorway_light_angelic|boss_doorway_light_hellfire|boss_doorway_sentry|carved|hellfire|light_angelic|light_hellfire|locked_angelic|locked_carved|locked_hellfire|locked_light_angelic|locked_light_hellfire|locked_sentry|sentry|trapped_angelic|trapped_carved|trapped_hellfire|trapped_light_angelic|trapped_light_hellfire|trapped_sentry|treasure_doorway_angelic|treasure_doorway_carved|treasure_doorway_hellfire|treasure_doorway_light_angelic|treasure_doorway_light_hellfire|treasure_doorway_sentry)_stone");
+        appendPattern(bricks, "aether:(angelic|carved|hellfire|holystone_brick)_slab");
+        appendPattern(bricks, "aether:(angelic|carved|hellfire|holystone_brick)_wall");
+        appendPattern(bricks, "aether:(angelic|carved|hellfire|holystone_brick)_stairs");
+        appendPattern(bricks, "deep_aether:(aether_mud_bricks|aseterite_bricks|big_holystone_bricks|holystone_tile|mossy_holystone_brick|mossy_holystone_tile|nimbus)_slab");
+        appendPattern(bricks, "deep_aether:(aether_mud|aseterite|big_holystone|mossy_holystone)_bricks");
+        appendPattern(bricks, "deep_aether:(aether_mud_bricks|aseterite_bricks|big_holystone_bricks|holystone_tile|mossy_holystone_brick|mossy_holystone_tile|nimbus)_stairs");
+        appendPattern(bricks, "deep_aether:(holystone|mossy_holystone)_tiles");
+        appendPattern(bricks, "deep_aether:(boss_doorway_light_nimbus|boss_doorway_nimbus|light_nimbus|locked_light_nimbus|locked_nimbus|nimbus|trapped_light_nimbus|trapped_nimbus|treasure_doorway_light_nimbus|treasure_doorway_nimbus)_stone");
+        appendPattern(bricks, "deep_aether:(aether_mud_bricks|aseterite_bricks|big_holystone_bricks|holystone_tile|mossy_holystone_brick|mossy_holystone_tile|nimbus)_wall");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> crystal_blocks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CRYSTAL_BLOCKS)
+                .addOptional(Location.getResource("aether:enchanted_gravitite"))
+                .addOptionalTag(MoreTags.Items.MINECRAFT_CRYSTAL);
+
+        appendPattern(crystal_blocks, "deep_aether:(skyjade|stratus)_block");
+        appendPattern(crystal_blocks, "aether:(ambrosium|zanite)_block");
     }
 }

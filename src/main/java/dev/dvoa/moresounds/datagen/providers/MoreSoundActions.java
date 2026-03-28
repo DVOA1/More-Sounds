@@ -18,6 +18,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "more_plates", "keys", List.of("#more_sounds:plates"), "sound", "sounds:block.copper_ore.place"),
             Map.of("type", "items", "name", "more_netherite", "keys", List.of("#more_sounds:netherite_equip"), "sound", "minecraft:item.armor.equip_netherite"),
             Map.of("type", "items", "name", "crystal_things", "keys", List.of("#more_sounds:crystal"), "sound", "minecraft:block.amethyst_cluster.hit"),
+            Map.of("type", "items", "name", "crystal_blocks", "keys", List.of("#more_sounds:crystal_block"), "sound", "minecraft:block.amethyst_block.place", "volume", 0.5),
             Map.of("type", "items", "name", "more_bows", "keys", List.of("#more_sounds:bows"), "sound", "minecraft:entity.arrow.shoot"),
             Map.of("type", "items", "name", "more_boats", "keys", List.of("#more_sounds:boats"), "sound", "minecraft:block.wood.hit"),
             Map.of("type", "items", "name", "interference", "keys", List.of("#more_sounds:interference"), "sound", "more_sounds:item.interference", "volume", 0.3),
@@ -38,6 +39,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "cables_electric", "keys", List.of("#more_sounds:cables_electric"), "sound", "more_sounds:item.cable.electric", "pitch", 1.0),
             Map.of("type", "items", "name", "cables_gas", "keys", List.of("#more_sounds:cables_gas"), "sound", "more_sounds:item.cable.gas", "pitch", 1.0),
             Map.of("type", "items", "name", "cables_fluid", "keys", List.of("#more_sounds:cables_fluid"), "sound", "more_sounds:item.cable.fluid", "pitch", 1.0),
+            Map.of("type", "items", "name", "more_bricks", "keys", List.of("#more_sounds:bricks"), "sound", "minecraft:block.nether_bricks.place"),
 
             // Mod Specific
             Map.of("type", "items", "name", "fwomp", "keys", List.of("create:potato_cannon"), "sound", "create:fwoomp"),

@@ -46,6 +46,7 @@ public class MoreTags {
 
         // Minecraft Tags
         public static final TagKey<Item> MINECRAFT_BOATS = MoreTagsHelper.Items.createTag("minecraft:boats");
+        public static final TagKey<Item> MINECRAFT_CRYSTAL = MoreTagsHelper.Items.createTag("minecraft:crystal_sound_blocks");
 
         // Custom tags
         public static final TagKey<Item> BIPBIP = MoreTagsHelper.Items.createCustomTag("bipbip");
@@ -66,6 +67,7 @@ public class MoreTags {
         public static final TagKey<Item> FILLED_SACKS = MoreTagsHelper.Items.createCustomTag("filled_sacks");
         public static final TagKey<Item> FILLED_BOTTLES = MoreTagsHelper.Items.createCustomTag("filled_bottles");
         public static final TagKey<Item> CRYSTALS = MoreTagsHelper.Items.createCustomTag("crystal");
+        public static final TagKey<Item> CRYSTAL_BLOCKS = MoreTagsHelper.Items.createCustomTag("crystal_block");
         public static final TagKey<Item> DUSTS = MoreTagsHelper.Items.createCustomTag("dust");
         public static final TagKey<Item> FOOD = MoreTagsHelper.Items.createCustomTag("food");
         public static final TagKey<Item> WET = MoreTagsHelper.Items.createCustomTag("wet");
@@ -75,5 +77,6 @@ public class MoreTags {
         public static final TagKey<Item> CABLES_ELECTRIC = MoreTagsHelper.Items.createCustomTag("cables_electric");
         public static final TagKey<Item> CABLES_FLUID = MoreTagsHelper.Items.createCustomTag("cables_fluid");
         public static final TagKey<Item> CABLES_GAS = MoreTagsHelper.Items.createCustomTag("cables_gas");
+        public static final TagKey<Item> BRICKS = MoreTagsHelper.Items.createCustomTag("bricks");
     }
 }
