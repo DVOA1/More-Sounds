@@ -1,6 +1,46 @@
 {
   "values": [
     {
+      "id": "deep_aether:roseroot_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:roseroot_chest_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:yagroot_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:yagroot_chest_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cruderoot_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cruderoot_chest_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:conberry_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:conberry_chest_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:sunroot_boat",
+      "required": false
+    },
+    {
+      "id": "deep_aether:sunroot_chest_boat",
+      "required": false
+    },
+    {
       "id": "sophisticatedstorageinmotion:storage_boat",
       "required": false
     },

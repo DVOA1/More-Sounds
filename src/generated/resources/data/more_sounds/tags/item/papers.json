@@ -8,6 +8,14 @@
       "id": "#curios:spellbook",
       "required": false
     },
+    {
+      "id": "#c:books",
+      "required": false
+    },
+    {
+      "id": "#minecraft:bookshelf_books",
+      "required": false
+    },
     "minecraft:filled_map",
     "minecraft:map",
     {
@@ -60,6 +68,14 @@
     },
     {
       "id": "irons_spellbooks:eldritch_manuscript",
+      "required": false
+    },
+    {
+      "id": "aether:book_of_lore",
+      "required": false
+    },
+    {
+      "id": "powah:book",
       "required": false
     },
     {
@@ -236,6 +252,18 @@
     },
     {
       "id": "apothic_enchanting:weapon_tome",
+      "required": false
+    },
+    {
+      "id": "computercraft:printed_book",
+      "required": false
+    },
+    {
+      "id": "computercraft:printed_page",
+      "required": false
+    },
+    {
+      "id": "computercraft:printed_pages",
       "required": false
     }
   ]

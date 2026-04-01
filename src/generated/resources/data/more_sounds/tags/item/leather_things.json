@@ -117,6 +117,26 @@
       "required": false
     },
     {
+      "id": "aether:invisibility_cloak",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cloud_cape",
+      "required": false
+    },
+    {
+      "id": "deep_aether:floaty_scarf",
+      "required": false
+    },
+    {
+      "id": "occultism:ender_satchel",
+      "required": false
+    },
+    {
+      "id": "occultism:satchel",
+      "required": false
+    },
+    {
       "id": "sophisticatedbackpacks:copper_backpack",
       "required": false
     },
@@ -470,6 +490,42 @@
     },
     {
       "id": "mekanism:hazmat_pants",
+      "required": false
+    },
+    {
+      "id": "aether:agility_cape",
+      "required": false
+    },
+    {
+      "id": "aether:blue_cape",
+      "required": false
+    },
+    {
+      "id": "aether:red_cape",
+      "required": false
+    },
+    {
+      "id": "aether:swet_cape",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_cape",
+      "required": false
+    },
+    {
+      "id": "aether:white_cape",
+      "required": false
+    },
+    {
+      "id": "aether:yellow_cape",
+      "required": false
+    },
+    {
+      "id": "occultism:ritual_satchel_t1",
+      "required": false
+    },
+    {
+      "id": "occultism:ritual_satchel_t2",
       "required": false
     }
   ]

@@ -1,0 +1,308 @@
+{
+  "values": [
+    {
+      "id": "mob_grinding_utils:fan",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:jumbo_tank",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:spikes",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:xpsolidifier",
+      "required": false
+    },
+    {
+      "id": "powah:energized_steel_block",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_creative",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:entity_conveyor",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:entity_spawner",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:ender_inhibitor_off",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:ender_inhibitor_on",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_basic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_basic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_basic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_basic",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_basic",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_basic",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_basic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_starter",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_starter",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_starter",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_starter",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_starter",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_starter",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_starter",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:ender_cell_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_cell_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_discharger_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:energy_hopper_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:furnator_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:magmator_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:player_transmitter_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:reactor_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:thermo_generator_blazing",
+      "required": false
+    },
+    {
+      "id": "occultism:iesnium_block",
+      "required": false
+    },
+    {
+      "id": "occultism:silver_block",
+      "required": false
+    }
+  ]
+}

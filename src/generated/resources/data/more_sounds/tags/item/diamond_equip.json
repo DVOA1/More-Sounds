@@ -9,6 +9,10 @@
       "required": false
     },
     {
+      "id": "aether:diamond_gloves",
+      "required": false
+    },
+    {
       "id": "aquaculture:neptunium_axe",
       "required": false
     },

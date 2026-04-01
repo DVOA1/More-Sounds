@@ -49,6 +49,10 @@
       "required": false
     },
     {
+      "id": "aether:netherite_gloves",
+      "required": false
+    },
+    {
       "id": "cataclysm:cursium_boots",
       "required": false
     },

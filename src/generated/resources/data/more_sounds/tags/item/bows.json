@@ -15,6 +15,10 @@
     {
       "id": "cataclysm:wrath_of_the_desert",
       "required": false
+    },
+    {
+      "id": "deep_aether:storm_bow",
+      "required": false
     }
   ]
 }

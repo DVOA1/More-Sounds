@@ -13,6 +13,10 @@
     {
       "id": "advancedperipherals:computer_tool",
       "required": false
+    },
+    {
+      "id": "powah:wrench",
+      "required": false
     }
   ]
 }

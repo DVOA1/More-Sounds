@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "powah:battery_starter",
-      "required": false
-    },
-    {
       "id": "powah:charged_snowball",
       "required": false
     },
@@ -13,7 +9,7 @@
       "required": false
     },
     {
-      "id": "powah:wrench",
+      "id": "powah:steel_energized",
       "required": false
     },
     {
@@ -117,11 +113,35 @@
       "required": false
     },
     {
+      "id": "powah:capacitor_basic",
+      "required": false
+    },
+    {
       "id": "powah:capacitor_basic_large",
       "required": false
     },
     {
       "id": "powah:capacitor_basic_tiny",
+      "required": false
+    },
+    {
+      "id": "powah:battery_starter",
+      "required": false
+    },
+    {
+      "id": "powah:battery_basic",
+      "required": false
+    },
+    {
+      "id": "powah:battery_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:battery_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:battery_nitro",
       "required": false
     },
     {

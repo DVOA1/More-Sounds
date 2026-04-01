@@ -1,4 +1,4 @@
-// 1.21.1	2026-03-05T23:24:27.6674754	SoundActionProvider[assets/minecraft/sounds]
+// 1.21.1	2026-04-01T23:32:21.0351061	SoundActionProvider[assets/minecraft/sounds]
 217921fb27f5da69bf5145334bcb28f9d3f3b4ec assets/minecraft/sounds/items/aqua_can.json
 9d66662fa11f8dd40c58ba16e87a846e26c8e356 assets/minecraft/sounds/items/artifacts_bunny.json
 6f3dda56e96b6bc206626577d3e5984ad5674ddb assets/minecraft/sounds/items/artifacts_cat.json
@@ -19,6 +19,7 @@ c04a0d18ee459be4537180189c57f224c7815235 assets/minecraft/sounds/items/cables_el
 8a7e12b69c60cb023f33625dba023d6427bd31cc assets/minecraft/sounds/items/cata_laser.json
 08f3b8dde052ad5875e03b1d7a59f140cda44663 assets/minecraft/sounds/items/cata_rocket.json
 b08440636bf1382a364814abd9a9fa30139d3c5f assets/minecraft/sounds/items/cata_shredder.json
+c2244669cdec9c008a21329b2d11c1098bb85ec9 assets/minecraft/sounds/items/crystal_blocks.json
 21d1a4cbefca2905c9001f11064e399503a0b67c assets/minecraft/sounds/items/crystal_things.json
 fe2c2ca67af5765576ac3aa8f899942e8d9036e5 assets/minecraft/sounds/items/dark_magic.json
 48b816377a7a305c719b8f76b09692a570762664 assets/minecraft/sounds/items/filled_sacks.json
@@ -29,9 +30,11 @@ f4e755bc29d9148f791a8d890ffdba699857149d assets/minecraft/sounds/items/generic_w
 fa31829b0a9844d175cdecc86afa1f1e81d614ff assets/minecraft/sounds/items/interference.json
 828cc60ca949e299d96841b58b41c6ca6898825e assets/minecraft/sounds/items/leather_things.json
 30d58a97dcc8f373bb772596f91aa2a741a8657e assets/minecraft/sounds/items/magic_items.json
+2684e719bf0552e93a3a588237e7c86750056e94 assets/minecraft/sounds/items/metal_blocks.json
 edfb20aa134644c3e1a1aeb9f945df9171710d40 assets/minecraft/sounds/items/more_boats.json
 c4e4ae8cffb0426ca2342b649963c5e04adbe151 assets/minecraft/sounds/items/more_bottles.json
 e06c15713de584d608feabf264a0b28e5f923c91 assets/minecraft/sounds/items/more_bows.json
+8dceed851d6b0b2a34107309d7c12dc1b425ef0e assets/minecraft/sounds/items/more_bricks.json
 340b82a4c16db1e8e91143a0b38a65e3b560ff71 assets/minecraft/sounds/items/more_buckets.json
 7c682a3c726ab42e42e947800399f9ff46a1c767 assets/minecraft/sounds/items/more_diam_equipment.json
 279bccc0e33d6e86bde5172c013678f313a58f8a assets/minecraft/sounds/items/more_dusts.json

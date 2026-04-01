@@ -1,0 +1,8 @@
+{
+  "keys": [
+    "#more_sounds:metal_blocks"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:block.netherite_block.place",
+  "volume": 0.5
+}

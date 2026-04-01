@@ -1,0 +1,7 @@
+{
+  "keys": [
+    "#more_sounds:bricks"
+  ],
+  "pitch": 2.0,
+  "soundEvent": "minecraft:block.nether_bricks.place"
+}

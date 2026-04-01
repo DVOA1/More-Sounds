@@ -13,6 +13,22 @@
       "required": false
     },
     {
+      "id": "aether:altar",
+      "required": false
+    },
+    {
+      "id": "aether:freezer",
+      "required": false
+    },
+    {
+      "id": "aether:incubator",
+      "required": false
+    },
+    {
+      "id": "deep_aether:combiner",
+      "required": false
+    },
+    {
       "id": "aquaculture:acacia_fish_mount",
       "required": false
     },
