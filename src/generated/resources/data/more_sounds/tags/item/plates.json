@@ -38,6 +38,90 @@
     {
       "id": "create:package_filter",
       "required": false
+    },
+    {
+      "id": "mob_grinding_utils:fan_upgrade_speed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:golden_egg",
+      "required": false
+    },
+    {
+      "id": "ae2:calculation_processor_press",
+      "required": false
+    },
+    {
+      "id": "ae2:engineering_processor_press",
+      "required": false
+    },
+    {
+      "id": "ae2:logic_processor_press",
+      "required": false
+    },
+    {
+      "id": "ae2:name_press",
+      "required": false
+    },
+    {
+      "id": "ae2:silicon_press",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:absorption_upgrade",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:xp_solidifier_upgrade",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:fan_upgrade_width",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:spawner_upgrade_width",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:fan_upgrade_height",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:spawner_upgrade_height",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_arthropod",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_beheading",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_fire",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_looting",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_sharpness",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:saw_upgrade_smite",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:solid_xp_mould_baby",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:solid_xp_mould_blank",
+      "required": false
     }
   ]
 }

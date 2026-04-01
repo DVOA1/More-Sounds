@@ -61,6 +61,34 @@
       "required": false
     },
     {
+      "id": "deep_aether:afterburner",
+      "required": false
+    },
+    {
+      "id": "deep_aether:slider_eye",
+      "required": false
+    },
+    {
+      "id": "deep_aether:sun_core",
+      "required": false
+    },
+    {
+      "id": "occultism:dimensional_matrix",
+      "required": false
+    },
+    {
+      "id": "occultism:mining_dim_core",
+      "required": false
+    },
+    {
+      "id": "occultism:spirit_fire",
+      "required": false
+    },
+    {
+      "id": "occultism:vitality_compass",
+      "required": false
+    },
+    {
       "id": "powah:aerial_pearl",
       "required": false
     },
@@ -314,6 +342,14 @@
     },
     {
       "id": "cataclysm:gauntlet_of_maelstrom",
+      "required": false
+    },
+    {
+      "id": "occultism:demons_dream_essence",
+      "required": false
+    },
+    {
+      "id": "occultism:otherworld_essence",
       "required": false
     }
   ]

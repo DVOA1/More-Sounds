@@ -59,6 +59,62 @@
     {
       "id": "reliquified_twilight_forest:firefly_queen",
       "required": false
+    },
+    {
+      "id": "aether:blue_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aether:swet_ball",
+      "required": false
+    },
+    {
+      "id": "deep_aether:golden_swet_ball",
+      "required": false
+    },
+    {
+      "id": "ae2:matter_ball",
+      "required": false
+    },
+    {
+      "id": "#ae2:paint_balls",
+      "required": false
+    },
+    {
+      "id": "#ae2:lumen_paint_balls",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:mob_swab_used",
+      "required": false
+    },
+    {
+      "id": "occultism:gray_paste",
+      "required": false
+    },
+    {
+      "id": "occultism:nature_paste",
+      "required": false
+    },
+    {
+      "id": "occultism:beaver_nugget",
+      "required": false
+    },
+    {
+      "id": "occultism:datura",
+      "required": false
+    },
+    {
+      "id": "occultism:cursed_honey",
+      "required": false
+    },
+    {
+      "id": "occultism:sweet_honey_heart",
+      "required": false
+    },
+    {
+      "id": "occultism:demonic_meat",
+      "required": false
     }
   ]
 }

@@ -27,6 +27,46 @@
     {
       "id": "relics:infinity_ham",
       "required": false
+    },
+    {
+      "id": "mob_grinding_utils:solid_xp_baby",
+      "required": false
+    },
+    {
+      "id": "aether:blue_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "aether:golden_gummy_swet",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cooked_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "deep_aether:blue_squash_slice",
+      "required": false
+    },
+    {
+      "id": "deep_aether:green_squash_slice",
+      "required": false
+    },
+    {
+      "id": "deep_aether:purple_squash_slice",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cooked_quail",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_quail",
+      "required": false
     }
   ]
 }

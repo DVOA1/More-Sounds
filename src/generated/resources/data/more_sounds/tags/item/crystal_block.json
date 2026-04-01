@@ -1,0 +1,188 @@
+{
+  "values": [
+    {
+      "id": "aether:enchanted_gravitite",
+      "required": false
+    },
+    {
+      "id": "#minecraft:crystal_sound_blocks",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_block",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_block",
+      "required": false
+    },
+    {
+      "id": "aether:ambrosium_block",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_block",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:dense_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_block",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:chipped_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:damaged_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawed_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawless_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_bricks",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar",
+      "required": false
+    },
+    {
+      "id": "powah:blazing_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:niotic_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:nitro_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:spirited_crystal_block",
+      "required": false
+    },
+    {
+      "id": "powah:uraninite_block",
+      "required": false
+    }
+  ]
+}

@@ -33,6 +33,10 @@
       "required": false
     },
     {
+      "id": "occultism:purified_ink",
+      "required": false
+    },
+    {
       "id": "irons_spellbooks:common_ink",
       "required": false
     },
@@ -50,6 +54,18 @@
     },
     {
       "id": "irons_spellbooks:uncommon_ink",
+      "required": false
+    },
+    {
+      "id": "occultism:afrit_essence",
+      "required": false
+    },
+    {
+      "id": "occultism:cruelty_essence",
+      "required": false
+    },
+    {
+      "id": "occultism:marid_essence",
       "required": false
     }
   ]

@@ -73,6 +73,10 @@
       "required": false
     },
     {
+      "id": "ae2:fluix_pearl",
+      "required": false
+    },
+    {
       "id": "create:experience_nugget",
       "required": false
     },
@@ -105,11 +109,51 @@
       "required": false
     },
     {
+      "id": "powah:crystal_nitro",
+      "required": false
+    },
+    {
       "id": "mekanism:nugget_refined_glowstone",
       "required": false
     },
     {
       "id": "mekanism:crystal_iron",
+      "required": false
+    },
+    {
+      "id": "aether:golden_amber",
+      "required": false
+    },
+    {
+      "id": "aether:regeneration_stone",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_gemstone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:bio_crystal",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_nugget",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_lance",
+      "required": false
+    },
+    {
+      "id": "occultism:infused_lenses",
+      "required": false
+    },
+    {
+      "id": "occultism:lenses",
       "required": false
     },
     {
@@ -469,146 +513,6 @@
       "required": false
     },
     {
-      "id": "ae2:creative_energy_cell",
-      "required": false
-    },
-    {
-      "id": "ae2:dense_energy_cell",
-      "required": false
-    },
-    {
-      "id": "ae2:energy_cell",
-      "required": false
-    },
-    {
-      "id": "ae2:chiseled_quartz_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:cut_quartz_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_brick_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_pillar_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:smooth_quartz_wall",
-      "required": false
-    },
-    {
-      "id": "ae2:chiseled_quartz_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:cut_quartz_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_brick_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_pillar_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:smooth_quartz_stairs",
-      "required": false
-    },
-    {
-      "id": "ae2:chiseled_quartz_block",
-      "required": false
-    },
-    {
-      "id": "ae2:cut_quartz_block",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_block",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_block",
-      "required": false
-    },
-    {
-      "id": "ae2:smooth_quartz_block",
-      "required": false
-    },
-    {
-      "id": "ae2:chiseled_quartz_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:cut_quartz_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_brick_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_pillar_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:smooth_quartz_slab",
-      "required": false
-    },
-    {
-      "id": "ae2:chipped_budding_quartz",
-      "required": false
-    },
-    {
-      "id": "ae2:damaged_budding_quartz",
-      "required": false
-    },
-    {
-      "id": "ae2:flawed_budding_quartz",
-      "required": false
-    },
-    {
-      "id": "ae2:flawless_budding_quartz",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_bricks",
-      "required": false
-    },
-    {
-      "id": "ae2:quartz_pillar",
-      "required": false
-    },
-    {
       "id": "ae2:printed_calculation_processor",
       "required": false
     },
@@ -637,38 +541,6 @@
       "required": false
     },
     {
-      "id": "powah:blazing_crystal_block",
-      "required": false
-    },
-    {
-      "id": "powah:energized_steel_block",
-      "required": false
-    },
-    {
-      "id": "powah:niotic_crystal_block",
-      "required": false
-    },
-    {
-      "id": "powah:nitro_crystal_block",
-      "required": false
-    },
-    {
-      "id": "powah:spirited_crystal_block",
-      "required": false
-    },
-    {
-      "id": "powah:uraninite_block",
-      "required": false
-    },
-    {
-      "id": "powah:crystal_nitro",
-      "required": false
-    },
-    {
-      "id": "powah:solar_panel_nitro",
-      "required": false
-    },
-    {
       "id": "powah:crystal_blazing",
       "required": false
     },
@@ -678,6 +550,34 @@
     },
     {
       "id": "powah:crystal_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_basic",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_blazing",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_hardened",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_niotic",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_nitro",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_spirited",
+      "required": false
+    },
+    {
+      "id": "powah:solar_panel_starter",
       "required": false
     },
     {
@@ -758,6 +658,286 @@
     },
     {
       "id": "mekanism:shard_lead",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_helmet",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_helmet",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_chestplate",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_chestplate",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_gloves",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_gloves",
+      "required": false
+    },
+    {
+      "id": "deep_aether:gravitite_ring",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_ring",
+      "required": false
+    },
+    {
+      "id": "deep_aether:spooky_ring",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_ring",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_boots",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_boots",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_leggings",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_leggings",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_leggings",
+      "required": false
+    },
+    {
+      "id": "aether:neptune_leggings",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_leggings",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:neptune_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_chestplate",
+      "required": false
+    },
+    {
+      "id": "aether:neptune_chestplate",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_chestplate",
+      "required": false
+    },
+    {
+      "id": "aether:ice_pendant",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_pendant",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_helmet",
+      "required": false
+    },
+    {
+      "id": "aether:neptune_helmet",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_helmet",
+      "required": false
+    },
+    {
+      "id": "aether:ice_ring",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_ring",
+      "required": false
+    },
+    {
+      "id": "aether:ambrosium_shard",
+      "required": false
+    },
+    {
+      "id": "aether:life_shard",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_boots",
+      "required": false
+    },
+    {
+      "id": "aether:neptune_boots",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_boots",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_hoe",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_hoe",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_hoe",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_axe",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_axe",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_axe",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_shovel",
+      "required": false
+    },
+    {
+      "id": "aether:valkyrie_shovel",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_shovel",
+      "required": false
+    },
+    {
+      "id": "aether:gravitite_sword",
+      "required": false
+    },
+    {
+      "id": "aether:holy_sword",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_sword",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_shovel",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_shovel",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_sword",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_sword",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_axe",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_axe",
+      "required": false
+    },
+    {
+      "id": "deep_aether:skyjade_hoe",
+      "required": false
+    },
+    {
+      "id": "deep_aether:stratus_hoe",
+      "required": false
+    },
+    {
+      "id": "occultism:knowledge_tablet",
+      "required": false
+    },
+    {
+      "id": "occultism:otherstone_tablet",
+      "required": false
+    },
+    {
+      "id": "occultism:fragile_soul_gem",
+      "required": false
+    },
+    {
+      "id": "occultism:soul_gem",
+      "required": false
+    },
+    {
+      "id": "occultism:spirit_attuned_gem",
+      "required": false
+    },
+    {
+      "id": "occultism:trinity_gem",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_remote",
+      "required": false
+    },
+    {
+      "id": "occultism:storage_remote_inert",
+      "required": false
+    },
+    {
+      "id": "occultism:soul_shard",
+      "required": false
+    },
+    {
+      "id": "occultism:soul_shattered",
       "required": false
     }
   ]

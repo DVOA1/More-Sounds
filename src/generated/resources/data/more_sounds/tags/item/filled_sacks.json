@@ -19,6 +19,18 @@
     {
       "id": "gag:fishing_dynamite",
       "required": false
+    },
+    {
+      "id": "mob_grinding_utils:gm_chicken_feed_cursed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:gm_chicken_feed",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:nutritious_chicken_feed",
+      "required": false
     }
   ]
 }

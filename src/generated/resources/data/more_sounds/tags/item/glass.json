@@ -131,6 +131,46 @@
       "required": false
     },
     {
+      "id": "#ae2:glass_cable",
+      "required": false
+    },
+    {
+      "id": "#ae2:covered_cable",
+      "required": false
+    },
+    {
+      "id": "#ae2:smart_cable",
+      "required": false
+    },
+    {
+      "id": "#ae2:covered_dense_cable",
+      "required": false
+    },
+    {
+      "id": "#ae2:smart_dense_cable",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:monocle",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:tank",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:tank_sink",
+      "required": false
+    },
+    {
+      "id": "mob_grinding_utils:tinted_glass",
+      "required": false
+    },
+    {
+      "id": "powah:dry_ice",
+      "required": false
+    },
+    {
       "id": "ars_nouveau:mob_jar",
       "required": false
     },
@@ -519,23 +559,11 @@
       "required": false
     },
     {
-      "id": "ae2:fluix_covered_cable",
+      "id": "ae2:quantum_link",
       "required": false
     },
     {
-      "id": "ae2:fluix_covered_dense_cable",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_glass_cable",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_smart_cable",
-      "required": false
-    },
-    {
-      "id": "ae2:fluix_smart_dense_cable",
+      "id": "ae2:quantum_ring",
       "required": false
     }
   ]

@@ -164,6 +164,90 @@
       "required": false
     },
     {
+      "id": "aether:hammer_of_kingbdogz",
+      "required": false
+    },
+    {
+      "id": "aether:lightning_knife",
+      "required": false
+    },
+    {
+      "id": "aether:pig_slayer",
+      "required": false
+    },
+    {
+      "id": "aether:vampire_blade",
+      "required": false
+    },
+    {
+      "id": "aether:victory_medal",
+      "required": false
+    },
+    {
+      "id": "deep_aether:blade_of_luck",
+      "required": false
+    },
+    {
+      "id": "deep_aether:brass_dungeon_key",
+      "required": false
+    },
+    {
+      "id": "aether:iron_bubble",
+      "required": false
+    },
+    {
+      "id": "aether:shield_of_repulsion",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aercloud_necklace",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aerwhale_saddle",
+      "required": false
+    },
+    {
+      "id": "deep_aether:medal_of_honor",
+      "required": false
+    },
+    {
+      "id": "deep_aether:storm_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:color_applicator",
+      "required": false
+    },
+    {
+      "id": "ae2:matter_cannon",
+      "required": false
+    },
+    {
+      "id": "occultism:debug_wand",
+      "required": false
+    },
+    {
+      "id": "occultism:familiar_ring",
+      "required": false
+    },
+    {
+      "id": "occultism:lens_frame",
+      "required": false
+    },
+    {
+      "id": "occultism:magic_lamp_empty",
+      "required": false
+    },
+    {
+      "id": "occultism:otherworld_goggles",
+      "required": false
+    },
+    {
+      "id": "occultism:spirit_attuned_pickaxe_head",
+      "required": false
+    },
+    {
       "id": "mekanism:free_runners_armored",
       "required": false
     },
@@ -841,6 +925,134 @@
     },
     {
       "id": "aquaculture:iron_fishing_rod",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aether:skyroot_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aether:bronze_dungeon_key",
+      "required": false
+    },
+    {
+      "id": "aether:gold_dungeon_key",
+      "required": false
+    },
+    {
+      "id": "aether:silver_dungeon_key",
+      "required": false
+    },
+    {
+      "id": "aether:flaming_sword",
+      "required": false
+    },
+    {
+      "id": "aether:holy_sword",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_sword",
+      "required": false
+    },
+    {
+      "id": "aether:lightning_sword",
+      "required": false
+    },
+    {
+      "id": "aether:skyroot_sword",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_hoe",
+      "required": false
+    },
+    {
+      "id": "aether:skyroot_hoe",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_axe",
+      "required": false
+    },
+    {
+      "id": "aether:skyroot_axe",
+      "required": false
+    },
+    {
+      "id": "aether:cloud_staff",
+      "required": false
+    },
+    {
+      "id": "aether:nature_staff",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_shovel",
+      "required": false
+    },
+    {
+      "id": "aether:skyroot_shovel",
+      "required": false
+    },
+    {
+      "id": "aether:chainmail_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:golden_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:iron_gloves",
+      "required": false
+    },
+    {
+      "id": "aether:leather_gloves",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_debug_unspecialized",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_foliot_unspecialized",
+      "required": false
+    },
+    {
+      "id": "occultism:iesnium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "occultism:infused_pickaxe",
+      "required": false
+    },
+    {
+      "id": "occultism:butcher_knife",
+      "required": false
+    },
+    {
+      "id": "occultism:iesnium_butcher_knife",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_afrit_deeps",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_ancient_eldritch",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_djinni_ores",
+      "required": false
+    },
+    {
+      "id": "occultism:miner_marid_master",
       "required": false
     }
   ]

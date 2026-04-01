@@ -1,0 +1,376 @@
+{
+  "values": [
+    {
+      "id": "aether:holystone_bricks",
+      "required": false
+    },
+    {
+      "id": "aether:sun_altar",
+      "required": false
+    },
+    {
+      "id": "aether:angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_carved_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_light_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_light_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:boss_doorway_sentry_stone",
+      "required": false
+    },
+    {
+      "id": "aether:carved_stone",
+      "required": false
+    },
+    {
+      "id": "aether:hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:light_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:light_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_carved_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_light_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_light_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:locked_sentry_stone",
+      "required": false
+    },
+    {
+      "id": "aether:sentry_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_carved_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_light_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_light_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:trapped_sentry_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_carved_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_light_angelic_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_light_hellfire_stone",
+      "required": false
+    },
+    {
+      "id": "aether:treasure_doorway_sentry_stone",
+      "required": false
+    },
+    {
+      "id": "aether:angelic_slab",
+      "required": false
+    },
+    {
+      "id": "aether:carved_slab",
+      "required": false
+    },
+    {
+      "id": "aether:hellfire_slab",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "aether:angelic_wall",
+      "required": false
+    },
+    {
+      "id": "aether:carved_wall",
+      "required": false
+    },
+    {
+      "id": "aether:hellfire_wall",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "aether:angelic_stairs",
+      "required": false
+    },
+    {
+      "id": "aether:carved_stairs",
+      "required": false
+    },
+    {
+      "id": "aether:hellfire_stairs",
+      "required": false
+    },
+    {
+      "id": "aether:holystone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aether_mud_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aseterite_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:big_holystone_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:holystone_tile_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_tile_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:nimbus_slab",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aether_mud_bricks",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aseterite_bricks",
+      "required": false
+    },
+    {
+      "id": "deep_aether:big_holystone_bricks",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_bricks",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aether_mud_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aseterite_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:big_holystone_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:holystone_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:nimbus_stairs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:holystone_tiles",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_tiles",
+      "required": false
+    },
+    {
+      "id": "deep_aether:boss_doorway_light_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:boss_doorway_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:light_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:locked_light_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:locked_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:trapped_light_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:trapped_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:treasure_doorway_light_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:treasure_doorway_nimbus_stone",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aether_mud_bricks_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aseterite_bricks_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:big_holystone_bricks_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:holystone_tile_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:mossy_holystone_tile_wall",
+      "required": false
+    },
+    {
+      "id": "deep_aether:nimbus_wall",
+      "required": false
+    },
+    {
+      "id": "occultism:chiseled_otherrock_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:chiseled_otherstone_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:cracked_otherrock_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:cracked_otherstone_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:otherrock_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:otherstone_bricks",
+      "required": false
+    },
+    {
+      "id": "occultism:otherrock_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "occultism:otherstone_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "occultism:otherrock_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "occultism:otherstone_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "occultism:otherrock_bricks_wall",
+      "required": false
+    },
+    {
+      "id": "occultism:otherstone_bricks_wall",
+      "required": false
+    }
+  ]
+}
