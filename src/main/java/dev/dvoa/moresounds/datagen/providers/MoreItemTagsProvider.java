@@ -35,7 +35,6 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("mekanism:robit"))
                 .addOptional(Location.getResource("shrink:shrinking_device"))
                 .addOptional(Location.getResource("advancedperipherals:colony_integrator"))
-                .addOptional(Location.getResource("shrink:shrinking_device"))
                 .addOptional(Location.getResource("justdirethings:portalgun"))
                 .addOptional(Location.getResource("justdirethings:portalgun_v2"))
                 .addOptional(Location.getResource("computercraft:pocket_computer_advanced"))
@@ -82,9 +81,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("twilightforest:fiery_blood"))
                 .addOptional(Location.getResource("twilightforest:fiery_tears"))
                 .addOptional(Location.getResource("relics:blazing_flask"))
-                .addOptional(Location.getResource("reliquified_twilight_forest:maple_syrup_bottle"));
+                .addOptional(Location.getResource("reliquified_twilight_forest:maple_syrup_bottle"))
+                .addOptional(Location.getResource("occultism:purified_ink"));
 
         appendPattern(bott_viscous, "irons_spellbooks:(common|epic|legendary|rare|uncommon)_ink");
+        appendPattern(bott_viscous, "occultism:(afrit|cruelty|marid)_essence");
 
         tag(MoreTags.Items.GENERIC_WRENCHES)
                 .addTag(Tags.Items.TOOLS_WRENCH)
@@ -92,7 +93,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("advancedperipherals:computer_tool"))
                 .remove(Location.getResource("pneumaticcraft:pneumatic_wrench"))
                 .remove(Location.getResource("ae2:nether_quartz_wrench"))
-                .remove(Location.getResource("ae2:certus_quartz_wrench"));
+                .remove(Location.getResource("ae2:certus_quartz_wrench"))
+                .addOptional(Location.getResource("powah:wrench"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> glass = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.GLASS)
                 .addTag(Tags.Items.GLASS_BLOCKS)
@@ -128,7 +130,17 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("mekanismtools:lapis_lazuli_helmet"))
                 .addOptional(Location.getResource("mekanismtools:refined_glowstone_chestplate"))
                 .addOptional(Location.getResource("mekanismtools:steel_boots"))
-                .addOptional(Location.getResource("ae2:quartz_fiber"));
+                .addOptional(Location.getResource("ae2:quartz_fiber"))
+                .addOptionalTag(MoreTags.Items.AE2_GLASS_CABLE)
+                .addOptionalTag(MoreTags.Items.AE2_COVERED_CABLE)
+                .addOptionalTag(MoreTags.Items.AE2_SMART_CABLE)
+                .addOptionalTag(MoreTags.Items.AE2_DENSE_CABLE)
+                .addOptionalTag(MoreTags.Items.AE2_DENSE_SMART)
+                .addOptional(Location.getResource("mob_grinding_utils:monocle"))
+                .addOptional(Location.getResource("mob_grinding_utils:tank"))
+                .addOptional(Location.getResource("mob_grinding_utils:tank_sink"))
+                .addOptional(Location.getResource("mob_grinding_utils:tinted_glass"))
+                .addOptional(Location.getResource("powah:dry_ice"));
 
         appendPattern(glass, "ars_nouveau:(mob|source)_jar");
         appendPattern(glass, "ars_nouveau:potion_(flask|flask_amplify|flask_extend_time)");
@@ -147,7 +159,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(glass, "ae2:(fe_p2p|fluid_p2p|item_p2p|light_p2p|me_p2p|redstone_p2p)_tunnel");
         appendPattern(glass, "ae2:cable_(energy_acceptor|interface|pattern_provider)");
         appendPattern(glass, "mekanismgenerators:(advanced_solar|solar)_generator");
-        appendPattern(glass, "ae2:(fluix_covered|fluix_covered_dense|fluix_glass|fluix_smart|fluix_smart_dense)_cable");
+        appendPattern(glass, "ae2:quantum_(link|ring)");
 
         tag(MoreTags.Items.INTERFERENCE)
                 .addOptional(Location.getResource("mekanism:pellet_antimatter"))
@@ -161,6 +173,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> papers = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.PAPERS)
                 .addOptionalTag(MoreTags.Items.COMMON_PAPERS)
                 .addOptionalTag(MoreTags.Items.SPELLBOOK)
+                .addOptionalTag(MoreTags.Items.COMMON_BOOKS)
+                .addOptionalTag(MoreTags.Items.MINECRAFT_BOOKSHELF_BOOKS)
                 .add(Keys.Items.getResourceByID("minecraft:filled_map"))
                 .add(Keys.Items.getResourceByID("minecraft:map"))
                 .addOptional(Location.getResource("irons_spellbooks:scroll"))
@@ -176,7 +190,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ars_nouveau:annotated_codex"))
                 .addOptional(Location.getResource("ars_additions:imbued_spell_parchment"))
                 .addOptional(Location.getResource("irons_spellbooks:eldritch_manuscript"))
-                .addOptional(Location.getResource("aether:book_of_lore"));
+                .addOptional(Location.getResource("aether:book_of_lore"))
+                .addOptional(Location.getResource("powah:book"));
 
         appendPattern(papers, "ars_nouveau:(allow|deny|mimic|scryer|stable_warp|warp)_scroll");
         appendPattern(papers, "ars_nouveau:(apprentice_spell|archmage_spell|creative_spell|novice_spell)_book");
@@ -188,7 +203,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(papers, "apothic_enchanting:(boots|bow|chestplate|extraction|fishing|helmet|improved_scrap|leggings|other|pickaxe|scrap|weapon)_tome");
         appendPattern(papers, "computercraft:printed_(book|page|pages)");
 
-        tag(MoreTags.Items.METAL_PLATES)
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> metal_plates = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.METAL_PLATES)
                 .addOptionalTag(MoreTags.Items.COMMON_METAL_PLATES)
                 .remove(Location.getResource("create:cardboard"))
                 .addOptional(Location.getResource("create:brass_hand"))
@@ -198,7 +213,16 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("create:propeller"))
                 .addOptional(Location.getResource("create:whisk"))
                 .addOptional(Location.getResource("create:attribute_filter"))
-                .addOptional(Location.getResource("create:package_filter"));
+                .addOptional(Location.getResource("create:package_filter"))
+                .addOptional(Location.getResource("mob_grinding_utils:fan_upgrade_speed"))
+                .addOptional(Location.getResource("mob_grinding_utils:golden_egg"));
+
+        appendPattern(metal_plates, "ae2:(calculation_processor|engineering_processor|logic_processor|name|silicon)_press");
+        appendPattern(metal_plates, "mob_grinding_utils:(absorption|xp_solidifier)_upgrade");
+        appendPattern(metal_plates, "mob_grinding_utils:(fan_upgrade|spawner_upgrade)_width");
+        appendPattern(metal_plates, "mob_grinding_utils:(fan_upgrade|spawner_upgrade)_height");
+        appendPattern(metal_plates, "mob_grinding_utils:saw_(upgrade_arthropod|upgrade_beheading|upgrade_fire|upgrade_looting|upgrade_sharpness|upgrade_smite)");
+        appendPattern(metal_plates, "mob_grinding_utils:solid_(xp_mould_baby|xp_mould_blank)");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> leather_things = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.LEATHER_THINGS)
                 .addOptional(Location.getResource("sophisticatedbackpacks:backpack"))
@@ -232,7 +256,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("reliquified_twilight_forest:giant_glove"))
                 .addOptional(Location.getResource("aether:invisibility_cloak"))
                 .addOptional(Location.getResource("deep_aether:cloud_cape"))
-                .addOptional(Location.getResource("deep_aether:floaty_scarf"));
+                .addOptional(Location.getResource("deep_aether:floaty_scarf"))
+                .addOptional(Location.getResource("occultism:ender_satchel"))
+                .addOptional(Location.getResource("occultism:satchel"));
 
         appendPattern(leather_things, "sophisticatedbackpacks:(copper|diamond|gold|iron|netherite)_backpack");
         appendPattern(leather_things, "ars_elemental:(air|aqua|earth|fire)_(boots|hat|leggings|robes)");
@@ -247,6 +273,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(leather_things, "reliquified_twilight_forest:(chromatic|invisibility|scaled)_cloak");
         appendPattern(leather_things, "mekanism:hazmat_(boots|gown|mask|pants)");
         appendPattern(leather_things, "aether:(agility|blue|red|swet|valkyrie|white|yellow)_cape");
+        appendPattern(leather_things, "occultism:ritual_(satchel_t1|satchel_t2)");
 
         tag(MoreTags.Items.BOWS)
                 .addOptionalTag(Tags.Items.TOOLS_BOW)
@@ -309,7 +336,15 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("deep_aether:aercloud_necklace"))
                 .addOptional(Location.getResource("deep_aether:aerwhale_saddle"))
                 .addOptional(Location.getResource("deep_aether:medal_of_honor"))
-                .addOptional(Location.getResource("deep_aether:storm_sword"));
+                .addOptional(Location.getResource("deep_aether:storm_sword"))
+                .addOptional(Location.getResource("ae2:color_applicator"))
+                .addOptional(Location.getResource("ae2:matter_cannon"))
+                .addOptional(Location.getResource("occultism:debug_wand"))
+                .addOptional(Location.getResource("occultism:familiar_ring"))
+                .addOptional(Location.getResource("occultism:lens_frame"))
+                .addOptional(Location.getResource("occultism:magic_lamp_empty"))
+                .addOptional(Location.getResource("occultism:otherworld_goggles"))
+                .addOptional(Location.getResource("occultism:spirit_attuned_pickaxe_head"));
 
         appendPattern(std_equip, "mekanism:(free_runners|jetpack)_armored");
         appendPattern(std_equip, "mekanism:scuba_(mask|tank)");
@@ -345,6 +380,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(std_equip, "aether:(cloud|nature)_staff");
         appendPattern(std_equip, "aether:(holystone|skyroot)_shovel");
         appendPattern(std_equip, "aether:(chainmail|golden|iron|leather)_gloves");
+        appendPattern(std_equip, "occultism:(miner_debug|miner_foliot)_unspecialized");
+        appendPattern(std_equip, "occultism:(iesnium|infused)_pickaxe");
+        appendPattern(std_equip, "occultism:(butcher|iesnium_butcher)_knife");
+        appendPattern(std_equip, "occultism:miner_(afrit_deeps|ancient_eldritch|djinni_ores|marid_master)");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> neth_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.NETHERITE_EQUIP)
                 .addOptionalTag(MoreTags.Items.ADV_ARMOR)
@@ -404,7 +443,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("powah:ender_core"))
                 .addOptional(Location.getResource("deep_aether:afterburner"))
                 .addOptional(Location.getResource("deep_aether:slider_eye"))
-                .addOptional(Location.getResource("deep_aether:sun_core"));
+                .addOptional(Location.getResource("deep_aether:sun_core"))
+                .addOptional(Location.getResource("occultism:dimensional_matrix"))
+                .addOptional(Location.getResource("occultism:mining_dim_core"))
+                .addOptional(Location.getResource("occultism:spirit_fire"))
+                .addOptional(Location.getResource("occultism:vitality_compass"));
 
         appendPattern(magic_items, "powah:(aerial|player_aerial)_pearl");
         appendPattern(magic_items, "ars_elemental:(firenando|siren)_charm");
@@ -417,13 +460,17 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(magic_items, "irons_spellbooks:(blood_upgrade|cooldown_upgrade|ender_upgrade|evocation_upgrade|fire_upgrade|holy_upgrade|ice_upgrade|lightning_upgrade|mana_upgrade|nature_upgrade|protection_upgrade|upgrade)_orb");
         appendPattern(magic_items, "cataclysm:void_(assault_shoulder_weapon|forge)");
         appendPattern(magic_items, "cataclysm:gauntlet_(of_bulwark|of_guard|of_maelstrom)");
+        appendPattern(magic_items, "occultism:(demons_dream|otherworld)_essence");
 
-        tag(MoreTags.Items.FILLED_SACKS)
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> filled_sacks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.FILLED_SACKS)
                 .addOptional(Location.getResource("gag:time_sand_pouch"))
                 .addOptional(Location.getResource("twilightforest:transformation_powder"))
                 .addOptional(Location.getResource("relics:spore_sack"))
                 .addOptional(Location.getResource("gag:mining_dynamite"))
-                .addOptional(Location.getResource("gag:fishing_dynamite"));
+                .addOptional(Location.getResource("gag:fishing_dynamite"))
+                .addOptional(Location.getResource("mob_grinding_utils:gm_chicken_feed_cursed"));
+
+        appendPattern(filled_sacks, "mob_grinding_utils:(gm_chicken|nutritious_chicken)_feed");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> filled_bottles = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.FILLED_BOTTLES)
                 .addOptional(Location.getResource("the_bumblezone:sugar_water_bottle"))
@@ -459,6 +506,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("ae2:entropy_manipulator"))
                 .addOptional(Location.getResource("ae2:quartz_fixture"))
                 .addOptional(Location.getResource("ae2:small_quartz_bud"))
+                .addOptional(Location.getResource("ae2:fluix_pearl"))
                 .addOptional(Location.getResource("create:experience_nugget"))
                 .addOptional(Location.getResource("create:rose_quartz"))
                 .addOptional(Location.getResource("aquaculture:nether_star_hook"))
@@ -467,6 +515,7 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("powah:photoelectric_pane"))
                 .addOptional(Location.getResource("powah:uraninite"))
                 .addOptional(Location.getResource("powah:uraninite_raw"))
+                .addOptional(Location.getResource("powah:crystal_nitro"))
                 .addOptional(Location.getResource("mekanism:nugget_refined_glowstone"))
                 .addOptional(Location.getResource("mekanism:crystal_iron"))
                 .addOptional(Location.getResource("aether:golden_amber"))
@@ -475,7 +524,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("deep_aether:bio_crystal"))
                 .addOptional(Location.getResource("deep_aether:skyjade"))
                 .addOptional(Location.getResource("deep_aether:skyjade_nugget"))
-                .addOptional(Location.getResource("aether:valkyrie_lance"));
+                .addOptional(Location.getResource("aether:valkyrie_lance"))
+                .addOptional(Location.getResource("occultism:infused_lenses"))
+                .addOptional(Location.getResource("occultism:lenses"));
 
         appendPattern(crystals, "apotheosis:(common|epic|mythic|rare|uncommon)_material");
         appendPattern(crystals, "ars_nouveau:(amplify|pierce|split)_arrow");
@@ -499,19 +550,11 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_hoe");
         appendPattern(crystals, "ae2:(certus_quartz_cutting|nether_quartz_cutting)_knife");
         appendPattern(crystals, "ae2:(certus_quartz|fluix|nether_quartz)_shovel");
-        appendPattern(crystals, "ae2:(creative_energy|dense_energy|energy)_cell");
-        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_wall");
-        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_stairs");
-        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|smooth_quartz)_block");
-        appendPattern(crystals, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_slab");
-        appendPattern(crystals, "ae2:(chipped_budding|damaged_budding|flawed_budding|flawless_budding)_quartz");
-        appendPattern(crystals, "ae2:quartz_(bricks|pillar)");
         appendPattern(crystals, "ae2:(printed_calculation|printed_engineering|printed_logic)_processor");
         appendPattern(crystals, "ars_nouveau:(experience|greater_experience)_gem");
         appendPattern(crystals, "aquaculture:neptunium_(ingot|nugget)");
-        appendPattern(crystals, "powah:(blazing_crystal|energized_steel|niotic_crystal|nitro_crystal|spirited_crystal|uraninite)_block");
-        appendPattern(crystals, "powah:(crystal|solar_panel)_nitro");
         appendPattern(crystals, "powah:crystal_(blazing|niotic|spirited)");
+        appendPattern(crystals, "powah:solar_(panel_basic|panel_blazing|panel_hardened|panel_niotic|panel_nitro|panel_spirited|panel_starter)");
         appendPattern(crystals, "mekanism:(clump|crystal|shard)_tin");
         appendPattern(crystals, "mekanism:(clump|crystal|shard)_gold");
         appendPattern(crystals, "mekanism:(clump|crystal|shard)_osmium");
@@ -543,6 +586,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(crystals, "deep_aether:(skyjade|stratus)_sword");
         appendPattern(crystals, "deep_aether:(skyjade|stratus)_axe");
         appendPattern(crystals, "deep_aether:(skyjade|stratus)_hoe");
+        appendPattern(crystals, "occultism:(knowledge|otherstone)_tablet");
+        appendPattern(crystals, "occultism:(fragile_soul|soul|spirit_attuned|trinity)_gem");
+        appendPattern(crystals, "occultism:storage_(remote|remote_inert)");
+        appendPattern(crystals, "occultism:soul_(shard|shattered)");
 
         tag(MoreTags.Items.DUSTS)
                 .addOptionalTag(Tags.Items.DUSTS)
@@ -563,7 +610,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptionalTag(Tags.Items.FOODS_COOKED_MEAT)
                 .addOptional(Location.getResource("artifacts:everlasting_beef"))
                 .addOptional(Location.getResource("artifacts:eternal_steak"))
-                .addOptional(Location.getResource("relics:infinity_ham"));
+                .addOptional(Location.getResource("relics:infinity_ham"))
+                .addOptional(Location.getResource("mob_grinding_utils:solid_xp_baby"));
 
         appendPattern(food, "aether:(blue_gummy|golden_gummy)_swet");
         appendPattern(food, "deep_aether:(cooked_aerglow|raw_aerglow)_fish");
@@ -588,7 +636,18 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
                 .addOptional(Location.getResource("reliquified_twilight_forest:firefly_queen"))
                 .addOptional(Location.getResource("aether:blue_gummy_swet"))
                 .addOptional(Location.getResource("aether:swet_ball"))
-                .addOptional(Location.getResource("deep_aether:golden_swet_ball"));
+                .addOptional(Location.getResource("deep_aether:golden_swet_ball"))
+                .addOptional(Location.getResource("ae2:matter_ball"))
+                .addOptionalTag(MoreTags.Items.AE2_PAINTBALL)
+                .addOptionalTag(MoreTags.Items.AE2_LUMEN_PAINTBALL)
+                .addOptional(Location.getResource("mob_grinding_utils:mob_swab_used"))
+                .addOptional(Location.getResource("occultism:gray_paste"))
+                .addOptional(Location.getResource("occultism:nature_paste"))
+                .addOptional(Location.getResource("occultism:beaver_nugget"))
+                .addOptional(Location.getResource("occultism:datura"))
+                .addOptional(Location.getResource("occultism:cursed_honey"))
+                .addOptional(Location.getResource("occultism:sweet_honey_heart"))
+                .addOptional(Location.getResource("occultism:demonic_meat"));
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> diam_equip = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.DIAM_EQUIP)
                 .addOptional(Location.getResource("aquaculture:diamond_fishing_rod"))
@@ -619,10 +678,9 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(buckets, "deep_aether:(aerglow_fish|poison|skyroot_aerglow_fish|skyroot_virulent_quicksand|virulent_quicksand)_bucket");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> cables_electric = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CABLES_ELECTRIC)
-                .addOptional(Location.getResource("powah:battery_starter"))
                 .addOptional(Location.getResource("powah:charged_snowball"))
                 .addOptional(Location.getResource("powah:dielectric_paste"))
-                .addOptional(Location.getResource("powah:wrench"))
+                .addOptional(Location.getResource("powah:steel_energized"))
                 .addOptional(Location.getResource("mekanism:energy_tablet"));
 
         appendPattern(cables_electric, "mekanism:(advanced_universal|basic_universal|elite_universal|ultimate_universal)_cable");
@@ -631,7 +689,8 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(cables_electric, "moderndynamics:(ev|hv|lv|mv|superconductor)_cable");
         appendPattern(cables_electric, "powah:(battery|capacitor)_hardened");
         appendPattern(cables_electric, "powah:(battery|capacitor)_blazing");
-        appendPattern(cables_electric, "powah:capacitor_(basic_large|basic_tiny)");
+        appendPattern(cables_electric, "powah:capacitor_(basic|basic_large|basic_tiny)");
+        appendPattern(cables_electric, "powah:battery_(starter|basic|niotic|spirited|nitro)");
         appendPattern(cables_electric, "mekanism:(advanced_energy|basic_energy|creative_energy|elite_energy|ultimate_energy)_cube");
         appendPattern(cables_electric, "mekanism_extras:(absolute_energy|cosmic_energy|infinite_energy|supreme_energy)_cube");
 
@@ -667,6 +726,10 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
         appendPattern(bricks, "deep_aether:(holystone|mossy_holystone)_tiles");
         appendPattern(bricks, "deep_aether:(boss_doorway_light_nimbus|boss_doorway_nimbus|light_nimbus|locked_light_nimbus|locked_nimbus|nimbus|trapped_light_nimbus|trapped_nimbus|treasure_doorway_light_nimbus|treasure_doorway_nimbus)_stone");
         appendPattern(bricks, "deep_aether:(aether_mud_bricks|aseterite_bricks|big_holystone_bricks|holystone_tile|mossy_holystone_brick|mossy_holystone_tile|nimbus)_wall");
+        appendPattern(bricks, "occultism:(chiseled_otherrock|chiseled_otherstone|cracked_otherrock|cracked_otherstone|otherrock|otherstone)_bricks");
+        appendPattern(bricks, "occultism:(otherrock_bricks|otherstone_bricks)_stairs");
+        appendPattern(bricks, "occultism:(otherrock_bricks|otherstone_bricks)_slab");
+        appendPattern(bricks, "occultism:(otherrock_bricks|otherstone_bricks)_wall");
 
         IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> crystal_blocks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.CRYSTAL_BLOCKS)
                 .addOptional(Location.getResource("aether:enchanted_gravitite"))
@@ -674,5 +737,33 @@ public class MoreItemTagsProvider extends ItemTagsProvider {
 
         appendPattern(crystal_blocks, "deep_aether:(skyjade|stratus)_block");
         appendPattern(crystal_blocks, "aether:(ambrosium|zanite)_block");
+        appendPattern(crystal_blocks, "ae2:(creative_energy|dense_energy|energy)_cell");
+        appendPattern(crystal_blocks, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_wall");
+        appendPattern(crystal_blocks, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_stairs");
+        appendPattern(crystal_blocks, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|smooth_quartz)_block");
+        appendPattern(crystal_blocks, "ae2:(chiseled_quartz|cut_quartz|fluix|quartz|quartz_brick|quartz_pillar|smooth_quartz)_slab");
+        appendPattern(crystal_blocks, "ae2:(chipped_budding|damaged_budding|flawed_budding|flawless_budding)_quartz");
+        appendPattern(crystal_blocks, "ae2:quartz_(bricks|pillar)");
+        appendPattern(crystal_blocks, "powah:(blazing_crystal|niotic_crystal|nitro_crystal|spirited_crystal|uraninite)_block");
+
+        IntrinsicHolderTagsProvider.IntrinsicTagAppender<Item> metal_blocks = (IntrinsicTagAppender<Item>) tag(MoreTags.Items.METAL_BLOCKS)
+                .addOptional(Location.getResource("mob_grinding_utils:fan"))
+                .addOptional(Location.getResource("mob_grinding_utils:jumbo_tank"))
+                .addOptional(Location.getResource("mob_grinding_utils:saw"))
+                .addOptional(Location.getResource("mob_grinding_utils:spikes"))
+                .addOptional(Location.getResource("mob_grinding_utils:xpsolidifier"))
+                .addOptional(Location.getResource("powah:energized_steel_block"))
+                .addOptional(Location.getResource("powah:energy_cell_creative"));
+
+        appendPattern(metal_blocks, "mob_grinding_utils:entity_(conveyor|spawner)");
+        appendPattern(metal_blocks, "mob_grinding_utils:ender_(inhibitor_off|inhibitor_on)");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_basic");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_hardened");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_nitro");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_niotic");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_starter");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_spirited");
+        appendPattern(metal_blocks, "powah:(ender_cell|energy_cell|energy_discharger|energy_hopper|furnator|magmator|player_transmitter|reactor|thermo_generator)_blazing");
+        appendPattern(metal_blocks, "occultism:(iesnium|silver)_block");
     }
 }

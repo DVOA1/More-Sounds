@@ -29,6 +29,13 @@ public class MoreTags {
 
         // AE2 Tags
         public static final TagKey<Item> AE2_WRENCHES = MoreTagsHelper.Items.createTag("ae2:quartz_wrench");
+        public static final TagKey<Item> AE2_PAINTBALL = MoreTagsHelper.Items.createTag("ae2:paint_balls");
+        public static final TagKey<Item> AE2_LUMEN_PAINTBALL = MoreTagsHelper.Items.createTag("ae2:lumen_paint_balls");
+        public static final TagKey<Item> AE2_GLASS_CABLE = MoreTagsHelper.Items.createTag("ae2:glass_cable");
+        public static final TagKey<Item> AE2_COVERED_CABLE = MoreTagsHelper.Items.createTag("ae2:covered_cable");
+        public static final TagKey<Item> AE2_SMART_CABLE = MoreTagsHelper.Items.createTag("ae2:smart_cable");
+        public static final TagKey<Item> AE2_DENSE_CABLE = MoreTagsHelper.Items.createTag("ae2:covered_dense_cable");
+        public static final TagKey<Item> AE2_DENSE_SMART = MoreTagsHelper.Items.createTag("ae2:smart_dense_cable");
 
         // Mekanism Tags
         public static final TagKey<Item> DIRTY_DUSTS = MoreTagsHelper.Items.createTag("mekanism:dirty_dusts");
@@ -36,17 +43,19 @@ public class MoreTags {
         // Ars Nouveau Tags
         public static final TagKey<Item> MAGIC_ARMOR = MoreTagsHelper.Items.createTag("ars_nouveau:magic_armor");
 
-        // Modern Industrializzation
+        // Modern Industrializzation Tags
         public static final TagKey<Item> MI_FLUID_PIPES = MoreTagsHelper.Items.createTag("modern_industrialization:fluid_pipes");
 
         // Common Tags
         public static final TagKey<Item> WRENCHES = MoreTagsHelper.Items.createTag("c:wrenches");
         public static final TagKey<Item> COMMON_PAPERS = MoreTagsHelper.Items.createTag("c:paper");
         public static final TagKey<Item> COMMON_METAL_PLATES = MoreTagsHelper.Items.createTag("c:plates");
+        public static final TagKey<Item> COMMON_BOOKS = MoreTagsHelper.Items.createTag("c:books");
 
         // Minecraft Tags
         public static final TagKey<Item> MINECRAFT_BOATS = MoreTagsHelper.Items.createTag("minecraft:boats");
         public static final TagKey<Item> MINECRAFT_CRYSTAL = MoreTagsHelper.Items.createTag("minecraft:crystal_sound_blocks");
+        public static final TagKey<Item> MINECRAFT_BOOKSHELF_BOOKS = MoreTagsHelper.Items.createTag("minecraft:bookshelf_books");
 
         // Custom tags
         public static final TagKey<Item> BIPBIP = MoreTagsHelper.Items.createCustomTag("bipbip");
@@ -78,5 +87,6 @@ public class MoreTags {
         public static final TagKey<Item> CABLES_FLUID = MoreTagsHelper.Items.createCustomTag("cables_fluid");
         public static final TagKey<Item> CABLES_GAS = MoreTagsHelper.Items.createCustomTag("cables_gas");
         public static final TagKey<Item> BRICKS = MoreTagsHelper.Items.createCustomTag("bricks");
+        public static final TagKey<Item> METAL_BLOCKS = MoreTagsHelper.Items.createCustomTag("metal_blocks");
     }
 }

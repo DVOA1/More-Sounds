@@ -40,6 +40,7 @@ public class MoreSoundActions {
             Map.of("type", "items", "name", "cables_gas", "keys", List.of("#more_sounds:cables_gas"), "sound", "more_sounds:item.cable.gas", "pitch", 1.0),
             Map.of("type", "items", "name", "cables_fluid", "keys", List.of("#more_sounds:cables_fluid"), "sound", "more_sounds:item.cable.fluid", "pitch", 1.0),
             Map.of("type", "items", "name", "more_bricks", "keys", List.of("#more_sounds:bricks"), "sound", "minecraft:block.nether_bricks.place"),
+            Map.of("type", "items", "name", "metal_blocks", "keys", List.of("#more_sounds:metal_blocks"), "sound", "minecraft:block.netherite_block.place", "volume", 0.5),
 
             // Mod Specific
             Map.of("type", "items", "name", "fwomp", "keys", List.of("create:potato_cannon"), "sound", "create:fwoomp"),
