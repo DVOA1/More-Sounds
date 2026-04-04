@@ -8,8 +8,7 @@
     "AE2Compat.AEScreenCompat",
     "AE2Compat.MEScreenCompat",
     "SophCoreCompat",
-    "jeicompat.RecipesScreen",
-    "jeicompat.SideBar"
+    "JEICompat"
   ],
   "injectors": {
     "defaultRequire": 1

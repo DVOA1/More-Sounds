@@ -20,8 +20,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-// NOTE - This doesnt work on fabric
-
 @Pseudo
 @Mixin(StorageScreenBase.class)
 public abstract class SophCoreCompat<S extends StorageContainerMenuBase<?>> extends AbstractContainerScreen<S> {
