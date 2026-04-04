@@ -54,6 +54,12 @@ In the current version, **More Sounds** is needed on both client and server side
 > [!NOTE]
 > These mods are fully integrated with custom sounds for every item and block.
 
+- Applied Energistics 2 (AE2)
+- Aether
+- Deep Aether
+- Mob Grinding Utils
+- Powah
+- Occultism
 - Artifacts
 - Relics
 - Mekanism Tools
@@ -77,7 +83,6 @@ In the current version, **More Sounds** is needed on both client and server side
 > [!NOTE]
 > These mods have only a few items implemented.
 
-- Applied Energistics 2 (AE2)
 - Twilight Forest
 - Reliquified Twilight Forest
 - Mekanism
@@ -99,6 +104,7 @@ In the current version, **More Sounds** is needed on both client and server side
 - All Bows/Crossbows
 - All Boats
 - All Raw/Cooked Fish/Meat
+- All Books
 
 <div align="center">
   <h2>🐛 Found a bug or got a feature idea? 🎶</h2>

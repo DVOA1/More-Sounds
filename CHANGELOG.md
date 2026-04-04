@@ -1,3 +1,11 @@
+## More Sounds 0.3.0-beta
+
+- Full support for: Aether, Deep Aether, AE2, Mob Grinding Utils, Powah, Occultism 
+- More generic support for: Books 
+- Added mixin support for Fabric and Forge 
+- Fixed sound looping on JEI if button was held
+- Fixed missing tags on Fabric
+
 ## More Sounds 0.2.0-beta
 
 - Full support for: Reliquified Twilight Forest
