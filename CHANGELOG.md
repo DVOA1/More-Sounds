@@ -1,3 +1,7 @@
+## More Sounds 0.3.1-beta
+
+- Fixed mod not loading on Forge
+
 ## More Sounds 0.3.0-beta
 
 - Full support for: Aether, Deep Aether, AE2, Mob Grinding Utils, Powah, Occultism 
