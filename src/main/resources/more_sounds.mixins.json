@@ -7,8 +7,7 @@
   "client": [
     "AE2Compat.AEScreenCompat",
     "AE2Compat.MEScreenCompat",
-    "SophCoreCompat",
-    "JEICompat"
+    "SophCoreCompat"
   ],
   "injectors": {
     "defaultRequire": 1
